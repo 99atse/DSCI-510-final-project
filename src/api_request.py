@@ -1,7 +1,6 @@
 import requests
-
 import pandas as pd
-import json
+# import json
 
 news_url = 'https://www.nba.com/warriors/api/content/category/news?page={}'
 articles = []

@@ -1,17 +1,8 @@
-# import requests
-# import pandas as pd
-# from bs4 import BeautifulSoup
-# import time
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+import time
 
-# url = "https://www.espn.com/nba/team/schedule/_/name/gs/season/{}"
-# headers = {
-#     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-#                   "AppleWebKit/537.36 (KHTML, like Gecko) "
-#                   "Chrome/118.0.0.0 Safari/537.36"
-# }
-
-# year = 2021
-# game_rows=[]
 
 # while year < 2027:
 #     season_url = url.format(year)
@@ -55,16 +46,10 @@
 # with open('dubs_stats_2021.html', 'w', encoding='utf-8') as f:
 #     f.write(soup.prettify())
     
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
-import time
-
 base_url = "https://www.espn.com/nba/team/schedule/_/name/gs/season/{}"
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                   "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/118.0.0.0 Safari/537.36"
 }
 
 all_games = []
