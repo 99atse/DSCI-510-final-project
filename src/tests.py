@@ -24,8 +24,8 @@ if __name__ == "__main__":
         print(f"\nWarriors Game Stats Data Head:\n{stats_df.head()}")
 
     # --- Dubs Sponsor Trends Data ---
-    keywords = ['Golden State Warriors']
-    trends_df = get_dubs_sponsor_trends(keywords)
+    keyword = ['Golden State Warriors']
+    trends_df = get_dubs_sponsor_trends(keyword)
     if trends_df is not None:
         print(f"\nWarriors Sponsor Trends Data Head:\n{trends_df.head()}")
 

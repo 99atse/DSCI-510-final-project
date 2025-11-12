@@ -120,19 +120,18 @@ def get_dubs_game_stats_webscrape(webscrape_url,html_file,stats_file,start_year:
     return stats_df
 
 
-def get_dubs_sponsor_trends(keywords:list):
-    # for each keyword in list retrive the daily trend data and add to csv using pytrends
-    for keyword in keywords:
-        trends_df = dailydata.get_daily_data(
-        word=keyword,
-        start_year=2020,
-        start_mon=10,
-        stop_year=2025,
-        stop_mon=10,
-        geo='US'
-        )
-        keyword = keyword.replace(" ", "")
+def get_dubs_sponsor_trends(keyword):
+    # retrieve the daily trend data for sponsor/gsw and add to csv using pytrends
+    trends_df = dailydata.get_daily_data(
+    word=keyword,
+    start_year=2020,
+    start_mon=10,
+    stop_year=2025,
+    stop_mon=10,
+    geo='US'
+    )
+    keyword = keyword.replace(" ", "")
 
-        trends_df.to_csv(f"{keyword}_trends.csv",index=False)
+    trends_df.to_csv(f"{keyword}_trends.csv",index=False)
 
     return trends_df
