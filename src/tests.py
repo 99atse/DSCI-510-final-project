@@ -1,31 +1,28 @@
-from load_datasets import get_dubs_articles_api, get_dubs_game_stats_webscrape, get_dubs_sponsor_trends
+from load_datasets import get_gsw_articles_api, get_gsw_game_stats_webscrape, get_gsw_sponsor_trends
 
 if __name__ == "__main__":
     print("Running tests for Final Project:\n")
 
-    # --- Dubs Articles Data ---
+    # --- GSW Articles Data ---
     api_url = 'https://www.nba.com/warriors/api/content/category/news?page={}'
-    json_file = 'dubs_articles.json'
-    dataset_file = 'dubs_articles.csv'
+    json_file = 'GoldenStateWarriors_Articles.json'
+    dataset_file = 'GoldenStateWarriors_Articles.csv'
     
-    articles_df = get_dubs_articles_api(api_url, json_file, dataset_file)
+    articles_df = get_gsw_articles_api(api_url, json_file, dataset_file)
     if articles_df is not None:
-        print(f"\nWarriors News Articles Data Head:\n{articles_df.head()}")
+        print(f"\nGolden State Warriors News Articles Data Head:\n{articles_df.head()}")
 
-    # --- Dubs Game Stats Data ---
+    # --- GSW Game Stats Data ---
     webscrape_url = "https://www.espn.com/nba/team/schedule/_/name/gs/season/{}"
-    html_file = "dubs_stats.html"
-    stats_file = "warriors_schedule_2021_2026.csv"
-    start_year = 2021
-    end_year = 2026
+    html_file = "GoldenStateWarriors_Stats.html"
+    stats_file = "GoldenStateWarriors_Stats.csv"
     
-    stats_df = get_dubs_game_stats_webscrape(webscrape_url,html_file,stats_file,start_year,end_year)
+    stats_df = get_gsw_game_stats_webscrape(webscrape_url,html_file,stats_file)
     if stats_df is not None:
-        print(f"\nWarriors Game Stats Data Head:\n{stats_df.head()}")
+        print(f"\nGolden State Warriors Game Stats Data Head:\n{stats_df.head()}")
 
-    # --- Dubs Sponsor Trends Data ---
+    # --- GSW Sponsor Trends Data ---
     keyword = ['Golden State Warriors']
-    trends_df = get_dubs_sponsor_trends(keyword)
+    trends_df = get_gsw_sponsor_trends(keyword)
     if trends_df is not None:
-        print(f"\nWarriors Sponsor Trends Data Head:\n{trends_df.head()}")
-
+        print(f"\nGolden State Warriors Sponsor Trends Data Head:\n{trends_df.head()}")
