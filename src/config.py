@@ -1,6 +1,6 @@
 # project configuration
-DATA_DIR = "../data"
-RESULTS_DIR = "../results"
+DATA_DIR = "data"
+RESULTS_DIR = "results"
 
 # data sources configuration
 ARTICLES_URL = 'https://www.nba.com/warriors/api/content/category/news?page={}'
@@ -9,10 +9,12 @@ STATS_URL = "https://www.espn.com/nba/team/schedule/_/name/gs/season/{}"
 # --- GSW Articles Data ---
 ARTICLE_JSON = 'GoldenStateWarriors_Articles.json'
 ARTICLE_CSV = 'GoldenStateWarriors_Articles.csv'
+CLEANED_ARTICLE_CSV = "GoldenStateWarriors_Articles_Cleaned.csv"
 
 # --- GSW Game Stats Data ---
 STATS_HTML = "GoldenStateWarriors_Stats.html"
 STATS_CSV = "GoldenStateWarriors_Stats.csv"
+CLEANED_STATS_CSV = "GoldenStateWarriors_Stats_Cleaned.csv"
 
 # --- GSW Sponsor Trends Data ---
 KEYWORDS = ['Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase','Kaiser Permanente','Adobe']

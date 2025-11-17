@@ -1,0 +1,416 @@
+Season,Date,Opponent,Home_Away,Win,Overtime,wins,losses,Team_Score,Opp_Score,Hi_Points_Player,Hi_Points_Value,Hi_Rebounds_Player,Hi_Rebounds_Value,Hi_Assists_Player,Hi_Assists_Value
+2021,2020-12-22,Brooklyn,away,0,0,0,1,125,99,Curry,20,Chriss,8,Curry,10
+2021,2020-12-25,Milwaukee,away,0,0,0,2,138,99,Curry,19,Wiseman,8,Curry,6
+2021,2020-12-27,Chicago,away,1,0,1,2,129,128,Curry,36,Oubre Jr.,11,Curry,6
+2021,2020-12-29,Detroit,away,1,0,2,2,116,106,Curry,31,Wiggins,7,Curry,6
+2021,2021-01-01,Portland,home,0,0,2,3,123,98,Curry,26,Curry,8,Curry,5
+2021,2021-01-03,Portland,home,1,0,3,3,137,122,Curry,62,Wiseman,11,Green,8
+2021,2021-01-04,Sacramento,home,1,0,4,3,137,106,Curry,30,Curry,9,Curry,8
+2021,2021-01-06,LA,home,0,0,4,4,108,101,Paschall,19,Green,6,Green,6
+2021,2021-01-08,LA,home,1,0,5,4,115,105,Curry,38,Wiggins,6,Curry,11
+2021,2021-01-10,Toronto,home,1,0,6,4,106,105,Wiggins,17,Curry,9,Green,10
+2021,2021-01-12,Indiana,home,0,0,6,5,104,95,Wiggins,22,Wiseman,9,Green,10
+2021,2021-01-14,Denver,away,0,0,6,6,114,104,Curry,35,Curry,11,Green,7
+2021,2021-01-18,Los Angeles,away,1,0,7,6,115,113,Curry,26,Green,8,Green,9
+2021,2021-01-20,San Antonio,home,1,0,8,6,121,99,Curry,26,Curry,11,Curry,7
+2021,2021-01-21,New York,home,0,0,8,7,119,104,Curry,30,Wiggins,9,Green,8
+2021,2021-01-23,Utah,away,0,0,8,8,127,108,Curry,24,Curry,7,Curry,7
+2021,2021-01-25,Minnesota,home,1,0,9,8,130,108,Curry,36,Wiggins,6,Oubre Jr.,4
+2021,2021-01-27,Minnesota,home,1,0,10,8,123,111,Wiseman,25,Looney,10,Curry,8
+2021,2021-01-28,Phoenix,away,0,0,10,9,114,93,Curry,27,Wiseman,6,Green,6
+2021,2021-01-30,Detroit,home,1,0,11,9,118,91,Curry,28,Wiseman,9,Curry,7
+2021,2021-02-02,Boston,home,0,0,11,10,111,107,Curry,38,Curry,11,Curry,8
+2021,2021-02-04,Dallas,away,1,0,12,10,147,116,Oubre Jr.,40,Oubre Jr.,8,Green,15
+2021,2021-02-06,Dallas,away,0,0,12,11,134,132,Curry,57,Toscano-Anderson,10,Green,15
+2021,2021-02-08,San Antonio,away,0,0,12,12,105,100,Curry,32,Toscano-Anderson,11,Green,10
+2021,2021-02-09,San Antonio,away,1,0,13,12,114,91,Curry,32,Oubre Jr.,10,Green,11
+2021,2021-02-11,Orlando,home,1,0,14,12,111,105,Curry,40,Oubre Jr.,10,Green,11
+2021,2021-02-13,Brooklyn,home,0,0,14,13,134,117,Curry,27,Oubre Jr.,10,Green,8
+2021,2021-02-15,Cleveland,home,1,0,15,13,129,98,Curry,36,Paschall,8,Green,16
+2021,2021-02-17,Miami,home,1,1,16,13,120,112,Bazemore,26,Bazemore,8,Curry,11
+2021,2021-02-19,Orlando,away,0,0,16,14,124,120,Curry,29,Curry,7,Curry,11
+2021,2021-02-20,Charlotte,away,0,0,16,15,102,100,Oubre Jr.,25,Green,7,Wanamaker,5
+2021,2021-02-23,New York,away,1,0,17,15,114,106,Curry,37,Green,9,Green,12
+2021,2021-02-24,Indiana,away,1,0,18,15,111,107,Curry,24,Green,9,Green,11
+2021,2021-02-26,Charlotte,home,1,0,19,15,130,121,Curry,29,Green,12,Green,19
+2021,2021-02-28,Los Angeles,away,0,0,19,16,117,91,Paschall,18,Wiseman,8,Curry,7
+2021,2021-03-03,Portland,away,0,0,19,17,108,106,Curry,35,Green,9,Green,12
+2021,2021-03-04,Phoenix,away,0,0,39,33,120,98,Poole,26,Wiseman,11,Mannion,6
+2021,2021-03-11,LA,away,0,0,19,19,130,104,Wiggins,15,Wiggins,8,Poole,4
+2021,2021-03-14,Utah,home,1,0,20,19,131,119,Curry,32,Green,12,Green,12
+2021,2021-03-15,Los Angeles,home,0,0,20,20,128,97,Curry,27,Wiseman,8,Green,6
+2021,2021-03-17,Houston,away,1,0,21,20,108,94,Poole,23,Green,12,Green,10
+2021,2021-03-19,Memphis,away,1,0,22,20,116,103,Wiggins,40,Green,11,Green,13
+2021,2021-03-20,Memphis,away,0,0,22,21,111,103,Poole,26,Wiggins,9,Toscano-Anderson,6
+2021,2021-03-23,Philadelphia,home,0,0,22,22,108,98,Oubre Jr.,24,Oubre Jr.,10,Green,6
+2021,2021-03-25,Sacramento,away,0,0,22,23,141,119,Wiggins,26,Wiggins,10,Poole,5
+2021,2021-03-26,Atlanta,home,0,0,22,24,124,108,Wiggins,29,Wiggins,7,Green,9
+2021,2021-03-29,Chicago,home,1,0,23,24,116,102,Curry,32,Oubre Jr.,11,Green,9
+2021,2021-04-01,Miami,away,0,0,23,25,116,109,Curry,36,Curry,11,Green,8
+2021,2021-04-02,Toronto,away,0,0,23,26,130,77,Wiggins,15,Oubre Jr.,7,Mannion,4
+2021,2021-04-04,Atlanta,away,0,0,23,27,117,111,Curry,37,Oubre Jr.,11,Green,11
+2021,2021-04-06,Milwaukee,home,1,0,24,27,122,121,Curry,41,Wiseman,10,Green,8
+2021,2021-04-09,Washington,home,0,0,24,28,110,107,Curry,32,Wiggins,7,Green,8
+2021,2021-04-10,Houston,home,1,0,25,28,125,109,Curry,38,Curry,8,Green,7
+2021,2021-04-12,Denver,home,1,0,26,28,116,107,Curry,53,Looney,11,Green,7
+2021,2021-04-14,Oklahoma City,away,1,0,27,28,147,109,Curry,42,Green,10,Green,16
+2021,2021-04-15,Cleveland,away,1,0,28,28,119,101,Curry,33,Looney,10,Green,8
+2021,2021-04-17,Boston,away,0,0,28,29,119,114,Curry,47,Looney,9,Green,10
+2021,2021-04-19,Philadelphia,away,1,0,29,29,107,96,Curry,49,Looney,15,Green,6
+2021,2021-04-21,Washington,away,0,0,29,30,118,114,Oubre Jr.,24,Oubre Jr.,9,Curry,8
+2021,2021-04-23,Denver,home,1,0,30,30,118,97,Curry,32,Green,12,Green,19
+2021,2021-04-25,Sacramento,home,1,0,31,30,117,113,Curry,37,Green,14,Green,13
+2021,2021-04-27,Dallas,home,0,0,31,31,133,103,Curry,27,Green,11,Wiggins,5
+2021,2021-04-29,Minnesota,away,0,0,31,32,126,114,Curry,37,Bazemore,10,Curry,8
+2021,2021-05-01,Houston,away,1,0,32,32,113,87,Curry,30,Green,11,Green,8
+2021,2021-05-03,New Orleans,away,1,0,33,32,123,108,Curry,41,Green,13,Green,15
+2021,2021-05-04,New Orleans,away,0,0,33,33,108,103,Curry,37,Green,12,Green,9
+2021,2021-05-06,Oklahoma City,home,1,0,34,33,118,97,Curry,34,Looney,10,Green,9
+2021,2021-05-08,Oklahoma City,home,1,0,35,33,136,97,Curry,49,Looney,12,Green,13
+2021,2021-05-10,Utah,home,1,0,36,33,119,116,Curry,36,Looney,13,Green,10
+2021,2021-05-11,Phoenix,home,1,0,39,33,122,116,Wiggins,38,Green,10,Green,11
+2021,2021-05-14,New Orleans,home,1,0,39,33,125,122,Poole,38,Toscano-Anderson,9,Toscano-Anderson,9
+2021,2021-05-16,Memphis,home,1,0,39,33,113,101,Curry,46,Looney,11,Curry,9
+2022,2021-10-19,Los Angeles,away,1,0,1,0,121,114,Curry,21,Bjelica,11,Curry,10
+2022,2021-10-21,LA,home,1,0,2,0,115,113,Curry,45,Curry,10,Green,7
+2022,2021-10-24,Sacramento,away,1,0,3,0,119,107,Curry,27,Porter Jr.,9,Curry,10
+2022,2021-10-26,Oklahoma City,away,1,0,4,0,106,98,Curry,23,Green,9,Green,8
+2022,2021-10-28,Memphis,home,0,1,4,1,104,101,Curry,36,Green,12,Curry,8
+2022,2021-10-30,Oklahoma City,home,1,0,5,1,103,82,Curry,20,Green,11,Green,8
+2022,2021-11-03,Charlotte,home,1,0,6,1,114,92,Poole,31,Green,10,Curry,9
+2022,2021-11-05,New Orleans,home,1,0,7,1,126,85,Poole,26,Green,8,Iguodala,10
+2022,2021-11-07,Houston,home,1,0,8,1,120,107,Poole,25,Porter Jr.,9,Green,9
+2022,2021-11-08,Atlanta,home,1,0,9,1,127,113,Curry,50,Curry,7,Curry,10
+2022,2021-11-10,Minnesota,home,1,0,10,1,123,110,Wiggins,35,Looney,17,Iguodala,8
+2022,2021-11-12,Chicago,home,1,0,11,1,119,93,Curry,40,Looney,10,Green,7
+2022,2021-11-14,Charlotte,away,0,0,11,2,106,102,Wiggins,28,Looney,8,Curry,10
+2022,2021-11-16,Brooklyn,away,1,0,12,2,117,99,Curry,37,Curry,7,Green,8
+2022,2021-11-18,Cleveland,away,1,0,13,2,104,89,Curry,40,Lee,6,Green,14
+2022,2021-11-19,Detroit,away,1,0,14,2,105,102,Poole,32,Looney,12,Toscano-Anderson,9
+2022,2021-11-21,Toronto,home,1,0,15,2,119,104,Poole,33,Green,14,Curry,8
+2022,2021-11-24,Philadelphia,home,1,0,16,2,116,96,Curry,25,Green,9,Curry,10
+2022,2021-11-26,Portland,home,1,0,17,2,118,103,Curry,32,Green,8,Green,12
+2022,2021-11-28,LA,away,1,0,18,2,105,90,Curry,33,Porter Jr.,10,Green,7
+2022,2021-11-30,Phoenix,away,0,0,18,3,104,96,Poole,28,Green,11,Green,5
+2022,2021-12-03,Phoenix,home,1,0,19,3,118,96,Curry,23,Green,9,Green,9
+2022,2021-12-04,San Antonio,home,0,0,19,4,112,107,Curry,27,Curry,8,Green,9
+2022,2021-12-06,Orlando,home,1,0,20,4,126,95,Curry,31,Poole,7,Curry,8
+2022,2021-12-08,Portland,home,1,0,21,4,104,94,Curry,22,Green,10,Green,8
+2022,2021-12-11,Philadelphia,away,0,0,21,5,102,93,Poole,23,Curry,9,Curry,5
+2022,2021-12-13,Indiana,away,1,0,22,5,102,100,Curry,26,Green,9,Curry,6
+2022,2021-12-14,New York,away,1,0,23,5,105,96,Curry,22,Green,11,Green,7
+2022,2021-12-17,Boston,away,1,0,24,5,111,107,Curry,30,Looney,10,Green,8
+2022,2021-12-18,Toronto,away,0,0,24,6,119,100,Kuminga,26,Toscano-Anderson,10,Chiozza,7
+2022,2021-12-20,Sacramento,home,1,0,25,6,113,98,Curry,30,Green,11,Green,10
+2022,2021-12-23,Memphis,home,1,0,26,6,113,104,Curry,46,Porter Jr.,9,Green,9
+2022,2021-12-25,Phoenix,away,1,0,27,6,116,107,Curry,33,Looney,10,Green,10
+2022,2021-12-28,Denver,home,0,0,27,7,89,86,Curry,23,Wiggins,8,Curry,4
+2022,2022-01-01,Utah,away,1,0,28,7,123,116,Curry,28,Porter Jr.,7,Curry,9
+2022,2022-01-03,Miami,home,1,0,29,7,115,108,Poole,32,Green,8,Green,13
+2022,2022-01-05,Dallas,away,0,0,29,8,99,82,Wiggins,17,Payton II,11,Curry,5
+2022,2022-01-06,New Orleans,away,0,0,29,9,101,96,Wiggins,21,Looney,9,Iguodala,7
+2022,2022-01-09,Cleveland,home,1,0,30,9,96,82,Curry,28,Looney,18,Curry,5
+2022,2022-01-11,Memphis,away,0,0,30,10,116,108,Curry,27,Curry,10,Curry,10
+2022,2022-01-13,Milwaukee,away,0,0,30,11,118,99,Wiggins,16,Curry,8,Curry,4
+2022,2022-01-14,Chicago,away,1,0,31,11,138,96,Kuminga,25,Looney,12,Bjelica,7
+2022,2022-01-16,Minnesota,away,0,0,31,12,119,99,Poole,20,Looney,12,Porter Jr.,4
+2022,2022-01-18,Detroit,home,1,0,32,12,102,86,Thompson,21,Kuminga,10,Curry,8
+2022,2022-01-20,Indiana,home,0,1,32,13,121,117,Curry,39,Looney,15,Curry,8
+2022,2022-01-21,Houston,home,1,0,33,13,105,103,Curry,22,Looney,12,Curry,12
+2022,2022-01-23,Utah,home,1,0,34,13,94,92,Poole,20,Porter Jr.,8,Curry,6
+2022,2022-01-25,Dallas,home,1,0,35,13,130,92,Kuminga,22,Bjelica,10,Curry,7
+2022,2022-01-27,Minnesota,home,1,0,36,13,124,115,Curry,29,Curry,8,Curry,6
+2022,2022-01-29,Brooklyn,home,1,0,37,13,110,106,Wiggins,24,Looney,15,Curry,8
+2022,2022-01-31,Houston,away,1,0,38,13,122,108,Curry,40,Looney,14,Curry,9
+2022,2022-02-01,San Antonio,away,1,0,39,13,124,120,Poole,31,Looney,12,Toscano-Anderson,7
+2022,2022-02-03,Sacramento,home,1,0,40,13,126,114,Thompson,23,Kuminga,7,Thompson,7
+2022,2022-02-07,Oklahoma City,away,1,0,41,13,110,98,Thompson,21,Curry,9,Curry,10
+2022,2022-02-09,Utah,away,0,0,41,14,111,85,Poole,18,Curry,7,Wiggins,4
+2022,2022-02-10,New York,home,0,0,41,15,116,114,Curry,35,Thompson,7,Curry,10
+2022,2022-02-12,Los Angeles,home,1,0,42,15,117,115,Thompson,33,Looney,12,Curry,8
+2022,2022-02-14,LA,away,0,0,42,16,119,104,Curry,33,Porter Jr.,8,Looney,5
+2022,2022-02-16,Denver,home,0,0,42,17,117,116,Curry,25,Looney,9,Curry,6
+2022,2022-02-24,Portland,away,1,0,43,17,132,95,Curry,18,Kuminga,8,Curry,14
+2022,2022-02-27,Dallas,home,0,0,43,18,107,101,Curry,27,Looney,10,Curry,10
+2022,2022-03-01,Minnesota,away,0,0,43,19,129,114,Curry,34,Wiggins,7,Looney,5
+2022,2022-03-03,Dallas,away,0,0,43,20,122,113,Poole,23,Looney,9,Curry,9
+2022,2022-03-05,Los Angeles,away,0,0,43,21,124,116,Curry,30,Porter Jr.,10,Poole,5
+2022,2022-03-07,Denver,away,0,0,43,22,131,124,Poole,32,Looney,11,Chiozza,8
+2022,2022-03-08,LA,home,1,0,44,22,112,97,Kuminga,21,Wiggins,11,Kuminga,6
+2022,2022-03-10,Denver,away,1,0,45,22,113,102,Curry,34,Curry,9,Poole,7
+2022,2022-03-12,Milwaukee,home,1,0,46,22,122,109,Thompson,38,Kuminga,11,Curry,8
+2022,2022-03-14,Washington,home,1,0,47,22,126,112,Curry,47,Kuminga,8,Curry,6
+2022,2022-03-16,Boston,home,0,0,47,23,110,88,Poole,29,Looney,8,Looney,4
+2022,2022-03-20,San Antonio,home,0,0,47,24,110,108,Poole,28,Porter Jr.,16,Bjelica,6
+2022,2022-03-22,Orlando,away,0,0,47,25,94,90,Poole,26,Porter Jr.,15,Green,7
+2022,2022-03-23,Miami,away,1,0,48,25,118,104,Poole,30,Looney,16,Poole,9
+2022,2022-03-25,Atlanta,away,0,0,48,26,121,110,Thompson,37,Looney,8,Poole,10
+2022,2022-03-27,Washington,away,0,0,48,27,123,115,Poole,26,Porter Jr.,11,Green,6
+2022,2022-03-28,Memphis,away,0,0,48,28,123,95,Poole,25,Kuminga,7,Kuminga,4
+2022,2022-03-30,Phoenix,home,0,0,48,29,107,103,Poole,38,Green,10,Poole,7
+2022,2022-04-02,Utah,home,1,0,49,29,111,107,Thompson,36,Green,9,Green,7
+2022,2022-04-03,Sacramento,away,1,0,50,29,109,90,Wiggins,25,Bjelica,12,Bjelica,6
+2022,2022-04-07,Los Angeles,home,1,0,51,29,128,112,Thompson,33,Porter Jr.,8,Poole,11
+2022,2022-04-09,San Antonio,away,1,0,52,29,100,94,Poole,18,Green,13,Poole,8
+2022,2022-04-10,New Orleans,away,1,0,53,29,128,107,Thompson,41,Bjelica,7,Bjelica,7
+2023,2022-10-18,Los Angeles,home,1,0,1,0,123,109,Curry,33,Wiseman,7,Curry,7
+2023,2022-10-21,Denver,home,0,0,1,1,128,123,Curry,34,Wiggins,8,Green,9
+2023,2022-10-23,Sacramento,home,1,0,2,1,130,125,Curry,33,Looney,8,Looney,6
+2023,2022-10-25,Phoenix,away,0,0,2,2,134,105,Curry,21,Green,8,Curry,8
+2023,2022-10-27,Miami,home,1,0,3,2,123,110,Curry,33,Wiggins,10,Curry,9
+2023,2022-10-29,Charlotte,away,0,1,3,3,120,113,Curry,31,Curry,11,Curry,6
+2023,2022-10-30,Detroit,away,0,0,3,4,128,114,Curry,32,Looney,9,Green,7
+2023,2022-11-01,Miami,away,0,0,3,5,116,109,Curry,23,Curry,13,Curry,13
+2023,2022-11-03,Orlando,away,0,0,3,6,130,129,Curry,39,Looney,7,Curry,9
+2023,2022-11-04,New Orleans,away,0,0,3,7,114,105,Poole,20,Jerome,6,Poole,9
+2023,2022-11-07,Sacramento,home,1,0,4,7,116,113,Curry,47,Looney,13,Curry,8
+2023,2022-11-11,Cleveland,home,1,0,5,7,106,101,Curry,40,Looney,9,Green,13
+2023,2022-11-13,Sacramento,away,0,0,5,8,122,115,Curry,27,Looney,10,Green,11
+2023,2022-11-14,San Antonio,home,1,0,6,8,132,95,Poole,36,Green,7,Green,6
+2023,2022-11-16,Phoenix,away,0,0,6,9,130,119,Curry,50,Curry,9,Green,8
+2023,2022-11-18,New York,home,1,0,7,9,111,101,Curry,24,Green,9,Curry,10
+2023,2022-11-20,Houston,away,1,0,8,9,127,120,Thompson,41,Looney,7,Curry,15
+2023,2022-11-21,New Orleans,away,0,0,8,10,128,83,Poole,26,Green,8,Lamb,5
+2023,2022-11-23,LA,home,1,0,9,10,124,107,Wiggins,31,Green,7,Green,12
+2023,2022-11-25,Utah,home,1,0,10,10,129,118,Curry,33,Looney,12,Poole,6
+2023,2022-11-27,Minnesota,away,1,0,11,10,137,114,Curry,25,Curry,11,Green,11
+2023,2022-11-29,Dallas,away,0,0,11,11,116,113,Curry,32,Kuminga,10,Poole,9
+2023,2022-12-02,Chicago,home,1,0,12,11,119,111,Poole,30,Looney,12,Green,10
+2023,2022-12-03,Houston,home,1,0,13,11,120,101,Wiggins,36,Looney,12,Curry,10
+2023,2022-12-05,Indiana,home,0,0,13,12,112,104,Thompson,28,Green,9,Curry,6
+2023,2022-12-07,Utah,away,0,0,13,13,124,123,Poole,36,DiVincenzo,9,Poole,8
+2023,2022-12-10,Boston,home,1,0,14,13,123,107,Thompson,34,Looney,15,Curry,7
+2023,2022-12-13,Milwaukee,away,0,0,14,14,128,111,Curry,20,Looney,8,Green,7
+2023,2022-12-14,Indiana,away,0,0,14,15,125,119,Curry,38,DiVincenzo,8,Curry,7
+2023,2022-12-16,Philadelphia,away,0,0,14,16,118,106,Poole,29,Looney,11,Looney,9
+2023,2022-12-18,Toronto,away,1,0,15,16,126,110,Poole,43,Looney,11,Poole,6
+2023,2022-12-20,New York,away,0,0,15,17,132,94,Poole,26,Looney,6,Green,6
+2023,2022-12-21,Brooklyn,away,0,0,15,18,143,113,Wiseman,30,Looney,7,Jerome,7
+2023,2022-12-25,Memphis,home,1,0,16,18,123,109,Poole,32,Green,13,Green,13
+2023,2022-12-27,Charlotte,home,1,0,17,18,110,105,Thompson,29,Green,10,DiVincenzo,7
+2023,2022-12-28,Utah,home,1,0,18,18,112,107,Poole,26,Looney,12,Looney,5
+2023,2022-12-30,Portland,home,1,0,19,18,118,112,Poole,41,Green,11,Poole,6
+2023,2023-01-02,Atlanta,home,1,1,20,18,143,141,Thompson,54,Looney,20,Green,11
+2023,2023-01-04,Detroit,home,0,0,20,19,122,119,Thompson,30,Looney,15,Green,7
+2023,2023-01-07,Orlando,home,0,0,20,20,115,101,Lamb,26,Looney,12,Poole,6
+2023,2023-01-10,Phoenix,home,0,0,20,21,125,113,Thompson,29,Green,12,Poole,6
+2023,2023-01-13,San Antonio,away,1,0,21,21,144,113,Poole,25,Green,12,Poole,6
+2023,2023-01-15,Chicago,away,0,0,21,22,132,118,Thompson,26,Curry,10,Green,7
+2023,2023-01-16,Washington,away,1,0,22,22,127,118,Curry,41,Looney,9,Green,10
+2023,2023-01-19,Boston,away,0,1,22,23,121,118,Curry,29,Green,13,Green,9
+2023,2023-01-20,Cleveland,away,1,0,23,23,120,114,Poole,32,Looney,17,Jerome,8
+2023,2023-01-22,Brooklyn,home,0,0,23,24,120,116,Curry,26,Green,11,DiVincenzo,8
+2023,2023-01-25,Memphis,home,1,0,24,24,122,120,Curry,34,Green,13,Poole,7
+2023,2023-01-27,Toronto,home,1,0,25,24,129,117,Curry,35,Thompson,8,Curry,11
+2023,2023-01-30,Oklahoma City,away,1,0,26,24,128,120,Curry,38,Green,9,Curry,12
+2023,2023-02-01,Minnesota,away,0,1,26,25,119,114,Curry,29,Green,12,Poole,5
+2023,2023-02-02,Denver,away,0,0,26,26,134,117,Curry,28,Wiggins,10,Curry,5
+2023,2023-02-04,Dallas,home,1,0,27,26,119,113,Curry,21,Green,9,Green,9
+2023,2023-02-06,Oklahoma City,home,1,0,28,26,141,114,Thompson,42,Looney,11,Poole,12
+2023,2023-02-08,Portland,away,0,0,28,27,125,122,Poole,38,Wiggins,10,Poole,7
+2023,2023-02-11,Los Angeles,home,0,0,28,28,109,103,Poole,29,Looney,13,Green,10
+2023,2023-02-13,Washington,home,1,0,29,28,135,126,Wiggins,29,Looney,13,Jerome,7
+2023,2023-02-14,LA,away,0,0,29,29,134,124,Poole,28,Looney,14,Green,7
+2023,2023-02-23,Los Angeles,away,0,0,29,30,124,111,Thompson,22,Looney,15,Kuminga,5
+2023,2023-02-24,Houston,home,1,0,30,30,116,101,Thompson,42,Looney,13,Poole,8
+2023,2023-02-26,Minnesota,home,1,0,31,30,109,104,Thompson,32,Looney,17,DiVincenzo,5
+2023,2023-02-28,Portland,home,1,0,32,30,123,105,Poole,29,Green,9,Green,8
+2023,2023-03-02,LA,home,1,0,33,30,115,91,Poole,34,Thompson,11,Green,9
+2023,2023-03-03,New Orleans,home,1,0,34,30,108,99,Thompson,27,Looney,11,Poole,7
+2023,2023-03-05,Los Angeles,away,0,0,34,31,113,105,Curry,27,Green,8,Curry,6
+2023,2023-03-07,Oklahoma City,away,0,0,34,32,137,128,Curry,40,Curry,6,Green,11
+2023,2023-03-09,Memphis,away,0,0,34,33,131,110,Curry,29,Curry,7,Green,7
+2023,2023-03-11,Milwaukee,home,1,1,35,33,125,116,Curry,36,Looney,15,Green,9
+2023,2023-03-13,Phoenix,home,1,0,36,33,123,112,Thompson,38,Looney,10,Poole,6
+2023,2023-03-15,LA,away,0,0,36,34,134,126,Curry,50,Looney,13,Curry,6
+2023,2023-03-17,Atlanta,away,0,0,36,35,127,119,Curry,31,Looney,16,DiVincenzo,6
+2023,2023-03-18,Memphis,away,0,0,36,36,133,119,Kuminga,24,Kuminga,8,DiVincenzo,7
+2023,2023-03-20,Houston,away,1,0,37,36,121,108,Curry,30,Looney,10,Poole,8
+2023,2023-03-22,Dallas,away,1,0,38,36,127,125,Kuminga,22,Looney,12,Curry,13
+2023,2023-03-24,Philadelphia,home,1,0,44,38,120,112,Poole,33,Looney,10,Green,10
+2023,2023-03-26,Minnesota,home,0,0,39,37,99,96,Poole,27,Green,7,Curry,9
+2023,2023-03-28,New Orleans,home,1,0,40,37,120,109,Curry,39,Curry,8,Green,13
+2023,2023-03-31,San Antonio,home,1,0,41,37,130,115,Curry,33,Looney,9,Green,11
+2023,2023-04-02,Denver,away,0,0,41,38,112,110,Thompson,25,Looney,14,Green,7
+2023,2023-04-04,Oklahoma City,home,1,0,42,38,136,125,Curry,34,Looney,11,Curry,6
+2023,2023-04-07,Sacramento,away,1,0,43,38,119,97,Thompson,29,Looney,16,DiVincenzo,9
+2023,2023-04-09,Portland,away,1,0,44,38,157,101,Curry,26,Looney,8,DiVincenzo,8
+2024,2023-10-24,Phoenix,home,0,0,0,1,108,104,Curry,27,Looney,11,Paul,9
+2024,2023-10-27,Sacramento,away,1,0,1,1,122,114,Curry,41,Looney,12,Paul,12
+2024,2023-10-29,Houston,away,1,0,2,1,106,95,Curry,24,Looney,11,Paul,7
+2024,2023-10-30,New Orleans,away,1,0,3,1,130,102,Curry,42,Saric,10,Green,7
+2024,2023-11-01,Sacramento,home,1,0,4,1,102,101,Curry,21,Looney,9,Green,9
+2024,2023-11-03,Oklahoma City,away,1,0,5,1,141,139,Curry,30,Curry,8,Paul,13
+2024,2023-11-05,Cleveland,away,0,0,5,2,115,104,Curry,28,Looney,11,Green,8
+2024,2023-11-06,Detroit,away,1,0,6,2,120,109,Curry,34,Green,9,Green,8
+2024,2023-11-08,Denver,away,0,0,6,3,108,105,Curry,23,Looney,8,Curry,4
+2024,2023-11-11,Cleveland,home,0,0,6,4,118,110,Curry,30,Looney,13,Paul,9
+2024,2023-11-12,Minnesota,home,0,0,6,5,116,110,Curry,38,Saric,10,Green,7
+2024,2023-11-14,Minnesota,home,0,0,6,6,104,101,Podziemski,23,Looney,12,Podziemski,5
+2024,2023-11-16,Oklahoma City,home,0,0,6,7,128,109,Kuminga,21,Looney,11,Paul,8
+2024,2023-11-18,Oklahoma City,home,0,1,6,8,130,123,Wiggins,31,Looney,16,Paul,11
+2024,2023-11-20,Houston,home,1,0,7,8,121,116,Curry,32,Wiggins,7,Paul,12
+2024,2023-11-22,Phoenix,away,0,0,7,9,123,115,Thompson,23,Moody,9,Curry,6
+2024,2023-11-24,San Antonio,home,1,0,8,9,118,112,Curry,35,Looney,8,Paul,10
+2024,2023-11-28,Sacramento,away,0,0,8,10,124,123,Curry,29,Curry,10,Curry,6
+2024,2023-11-30,LA,home,1,0,9,10,120,114,Curry,26,Podziemski,8,Curry,8
+2024,2023-12-02,LA,away,0,0,9,11,113,112,Curry,22,Green,9,Curry,11
+2024,2023-12-06,Portland,home,1,0,10,11,110,106,Curry,31,Green,10,Green,9
+2024,2023-12-08,Oklahoma City,away,0,1,10,12,138,136,Curry,34,Kuminga,12,Green,13
+2024,2023-12-12,Phoenix,away,0,0,10,13,119,116,Curry,24,Podziemski,11,Paul,11
+2024,2023-12-14,LA,away,0,0,10,14,121,113,Thompson,30,Looney,7,Thompson,5
+2024,2023-12-16,Brooklyn,home,1,0,11,14,124,120,Curry,37,Looney,7,Paul,11
+2024,2023-12-17,Portland,away,1,0,12,14,118,114,Thompson,28,Jackson-Davis,8,Curry,8
+2024,2023-12-19,Boston,home,1,1,13,14,132,126,Curry,33,Jackson-Davis,13,Paul,12
+2024,2023-12-22,Washington,home,1,0,14,14,129,118,Curry,30,Jackson-Davis,15,Paul,10
+2024,2023-12-23,Portland,home,1,0,15,14,126,106,Thompson,28,Looney,11,Paul,11
+2024,2023-12-25,Denver,away,0,0,15,15,120,114,Wiggins,22,Podziemski,9,Podziemski,6
+2024,2023-12-28,Miami,home,0,0,15,16,114,102,Curry,13,Jackson-Davis,11,Podziemski,6
+2024,2023-12-30,Dallas,home,0,0,15,17,132,122,Curry,25,Kuminga,9,Curry,7
+2024,2024-01-02,Orlando,home,1,0,16,17,121,115,Curry,36,Kuminga,6,Curry,6
+2024,2024-01-04,Denver,home,0,0,16,18,130,127,Curry,30,Saric,7,Curry,6
+2024,2024-01-05,Detroit,home,1,0,17,18,113,109,Curry,26,Jackson-Davis,9,Podziemski,5
+2024,2024-01-07,Toronto,home,0,0,17,19,133,118,Thompson,25,Jackson-Davis,11,Curry,6
+2024,2024-01-10,New Orleans,home,0,0,17,20,141,105,Moody,21,Podziemski,9,Curry,6
+2024,2024-01-12,Chicago,away,1,0,18,20,140,131,Thompson,30,Jackson-Davis,7,Curry,9
+2024,2024-01-13,Milwaukee,away,0,0,18,21,129,118,Kuminga,28,Podziemski,10,Saric,6
+2024,2024-01-15,Memphis,away,0,0,18,22,116,107,Curry,26,Kuminga,11,Curry,8
+2024,2024-01-24,Atlanta,home,1,0,19,22,134,112,Kuminga,25,Kuminga,9,Curry,8
+2024,2024-01-25,Sacramento,home,0,0,19,23,134,133,Curry,33,Curry,6,Green,11
+2024,2024-01-27,Los Angeles,home,0,1,19,24,145,144,Curry,46,Green,14,Green,11
+2024,2024-01-30,Philadelphia,home,1,0,20,24,119,107,Curry,37,Curry,8,Curry,7
+2024,2024-02-02,Memphis,away,1,0,21,24,121,101,Kuminga,29,Green,12,Podziemski,14
+2024,2024-02-03,Atlanta,away,0,1,21,25,141,134,Curry,60,Podziemski,11,Green,8
+2024,2024-02-05,Brooklyn,away,1,0,22,25,109,98,Curry,29,Podziemski,11,Green,7
+2024,2024-02-07,Philadelphia,away,1,0,23,25,127,104,Wiggins,21,Wiggins,10,Kuminga,5
+2024,2024-02-08,Indiana,away,1,0,24,25,131,109,Curry,42,Santos,8,Podziemski,7
+2024,2024-02-10,Phoenix,home,1,0,25,25,113,112,Curry,30,Curry,9,Green,9
+2024,2024-02-12,Utah,away,1,0,26,25,129,107,Thompson,26,Green,10,Curry,10
+2024,2024-02-14,LA,home,0,0,26,26,130,125,Curry,41,Green,10,Podziemski,8
+2024,2024-02-15,Utah,away,1,0,27,26,140,137,Thompson,35,Wiggins,7,Curry,10
+2024,2024-02-22,Los Angeles,home,1,0,28,26,128,110,Curry,32,Podziemski,9,Curry,8
+2024,2024-02-23,Charlotte,home,1,0,29,26,97,84,Curry,15,Green,13,Podziemski,6
+2024,2024-02-25,Denver,home,0,0,29,27,119,103,Thompson,23,Kuminga,6,Curry,4
+2024,2024-02-27,Washington,away,1,0,30,27,123,112,Thompson,25,Green,8,Green,8
+2024,2024-02-29,New York,away,1,0,31,27,110,99,Curry,31,Curry,11,Paul,6
+2024,2024-03-01,Toronto,away,1,0,32,27,120,105,Curry,25,Green,13,Curry,6
+2024,2024-03-03,Boston,away,0,0,32,28,140,88,Quinones,17,Santos,9,Paul,7
+2024,2024-03-06,Milwaukee,home,1,0,33,28,125,90,Curry,29,Curry,8,Paul,9
+2024,2024-03-07,Chicago,home,0,0,33,29,125,122,Thompson,25,Kuminga,10,Green,12
+2024,2024-03-09,San Antonio,home,0,0,33,30,126,113,Thompson,27,Wiggins,6,Paul,9
+2024,2024-03-11,San Antonio,away,1,0,34,30,112,102,Kuminga,22,Jackson-Davis,10,Paul,8
+2024,2024-03-13,Dallas,away,0,0,34,31,109,99,Kuminga,27,Jackson-Davis,9,Podziemski,6
+2024,2024-03-16,Los Angeles,away,1,0,35,31,128,121,Curry,31,Green,12,Green,13
+2024,2024-03-18,New York,home,0,0,35,32,119,112,Curry,27,Jackson-Davis,9,Thompson,8
+2024,2024-03-20,Memphis,home,1,0,36,32,137,116,Kuminga,26,Green,12,Paul,14
+2024,2024-03-22,Indiana,home,0,0,36,33,123,111,Curry,25,Curry,11,Green,6
+2024,2024-03-24,Minnesota,away,0,0,36,34,114,110,Curry,31,Green,8,Payton II,7
+2024,2024-03-26,Miami,away,1,0,37,34,113,92,Thompson,28,Green,9,Green,8
+2024,2024-03-27,Orlando,away,1,0,38,34,101,93,Wiggins,23,Jackson-Davis,14,Curry,10
+2024,2024-03-29,Charlotte,away,1,0,39,34,115,97,Curry,23,Wiggins,8,Paul,9
+2024,2024-03-31,San Antonio,away,1,0,40,34,117,113,Curry,33,Podziemski,7,Green,11
+2024,2024-04-02,Dallas,home,1,0,41,34,104,100,Wiggins,23,Podziemski,10,Curry,7
+2024,2024-04-04,Houston,away,1,0,42,34,133,110,Curry,29,Green,8,Curry,6
+2024,2024-04-05,Dallas,away,0,0,42,35,108,106,Curry,28,Jackson-Davis,8,Paul,8
+2024,2024-04-07,Utah,home,1,0,43,35,118,110,Thompson,32,Kuminga,10,Paul,9
+2024,2024-04-09,Los Angeles,away,1,0,44,35,134,120,Thompson,27,Curry,7,Green,10
+2024,2024-04-11,Portland,away,1,0,45,35,100,92,Curry,22,Looney,11,Curry,8
+2024,2024-04-12,New Orleans,home,0,0,45,36,114,109,Curry,33,Green,12,Green,11
+2024,2024-04-14,Utah,home,1,0,46,36,123,116,Thompson,25,Podziemski,9,Kuminga,7
+2025,2024-10-23,Portland,away,1,0,1,0,140,104,Hield,22,Curry,9,Curry,10
+2025,2024-10-25,Utah,away,1,0,2,0,127,86,Hield,27,Wiggins,13,Hield,6
+2025,2024-10-27,LA,home,0,0,2,1,112,104,Wiggins,29,Looney,11,Curry,6
+2025,2024-10-29,New Orleans,home,1,0,3,1,124,106,Hield,28,Looney,9,Green,7
+2025,2024-10-30,New Orleans,home,1,0,4,1,104,89,Hield,21,Jackson-Davis,9,Podziemski,7
+2025,2024-11-02,Houston,away,1,1,5,1,127,121,Hield,27,Green,11,Podziemski,6
+2025,2024-11-04,Washington,away,1,0,6,1,125,112,Curry,24,Looney,10,Curry,6
+2025,2024-11-06,Boston,away,1,0,7,1,118,112,Curry,27,Looney,10,Curry,9
+2025,2024-11-08,Cleveland,away,0,0,7,2,136,117,Kuminga,21,Podziemski,7,Green,6
+2025,2024-11-10,Oklahoma City,away,1,0,8,2,127,116,Curry,36,Melton,10,Green,11
+2025,2024-11-12,Dallas,home,1,0,9,2,120,117,Curry,37,Looney,11,Curry,9
+2025,2024-11-15,Memphis,home,1,0,10,2,123,118,Hield,18,Green,8,Green,7
+2025,2024-11-18,LA,away,0,0,10,3,102,99,Curry,26,Green,9,Green,7
+2025,2024-11-20,Atlanta,home,1,0,11,3,120,97,Wiggins,27,Jackson-Davis,11,Green,9
+2025,2024-11-22,New Orleans,away,1,0,12,3,112,108,Wiggins,30,Green,8,Curry,7
+2025,2024-11-23,San Antonio,away,0,0,12,4,104,94,Wiggins,20,Jackson-Davis,8,Green,8
+2025,2024-11-25,Brooklyn,home,0,0,12,5,128,120,Curry,28,Payton II,9,Curry,7
+2025,2024-11-27,Oklahoma City,home,0,0,12,6,105,101,Kuminga,19,Green,14,Green,6
+2025,2024-11-30,Phoenix,away,0,0,12,7,113,105,Curry,23,Curry,7,Green,7
+2025,2024-12-03,Denver,away,0,0,12,8,119,115,Curry,24,Looney,11,Curry,11
+2025,2024-12-05,Houston,home,1,0,13,8,99,93,Kuminga,33,Podziemski,11,Podziemski,3
+2025,2024-12-06,Minnesota,home,0,0,13,9,107,90,Curry,23,Green,9,Green,6
+2025,2024-12-08,Minnesota,home,1,0,14,9,114,106,Curry,30,Looney,9,Curry,8
+2025,2024-12-11,Houston,away,0,0,14,10,91,90,Kuminga,20,Kuminga,7,Curry,5
+2025,2024-12-15,Dallas,home,0,0,14,11,143,133,Wiggins,29,Green,7,Curry,10
+2025,2024-12-19,Memphis,away,0,0,14,12,144,93,Podziemski,21,Jackson-Davis,7,Podziemski,6
+2025,2024-12-21,Minnesota,away,1,0,15,12,113,103,Curry,31,Jackson-Davis,9,Curry,10
+2025,2024-12-23,Indiana,home,0,0,15,13,111,105,Kuminga,26,Kuminga,8,Curry,7
+2025,2024-12-25,Los Angeles,home,0,0,15,14,115,113,Curry,38,Wiggins,12,Curry,6
+2025,2024-12-27,LA,away,0,0,15,15,102,92,Kuminga,34,Kuminga,10,Kuminga,5
+2025,2024-12-28,Phoenix,home,1,0,16,15,109,105,Kuminga,34,Jackson-Davis,10,Green,7
+2025,2024-12-30,Cleveland,home,0,0,16,16,113,95,Moody,19,Jackson-Davis,16,Green,5
+2025,2025-01-02,Philadelphia,home,1,0,17,16,139,105,Curry,30,Wiggins,7,Curry,10
+2025,2025-01-04,Memphis,home,1,0,18,16,121,113,Wiggins,24,Jackson-Davis,9,Schroder,9
+2025,2025-01-05,Sacramento,home,0,0,18,17,129,99,Curry,26,Curry,7,Green,4
+2025,2025-01-07,Miami,home,0,0,18,18,114,98,Curry,31,Green,10,Green,10
+2025,2025-01-09,Detroit,away,1,0,19,18,107,104,Hield,19,Jackson-Davis,10,Curry,6
+2025,2025-01-10,Indiana,away,0,0,19,19,108,96,Hield,17,Jackson-Davis,10,Hield,5
+2025,2025-01-13,Toronto,away,0,0,19,20,104,101,Curry,26,Looney,9,Curry,7
+2025,2025-01-15,Minnesota,away,1,0,20,20,116,115,Curry,31,Jackson-Davis,15,Curry,8
+2025,2025-01-18,Washington,home,1,0,21,20,122,114,Wiggins,31,Jackson-Davis,15,Curry,6
+2025,2025-01-20,Boston,home,0,0,21,21,125,85,Curry,18,Looney,7,Moody,5
+2025,2025-01-22,Sacramento,away,0,0,21,22,123,117,Wiggins,25,Jackson-Davis,8,Curry,12
+2025,2025-01-23,Chicago,home,1,0,22,22,131,106,Curry,21,Looney,11,Curry,7
+2025,2025-01-25,Los Angeles,home,0,0,22,23,118,108,Wiggins,20,Wiggins,6,Curry,9
+2025,2025-01-28,Utah,home,1,0,23,23,114,103,Schroder,23,Looney,11,Podziemski,6
+2025,2025-01-29,Oklahoma City,home,1,0,24,23,116,109,Wiggins,27,Payton II,9,Schroder,7
+2025,2025-01-31,Phoenix,home,0,0,24,24,130,105,Wiggins,17,Wiggins,8,Wiggins,6
+2025,2025-02-03,Orlando,home,1,0,25,24,104,99,Wiggins,25,Looney,15,Looney,6
+2025,2025-02-05,Utah,away,0,0,25,25,131,128,Curry,32,Looney,10,Green,9
+2025,2025-02-06,Los Angeles,away,0,0,25,26,120,112,Curry,37,Podziemski,8,Podziemski,7
+2025,2025-02-08,Chicago,away,1,0,26,26,132,111,Curry,34,Santos,8,Podziemski,7
+2025,2025-02-10,Milwaukee,away,1,0,27,26,125,111,Curry,38,Butler III,9,Butler III,6
+2025,2025-02-12,Dallas,away,0,0,27,27,111,107,Curry,25,Butler III,9,Curry,8
+2025,2025-02-13,Houston,away,1,0,28,27,105,98,Curry,27,Looney,9,Green,8
+2025,2025-02-21,Sacramento,away,1,0,29,27,132,108,Hield,22,Green,8,Green,9
+2025,2025-02-23,Dallas,home,1,0,30,27,126,102,Curry,30,Podziemski,13,Curry,7
+2025,2025-02-25,Charlotte,home,1,0,31,27,128,92,Hield,16,Butler III,8,Green,6
+2025,2025-02-27,Orlando,away,1,0,32,27,121,115,Curry,56,Green,10,Podziemski,7
+2025,2025-03-01,Philadelphia,away,0,0,32,28,126,119,Curry,29,Post,9,Curry,13
+2025,2025-03-03,Charlotte,away,1,0,33,28,119,101,Hield,22,Green,12,Curry,10
+2025,2025-03-04,New York,away,1,0,34,28,114,102,Curry,28,Green,9,Curry,9
+2025,2025-03-06,Brooklyn,away,1,0,35,28,121,119,Curry,40,Payton II,9,Green,10
+2025,2025-03-08,Detroit,home,1,0,36,28,115,110,Curry,32,Butler III,9,Green,7
+2025,2025-03-10,Portland,home,1,0,37,28,130,120,Payton II,26,Butler III,10,Butler III,10
+2025,2025-03-13,Sacramento,home,1,0,38,28,130,104,Green,23,Looney,6,Butler III,7
+2025,2025-03-15,New York,home,1,0,39,28,97,94,Curry,28,Curry,7,Butler III,7
+2025,2025-03-17,Denver,home,0,0,39,29,114,105,Butler III,23,Butler III,8,Curry,7
+2025,2025-03-18,Milwaukee,home,1,0,40,29,104,93,Butler III,24,Green,10,Butler III,10
+2025,2025-03-20,Toronto,home,1,0,41,29,117,114,Green,21,Butler III,11,Butler III,12
+2025,2025-03-22,Atlanta,away,0,0,41,30,124,115,Butler III,25,Podziemski,8,Butler III,8
+2025,2025-03-25,Miami,away,0,0,41,31,112,86,Kuminga,15,Payton II,7,Podziemski,4
+2025,2025-03-28,New Orleans,away,1,0,42,31,111,95,Curry,23,Butler III,10,Curry,6
+2025,2025-03-30,San Antonio,away,1,0,43,31,148,106,Podziemski,27,Looney,7,Butler III,8
+2025,2025-04-01,Memphis,away,1,0,44,31,134,125,Curry,52,Curry,10,Green,12
+2025,2025-04-03,Los Angeles,away,1,0,45,31,123,116,Curry,37,Green,11,Curry,6
+2025,2025-04-04,Denver,home,1,0,46,31,118,104,Curry,36,Podziemski,8,Podziemski,6
+2025,2025-04-06,Houston,home,0,0,46,32,106,96,Hield,20,Looney,11,Curry,8
+2025,2025-04-08,Phoenix,away,1,0,47,32,133,95,Curry,25,Curry,9,Curry,6
+2025,2025-04-09,San Antonio,home,0,0,47,33,114,111,Curry,30,Green,9,Green,8
+2025,2025-04-11,Portland,away,1,0,48,33,103,86,Butler III,24,Podziemski,7,Butler III,7
+2025,2025-04-13,LA,home,0,1,48,34,124,119,Curry,36,Podziemski,7,Butler III,9
+2026,2025-10-21,Los Angeles,away,1,0,1,0,119,109,Butler III,31,Kuminga,9,Green,9
+2026,2025-10-23,Denver,home,1,1,2,0,137,131,Curry,42,Green,8,Green,8
+2026,2025-10-24,Portland,away,0,0,2,1,139,119,Curry,35,Kuminga,8,Green,5
+2026,2025-10-27,Memphis,home,1,0,3,1,131,118,Kuminga,25,Kuminga,10,Green,10
+2026,2025-10-28,LA,home,1,0,4,1,98,79,Butler III,21,Post,8,Curry,8
+2026,2025-10-30,Milwaukee,away,0,0,4,2,120,110,Curry,27,Butler III,10,Green,6
+2026,2025-11-01,Indiana,away,0,0,4,3,114,109,Curry,24,Green,10,Butler III,7
+2026,2025-11-04,Phoenix,home,1,0,5,3,118,107,Curry,28,Post,7,Green,8
+2026,2025-11-05,Sacramento,away,0,0,5,4,121,116,Richard,30,Kuminga,9,Podziemski,9
+2026,2025-11-07,Denver,away,0,0,5,5,129,104,Green,17,Jackson-Davis,7,Spencer,5
+2026,2025-11-09,Indiana,home,1,0,6,5,114,83,Butler III,21,Butler III,9,Butler III,7
+2026,2025-11-11,Oklahoma City,away,0,0,6,6,126,102,Kuminga,13,Jackson-Davis,6,Kuminga,4
+2026,2025-11-12,San Antonio,away,1,0,7,6,125,120,Curry,46,Butler III,6,Butler III,8
+2026,2025-11-14,San Antonio,away,1,0,8,6,109,108,Curry,49,Butler III,8,Green,8
+2026,2025-11-16,New Orleans,away,1,0,9,6,124,106,Moody,32,Green,10,Butler III,10

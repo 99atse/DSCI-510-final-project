@@ -60,11 +60,11 @@ def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
         for article in items:
             try:
                 articles.append({
-                        "title": article.get("title"),
-                        "date": article.get("date"),
-                        "excerpt": article.get("excerpt"),
-                        "url": article.get("permalink"),
-                        "author": (
+                        "Title": article.get("title"),
+                        "Date": article.get("date"),
+                        "Excerpt": article.get("excerpt"),
+                        "Url": article.get("permalink"),
+                        "Author": (
                             article["authors"][0]["name"] 
                             if article.get("authors") and len(article["authors"]) > 0 
                             else None
@@ -156,26 +156,31 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
             try:
                 # find row data
                 columns = row.find_all("td", class_="Table__TD")
-                # if number of columns match header, then retrive cell information and append to all_games list
-                if len(columns) == 7:
-                    date = columns[0].get_text(strip=True)
-                    opponent = columns[1].get_text(" ", strip=True)
-                    result = columns[2].get_text(" ", strip=True)
-                    record = columns[3].get_text(strip=True)
-                    hi_points = columns[4].get_text(" ", strip=True)
-                    hi_rebounds = columns[5].get_text(" ", strip=True)
-                    hi_assists = columns[6].get_text(" ", strip=True)
 
-                    all_games.append({
-                        "Season": year,
-                        "Date": date,
-                        "Opponent": opponent,
-                        "Result": result,
-                        "Record": record,
-                        "Hi Points": hi_points,
-                        "Hi Rebounds": hi_rebounds,
-                        "Hi Assists": hi_assists
-                    })
+                # if number of columns match header but is not a header, then retrive cell information and append to all_games list
+                if len(columns) == 7:
+                    # skip row if header
+                    if columns[0].get_text(" ", strip=True) == "DATE":
+                        continue
+                    else:
+                        date = columns[0].get_text(strip=True)
+                        opponent = columns[1].get_text(" ", strip=True)
+                        result = columns[2].get_text(" ", strip=True)
+                        record = columns[3].get_text(strip=True)
+                        hi_points = columns[4].get_text(" ", strip=True)
+                        hi_rebounds = columns[5].get_text(" ", strip=True)
+                        hi_assists = columns[6].get_text(" ", strip=True)
+
+                        all_games.append({
+                            "Season": year,
+                            "Date": date,
+                            "Opponent": opponent,
+                            "Result": result,
+                            "Record": record,
+                            "Hi Points": hi_points,
+                            "Hi Rebounds": hi_rebounds,
+                            "Hi Assists": hi_assists
+                        })
             except Exception as e:
                 print(f"Error loading row stats data to stats list: {e}")
                 continue
