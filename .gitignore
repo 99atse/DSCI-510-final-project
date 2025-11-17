@@ -1,5 +1,4 @@
 /data/
 /results/
-/src/config.py
-/src/main.py
 /.DS_Store
+/src/__pycache__

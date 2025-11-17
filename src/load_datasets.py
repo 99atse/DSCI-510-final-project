@@ -1,11 +1,12 @@
 import requests
 import json
+import os
 import pandas as pd
 from bs4 import BeautifulSoup
 from pytrends import dailydata
 
 # --- Load News Articles from Golden State Warriors Website ---
-def get_gsw_articles_api(api_url, json_file, dataset_file):
+def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
     """
     Retrieves article information from API URL, saves raw data to JSON file
     and CSV, and loads the data to a pandas DataFrame. 
@@ -19,6 +20,14 @@ def get_gsw_articles_api(api_url, json_file, dataset_file):
 
     articles = []
     page_number = 1
+
+    # extract data directory
+    extract_dir = kwargs.get("extract_dir", ".")
+    os.makedirs(extract_dir, exist_ok=True)
+
+    # path to place files into data folder
+    json_path = os.path.join(extract_dir, json_file)
+    csv_path = os.path.join(extract_dir, dataset_file)
 
     # create while loop to continue retrieving articles until reaching 1000 total articles
     print("loading data from GSW News website")
@@ -36,7 +45,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file):
         # write page 1 request to json file to examine data
         if page_number == 1:
             try:
-                with open(json_file,'w',encoding='utf-8') as file:
+                with open(json_path,'w',encoding='utf-8') as file:
                     json.dump(data,file,indent=4,ensure_ascii=False)
                     print("articles json file has been created")
             except Exception as e:
@@ -70,7 +79,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file):
     try:
         # convert list of articles to dataframe then to csv
         article_df = pd.DataFrame(articles)
-        article_df.to_csv(dataset_file, index=False)
+        article_df.to_csv(csv_path, index=False)
 
         # return article dataframe
         return article_df
@@ -79,7 +88,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file):
         return None
 
 # --- Load Game Statistics From ESPN Website ---
-def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file):
+def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs):
     """
     Scrapes statistics table from ESPN's GSW season schedule, saves raw data to HTML file
     and CSV, and loads the data to a pandas DataFrame. 
@@ -94,6 +103,14 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file):
     """
         
     all_games = []
+
+    # extract data directory
+    extract_dir = kwargs.get("extract_dir", ".")
+    os.makedirs(extract_dir, exist_ok=True)
+
+    # path to place files into data folder
+    html_path = os.path.join(extract_dir, html_file)
+    csv_path = os.path.join(extract_dir, dataset_file)
 
     #set user agent to prevent 403 error
     user_agent = {
@@ -116,7 +133,7 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file):
         try:
             # write start year request to html file to examine data
             if year == 2021:
-                with open(html_file, "w", encoding="utf-8") as file:
+                with open(html_path, "w", encoding="utf-8") as file:
                     file.write(str(soup.prettify()))
         except Exception as e:
             print(f"Error loading GSW stats data to HTML file: {e}")
@@ -165,7 +182,7 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file):
     try:  
         # convert list of games to dataframe then to csv
         stats_df = pd.DataFrame(all_games)
-        stats_df.to_csv(dataset_file, index=False)
+        stats_df.to_csv(csv_path, index=False)
 
         return stats_df
     except Exception as e:
@@ -192,8 +209,10 @@ def get_gsw_sponsor_trends(keyword):
         start_mon=10,
         stop_year=2025,
         stop_mon=10,
-        geo='US'
+        geo='US',
+        wait_time=5
         )
+
     except Exception as e:
         print(f"Error retrieving {keyword} trends data from pytrends: {e}")
         return None
