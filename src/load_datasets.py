@@ -14,7 +14,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
     :param api_url: base API URL to request data from GSW News website
     :param json_file: JSON file to extract data and examine format
     :param dataset_file: CSV file to place raw data from pandas DataFrame
-    #param to be added: dir - data directory to place extracted data into
+    :param extract_dir: data directory to place extracted data into
     :return: Pandas DataFrame or None
     """
 
@@ -98,7 +98,7 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
     :param dataset_file: CSV file to place raw data from pandas DataFrame
     :param start_year: first year to begin pulling season data
     :param end_year: last year to pull season data
-    #param to be added: dir - data directory to place extracted data into
+    :param extract_dir: data directory to place extracted data into
     :return: Pandas DataFrame or None
     """
         
@@ -196,16 +196,21 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
 
 
 # --- Load Daily Trend Data from Google Trends (pytrends) ---
-def get_gsw_sponsor_trends(keyword):
+def get_gsw_sponsor_trends(keyword,**kwargs):
     """
     Retrieves daily trend (interest over time) data from Google Trends API pytrends, 
     saves extracted dataframe to CSV, and returns the data to a pandas DataFrame or None
     if exception occurs. 
 
     :param keyword: keyword to request daily data from ESPN webiste
-    #param to be added: dir - data directory to place extracted data into
+    :param to be added extract_dir: data directory to place extracted data into
     :return: Pandas DataFrame or None
     """
+    # extract data directory
+    extract_dir = kwargs.get("extract_dir", ".")
+    os.makedirs(extract_dir, exist_ok=True)
+
+    csv_path = os.path.join(extract_dir, f"{keyword.replace(" ","")}_Trends.csv")
     try:
         # retrieve the daily trend data for sponsor/gsw and add to csv using pytrends
         trends_df = dailydata.get_daily_data(
@@ -222,12 +227,9 @@ def get_gsw_sponsor_trends(keyword):
         print(f"Error retrieving {keyword} trends data from pytrends: {e}")
         return None
     
-    # remove spaces in keyword to format for CSV file
-    keyword = keyword.replace(" ", "")
-    
     try:  
         # save trends data to csv and return data as df
-        trends_df.to_csv(f"{keyword}_trends.csv",index=False)
+        trends_df.to_csv(csv_path,index=False)
 
         return trends_df
     except Exception as e:

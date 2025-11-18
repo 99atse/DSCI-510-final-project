@@ -7,10 +7,11 @@ from config import DATA_DIR, STATS_HTML,STATS_CSV,CLEANED_STATS_CSV, ARTICLE_JSO
 from load_datasets import get_gsw_game_stats_webscrape, get_gsw_articles_api
 
 def process_game_data(url: str) -> pd.DataFrame:
-    stats_df = get_gsw_game_stats_webscrape(url,STATS_HTML,STATS_CSV,extract_dir = DATA_DIR)
+    stats_df = get_gsw_game_stats_webscrape(url,STATS_HTML,STATS_CSV,extract_dir = f'{DATA_DIR}/raw')
 
     # path to place files into data folder
-    cleaned_csv_path = os.path.join(DATA_DIR, CLEANED_STATS_CSV)
+    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', CLEANED_STATS_CSV)
+    os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     before_new_year = stats_df['Date'].str.contains(r'Sep|Oct|Nov|Dec')
     stats_df['Year'] =  stats_df['Season'].astype(int)
@@ -56,10 +57,11 @@ def extract_sponsors(text):
     return [sponsor.strip() for sponsor in sponsors]
   
 def process_article_data(url: str) -> pd.DataFrame:
-    articles_df = get_gsw_articles_api(url,ARTICLE_JSON,ARTICLE_CSV,extract_dir = DATA_DIR)
+    articles_df = get_gsw_articles_api(url,ARTICLE_JSON,ARTICLE_CSV,extract_dir = f'{DATA_DIR}/raw')
 
     # path to place files into data folder
-    cleaned_csv_path = os.path.join(DATA_DIR, CLEANED_ARTICLE_CSV)
+    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', CLEANED_ARTICLE_CSV)
+    os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     articles_df['Date'] = pd.to_datetime(articles_df['Date']).dt.tz_convert(None)
     start_date = pd.to_datetime("2020-11-01")
@@ -92,5 +94,23 @@ def process_article_data(url: str) -> pd.DataFrame:
         print(f"Error saving GSW stats data to CSV file: {e}")
         return None
     
-def process_trends_data(file: str) -> pd.DataFrame:
-    trend_df = pd.read_csv(file)
+def process_trends_data(sponsor) -> pd.DataFrame:
+    trend_df = pd.read_csv(f'data/{sponsor.replace(' ','')}_Trends.csv')
+
+    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{sponsor.replace(' ','')}_Trends_Cleaned.csv')
+    os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
+
+    trend_df['Date'] = pd.date_range(start='2020-10-01',end='2025-10-31',freq='D')
+    start_date = '2020-11-01'
+    trend_df = trend_df[(trend_df['Date'] >= start_date)]
+
+    trend_df = trend_df.reindex(columns=['Date',f'{sponsor}_unscaled',f'{sponsor}_monthly','isPartial','scale',f'{sponsor}'])
+
+    try:  
+        # save cleaned data to csv
+        trend_df.to_csv(cleaned_csv_path, index=False)
+
+        return trend_df
+    except Exception as e:
+        print(f"Error saving {sponsor} trend data to CSV file: {e}")
+        return None
