@@ -4,9 +4,16 @@ import pandas as pd
 import numpy as np
 
 from config import DATA_DIR, STATS_HTML,STATS_CSV,CLEANED_STATS_CSV, ARTICLE_JSON, ARTICLE_CSV, CLEANED_ARTICLE_CSV
-from load_datasets import get_gsw_game_stats_webscrape, get_gsw_articles_api
+from load_datasets import get_gsw_game_stats_webscrape, get_gsw_articles_api, get_gsw_sponsor_trends
 
 def process_game_data(url: str) -> pd.DataFrame:
+    """
+    Cleans and transforms loaded GSW statistics from ESPN tables, saves the cleaned data to CSV,
+    and loads the data to a pandas DataFrame. 
+
+    :param url: base webscrape URL to request data from ESPN website
+    :return: Pandas DataFrame or None
+    """
     stats_df = get_gsw_game_stats_webscrape(url,STATS_HTML,STATS_CSV,extract_dir = f'{DATA_DIR}/raw')
 
     # path to place files into data folder
@@ -51,12 +58,24 @@ def process_game_data(url: str) -> pd.DataFrame:
         return None
 
 def extract_sponsors(text):
+    """
+    Finds all sponsors with a cell and returns them to a list.
 
+    :param text: text from cell value to extract sponsors
+    :return: list of sponsors or empty list
+    """
     sponsors = re.findall(r'presented by ([^.,;]+)', text, flags=re.IGNORECASE)
 
     return [sponsor.strip() for sponsor in sponsors]
   
 def process_article_data(url: str) -> pd.DataFrame:
+    """
+    Cleans and transforms loaded articles from GSW news website, saves the cleaned data to CSV,
+    and loads the data to a pandas DataFrame. 
+
+    :param url: base API URL to request data from GSW news website
+    :return: Pandas DataFrame or None
+    """
     articles_df = get_gsw_articles_api(url,ARTICLE_JSON,ARTICLE_CSV,extract_dir = f'{DATA_DIR}/raw')
 
     # path to place files into data folder
@@ -64,8 +83,8 @@ def process_article_data(url: str) -> pd.DataFrame:
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     articles_df['Date'] = pd.to_datetime(articles_df['Date']).dt.tz_convert(None)
-    start_date = pd.to_datetime("2020-11-01")
-    end_date   = pd.to_datetime("2025-10-31")
+    start_date = pd.to_datetime("2020-12-22")
+    end_date   = pd.to_datetime("2025-04-13")
 
     articles_df = articles_df[(articles_df['Date'] >= start_date) & (articles_df['Date'] <= end_date)]
 
@@ -94,18 +113,60 @@ def process_article_data(url: str) -> pd.DataFrame:
         print(f"Error saving GSW stats data to CSV file: {e}")
         return None
     
-def process_trends_data(sponsor) -> pd.DataFrame:
-    trend_df = pd.read_csv(f'data/{sponsor.replace(' ','')}_Trends.csv')
+def add_to_all_trends(sponsor,trend_df):
+    """
+    Adds cleaned and scaled data to an all sponsor trends table, creates new file if CSV doesn't exist,
+    updates and loads to CSV if file exists.
+
+    :param sponsor: keyword to pull trend data
+    :param all_sponsors: add trend data to all_sponsor_trends CSV
+    :return: None
+    """
+    all_trends_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'All_Trends_Cleaned.csv')
+    os.makedirs(os.path.dirname(all_trends_csv_path), exist_ok=True)   
+
+    # If file already exists, load it
+    if os.path.exists(all_trends_csv_path):
+        all_trends_df = pd.read_csv(all_trends_csv_path, parse_dates=['Date'])
+    else:
+        # Start new combined file with just the Date column
+        all_trends_df = trend_df[["Date"]].copy() 
+
+    # Join scaled sponsor data based on Date
+    all_trends_df = all_trends_df.merge(
+        trend_df[["Date", f"{sponsor}"]], 
+        on="Date", 
+        how="outer"
+    )
+
+    all_trends_df.to_csv(all_trends_csv_path, index=False)
+
+    return None
+
+def process_trends_data(sponsor,all_sponsors=False) -> pd.DataFrame:
+    """
+    Cleans and transforms trend data from Google Trends, saves the cleaned data to CSV,
+    and loads the data to a pandas DataFrame. 
+
+    :param sponsor: keyword to pull trend data
+    :param all_sponsors: add trend data to all_sponsor_trends CSV
+    :return: Pandas DataFrame or None
+    """
+
+    trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
 
     cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{sponsor.replace(' ','')}_Trends_Cleaned.csv')
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
-    trend_df['Date'] = pd.date_range(start='2020-10-01',end='2025-10-31',freq='D')
-    start_date = '2020-11-01'
-    trend_df = trend_df[(trend_df['Date'] >= start_date)]
+    trend_df['Date'] = pd.date_range(start='2020-11-01',end='2025-4-30',freq='D')
+    start_date = '2020-12-22'
+    end_date = '2025-04-13'
+    trend_df = trend_df[(trend_df['Date'] >= start_date) & (trend_df['Date'] <= end_date)]
 
     trend_df = trend_df.reindex(columns=['Date',f'{sponsor}_unscaled',f'{sponsor}_monthly','isPartial','scale',f'{sponsor}'])
 
+    if all_sponsors == True:
+        add_to_all_trends(sponsor, trend_df)
     try:  
         # save cleaned data to csv
         trend_df.to_csv(cleaned_csv_path, index=False)

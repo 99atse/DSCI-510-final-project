@@ -8,9 +8,9 @@ I retrieved data from three sources: Warriors News API, ESPN season schedule web
 
 | Data Source # | Name/ Short Description | Source URL | Type | List of Fields | Format | Access/Collect data with Python? | Estimated data size/data points |
 | :------- | :------ | :------- | :------- | :------ | :------- | :------- | :------ |
-| 1     | Team Performance Metrics   | https://www.espn.com/nba/team/schedule/_/name/gs/season    | Webpage     | Date, Opponent, Result, W-L, Hi-Points, Hi-Rebounds, Hi-Assists   | HTML    | Yes     | 403   |
-| 2     | Sponsorship Visibility   | https://www.nba.com/warriors/api/content/category/news   | API   | Title, Date, Excerpt, URL, Author   | JSON   | Yes   | 840   |
-| 3     | Fan Engagement      | pytrends (API for Google Trends)      | API      | Date, Interest over Time      | CSV      | Yes      | 1800      |
+| 1     | Team Performance Metrics   | https://www.espn.com/nba/team/schedule/_/name/gs/season    | Webpage     | Date, Opponent, Result, W-L, Hi-Points, Hi-Rebounds, Hi-Assists   | HTML    | Yes     | 400   |
+| 2     | Sponsorship Visibility   | https://www.nba.com/warriors/api/content/category/news   | API   | Title, Date, Excerpt, URL, Author   | JSON   | Yes   | 738   |
+| 3     | Fan Engagement      | pytrends (API for Google Trends)      | API      | Date, Interest over Time      | CSV      | Yes      | 1575      |
 
 Game Performance:
 

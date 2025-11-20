@@ -10,6 +10,759 @@
     "items": [
         {
             "author": {
+                "id": 1230,
+                "slug": "kalyb-champion",
+                "name": "Kalyb Champion",
+                "firstName": "Kalyb",
+                "lastName": "Champion",
+                "organization": "",
+                "isNBAStaff": false,
+                "authorPhoto": "",
+                "socialHandle": "",
+                "socialLink": "",
+                "wpseoTitle": "",
+                "wpseoMetadesc": "",
+                "description": "",
+                "userUrl": "",
+                "featuredAuthor": false
+            },
+            "contentExpanded": [
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>Golden State Warriors guard <a href=\"https://www.nba.com/player/1629001/deanthony-melton\">De’Anthony Melton</a>, who underwent surgery to repair a torn left ACL on December 4, 2024, continues to make good progress with his rehabilitation. He has intensified his workouts in recent weeks, participating in practice and scrimmages with the Santa Cruz Warriors on multiple occasions. He will continue to be integrated in full practice and various scrimmages with the Warriors. He will be re-evaluated again in 10 days.</p>",
+                    "text": "Golden State Warriors guard De’Anthony Melton, who underwent surgery to repair a torn left ACL on December 4, 2024, continues to make good progress with his rehabilitation. He has intensified his workouts in recent weeks, participating in practice and scrimmages with the Santa Cruz Warriors on multiple occasions. He will continue to be integrated in full practice and various scrimmages with the Warriors. He will be re-evaluated again in 10 days."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p></p>",
+                    "text": ""
+                }
+            ],
+            "contentStructured": [
+                {
+                    "type": "paragraph",
+                    "html": "<p>Golden State Warriors guard <a href=\"https://www.nba.com/player/1629001/deanthony-melton\">De’Anthony Melton</a>, who underwent surgery to repair a torn left ACL on December 4, 2024, continues to make good progress with his rehabilitation. He has intensified his workouts in recent weeks, participating in practice and scrimmages with the Santa Cruz Warriors on multiple occasions. He will continue to be integrated in full practice and various scrimmages with the Warriors. He will be re-evaluated again in 10 days.</p>",
+                    "text": "Golden State Warriors guard De’Anthony Melton, who underwent surgery to repair a torn left ACL on December 4, 2024, continues to make good progress with his rehabilitation. He has intensified his workouts in recent weeks, participating in practice and scrimmages with the Santa Cruz Warriors on multiple occasions. He will continue to be integrated in full practice and various scrimmages with the Warriors. He will be re-evaluated again in 10 days.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p></p>",
+                    "text": "",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                }
+            ],
+            "seo": {
+                "focusKeyword": "",
+                "canonicalUrl": "https://warriors.com/news/deanthony-melton-injury-update-20251119",
+                "estimatedReadingTimeMinutes": "",
+                "keywords": null,
+                "general": {
+                    "title": "De’Anthony Melton Injury Update – 11/19/25",
+                    "description": "Golden State Warriors guard De’Anthony Melton, who underwent surgery to repair a torn left ACL on December 4, 2024, continues to make good progress with his rehabilitation."
+                },
+                "opengraph": {
+                    "image": {
+                        "altText": ""
+                    }
+                },
+                "twitter": {
+                    "image": {
+                        "altText": ""
+                    },
+                    "title": null,
+                    "description": null
+                },
+                "schema": {
+                    "articleType": "",
+                    "pageType": ""
+                },
+                "facebook": {
+                    "title": null,
+                    "description": null,
+                    "image": null
+                },
+                "noindex": false
+            },
+            "excerpt": "Golden State Warriors guard De’Anthony Melton, who underwent surgery to repair a torn left ACL on December 4, 2024, continues to make good progress with his rehabilitation. ",
+            "permalink": "https://www.nba.com/warriors/news/deanthony-melton-injury-update-20251119",
+            "slug": "deanthony-melton-injury-update-20251119",
+            "category": "news",
+            "modified": "2025-11-19T23:03:19Z",
+            "date": "2025-11-19T22:30:00Z",
+            "timestamp": 1763591400000,
+            "featuredImage": {
+                "type": "image",
+                "html": null,
+                "text": null,
+                "attributes": {
+                    "id": "1129822",
+                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/feat-image-melton-20251119.png",
+                    "alt": "",
+                    "caption": "",
+                    "caption_alignment": "",
+                    "caption_color": "",
+                    "copyright": "",
+                    "credit": "Photo by Noah Graham/NBAE via Getty Images",
+                    "link": "",
+                    "align": "",
+                    "size": {
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "anchor": "",
+                    "focal_point": [],
+                    "direction": "ltr",
+                    "animation": {
+                        "name": "none"
+                    }
+                },
+                "id": "1129822",
+                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/feat-image-melton-20251119.png",
+                "alt": "",
+                "caption": "",
+                "caption_alignment": "",
+                "caption_color": "",
+                "copyright": "",
+                "credit": "Photo by Noah Graham/NBAE via Getty Images",
+                "link": "",
+                "align": "",
+                "size": {
+                    "width": 1280,
+                    "height": 720
+                },
+                "anchor": "",
+                "focal_point": [],
+                "direction": "ltr",
+                "animation": {
+                    "name": "none"
+                }
+            },
+            "title": "De’Anthony Melton Injury Update – 11/19/25",
+            "taxonomy": {
+                "tags": null,
+                "categories": {
+                    "news": "news"
+                },
+                "teams": {
+                    "1610612744": "Golden State Warriors"
+                },
+                "players": {
+                    "1629001": "De'Anthony Melton"
+                }
+            },
+            "status": "publish",
+            "name": "deanthony-melton-injury-update-20251119",
+            "type": "article",
+            "id": 1129819,
+            "language": "en",
+            "attributes": {
+                "comments": {
+                    "enabled": false
+                },
+                "hideAuthor": true,
+                "hideTimestamp": false,
+                "relatedContent": {
+                    "source": "manual",
+                    "sourceId": null,
+                    "content": []
+                },
+                "subhead": "",
+                "featuredMediaContentGrid": null,
+                "hideContent": false,
+                "nbaId": {
+                    "restricted": false
+                }
+            },
+            "categoryPrimary": {
+                "name": "",
+                "slug": ""
+            },
+            "flexModules": [],
+            "authors": [
+                {
+                    "id": 1230,
+                    "slug": "kalyb-champion",
+                    "name": "Kalyb Champion",
+                    "firstName": "Kalyb",
+                    "lastName": "Champion",
+                    "organization": "",
+                    "isNBAStaff": false,
+                    "authorPhoto": "",
+                    "socialHandle": "",
+                    "socialLink": "",
+                    "wpseoTitle": "",
+                    "wpseoMetadesc": "",
+                    "description": "",
+                    "userUrl": "",
+                    "featuredAuthor": false
+                }
+            ]
+        },
+        {
+            "author": {
+                "id": 1230,
+                "slug": "kalyb-champion",
+                "name": "Kalyb Champion",
+                "firstName": "Kalyb",
+                "lastName": "Champion",
+                "organization": "",
+                "isNBAStaff": false,
+                "authorPhoto": "",
+                "socialHandle": "",
+                "socialLink": "",
+                "wpseoTitle": "",
+                "wpseoMetadesc": "",
+                "description": "",
+                "userUrl": "",
+                "featuredAuthor": false
+            },
+            "contentExpanded": [
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>The Warriors will celebrate the 50th Anniversary of the 1975 NBA Championship team during their home game on Friday, November 21 versus the Portland Trail Blazers, the team announced Wednesday.</p>",
+                    "text": "The Warriors will celebrate the 50th Anniversary of the 1975 NBA Championship team during their home game on Friday, November 21 versus the Portland Trail Blazers, the team announced Wednesday."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>All living members of that Warriors team will be on hand for the celebration, including Rick Barry, Butch Beard, Charles Dudley, George Johnson, Jeff Mullins, Clifford Ray and Jamaal Wilkes. The late Alvin Attles will be represented by his son, Alvin Jr.</p>",
+                    "text": "All living members of that Warriors team will be on hand for the celebration, including Rick Barry, Butch Beard, Charles Dudley, George Johnson, Jeff Mullins, Clifford Ray and Jamaal Wilkes. The late Alvin Attles will be represented by his son, Alvin Jr."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>Throughout Friday night’s game, the Warriors will honor the 50th anniversary of the organization’s first West Coast championship in a variety of ways, including in-arena video features and a special on-court recognition. Additionally, the group will sign autographs inside the Golden State Shop from 5:50–6:25 p.m.</p>",
+                    "text": "Throughout Friday night’s game, the Warriors will honor the 50th anniversary of the organization’s first West Coast championship in a variety of ways, including in-arena video features and a special on-court recognition. Additionally, the group will sign autographs inside the Golden State Shop from 5:50–6:25 p.m."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>The 1974-75 season marked the Warriors’ 29th campaign in franchise history and 13th year in California. Golden State finished the regular season with a 48–34 record, capturing the Pacific Division title. Jamaal Wilkes earned NBA Rookie of the Year honors after averaging 14.2 points, 8.2 rebounds, 2.2 assists and 30.7 minutes while playing in all 82 games.</p>",
+                    "text": "The 1974-75 season marked the Warriors’ 29th campaign in franchise history and 13th year in California. Golden State finished the regular season with a 48–34 record, capturing the Pacific Division title. Jamaal Wilkes earned NBA Rookie of the Year honors after averaging 14.2 points, 8.2 rebounds, 2.2 assists and 30.7 minutes while playing in all 82 games."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>The Warriors advanced through the playoffs by defeating the Seattle SuperSonics in six games before rallying from a 3–2 deficit to beat the Chicago Bulls in seven in the Western Conference Finals. Golden State then swept the Washington Bullets (4-0) in the NBA Finals, earning the franchise’s first championship on the West Coast. Rick Barry was named Finals MVP after averaging 29.5 points, 4.0 rebounds, 5.0 assists, 3.50 steals and 43.0 minutes during those four games.</p>",
+                    "text": "The Warriors advanced through the playoffs by defeating the Seattle SuperSonics in six games before rallying from a 3–2 deficit to beat the Chicago Bulls in seven in the Western Conference Finals. Golden State then swept the Washington Bullets (4-0) in the NBA Finals, earning the franchise’s first championship on the West Coast. Rick Barry was named Finals MVP after averaging 29.5 points, 4.0 rebounds, 5.0 assists, 3.50 steals and 43.0 minutes during those four games."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>The Warriors have won seven NBA championships: 1947, 1956, 1975, 2015, 2017, 2018 and 2022, the third-most in league history.</p>",
+                    "text": "The Warriors have won seven NBA championships: 1947, 1956, 1975, 2015, 2017, 2018 and 2022, the third-most in league history."
+                }
+            ],
+            "contentStructured": [
+                {
+                    "type": "paragraph",
+                    "html": "<p>The Warriors will celebrate the 50th Anniversary of the 1975 NBA Championship team during their home game on Friday, November 21 versus the Portland Trail Blazers, the team announced Wednesday.</p>",
+                    "text": "The Warriors will celebrate the 50th Anniversary of the 1975 NBA Championship team during their home game on Friday, November 21 versus the Portland Trail Blazers, the team announced Wednesday.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>All living members of that Warriors team will be on hand for the celebration, including Rick Barry, Butch Beard, Charles Dudley, George Johnson, Jeff Mullins, Clifford Ray and Jamaal Wilkes. The late Alvin Attles will be represented by his son, Alvin Jr.</p>",
+                    "text": "All living members of that Warriors team will be on hand for the celebration, including Rick Barry, Butch Beard, Charles Dudley, George Johnson, Jeff Mullins, Clifford Ray and Jamaal Wilkes. The late Alvin Attles will be represented by his son, Alvin Jr.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>Throughout Friday night’s game, the Warriors will honor the 50th anniversary of the organization’s first West Coast championship in a variety of ways, including in-arena video features and a special on-court recognition. Additionally, the group will sign autographs inside the Golden State Shop from 5:50–6:25 p.m.</p>",
+                    "text": "Throughout Friday night’s game, the Warriors will honor the 50th anniversary of the organization’s first West Coast championship in a variety of ways, including in-arena video features and a special on-court recognition. Additionally, the group will sign autographs inside the Golden State Shop from 5:50–6:25 p.m.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>The 1974-75 season marked the Warriors’ 29th campaign in franchise history and 13th year in California. Golden State finished the regular season with a 48–34 record, capturing the Pacific Division title. Jamaal Wilkes earned NBA Rookie of the Year honors after averaging 14.2 points, 8.2 rebounds, 2.2 assists and 30.7 minutes while playing in all 82 games.</p>",
+                    "text": "The 1974-75 season marked the Warriors’ 29th campaign in franchise history and 13th year in California. Golden State finished the regular season with a 48–34 record, capturing the Pacific Division title. Jamaal Wilkes earned NBA Rookie of the Year honors after averaging 14.2 points, 8.2 rebounds, 2.2 assists and 30.7 minutes while playing in all 82 games.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>The Warriors advanced through the playoffs by defeating the Seattle SuperSonics in six games before rallying from a 3–2 deficit to beat the Chicago Bulls in seven in the Western Conference Finals. Golden State then swept the Washington Bullets (4-0) in the NBA Finals, earning the franchise’s first championship on the West Coast. Rick Barry was named Finals MVP after averaging 29.5 points, 4.0 rebounds, 5.0 assists, 3.50 steals and 43.0 minutes during those four games.</p>",
+                    "text": "The Warriors advanced through the playoffs by defeating the Seattle SuperSonics in six games before rallying from a 3–2 deficit to beat the Chicago Bulls in seven in the Western Conference Finals. Golden State then swept the Washington Bullets (4-0) in the NBA Finals, earning the franchise’s first championship on the West Coast. Rick Barry was named Finals MVP after averaging 29.5 points, 4.0 rebounds, 5.0 assists, 3.50 steals and 43.0 minutes during those four games.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>The Warriors have won seven NBA championships: 1947, 1956, 1975, 2015, 2017, 2018 and 2022, the third-most in league history.</p>",
+                    "text": "The Warriors have won seven NBA championships: 1947, 1956, 1975, 2015, 2017, 2018 and 2022, the third-most in league history.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                }
+            ],
+            "seo": {
+                "focusKeyword": "",
+                "canonicalUrl": "https://warriors.com/news/warriors-to-celebrate-50th-anniversary-of-1975-nba-championship-team-20251119",
+                "estimatedReadingTimeMinutes": "",
+                "keywords": null,
+                "general": {
+                    "title": "Warriors To Celebrate 50th Anniversary of 1975 NBA Championship Team",
+                    "description": "The Warriors will celebrate the 50th Anniversary of the 1975 NBA Championship team during their home game on Friday, November 21 versus the Portland Trail Blazers, the team announced Wednesday."
+                },
+                "opengraph": {
+                    "image": {
+                        "altText": ""
+                    }
+                },
+                "twitter": {
+                    "image": {
+                        "altText": ""
+                    },
+                    "title": null,
+                    "description": null
+                },
+                "schema": {
+                    "articleType": "",
+                    "pageType": ""
+                },
+                "facebook": {
+                    "title": null,
+                    "description": null,
+                    "image": null
+                },
+                "noindex": false
+            },
+            "excerpt": "The Warriors will celebrate the 50th Anniversary of the 1975 NBA Championship team during their home game on Friday, November 21 versus the Portland Trail Blazers, the team announced Wednesday.",
+            "permalink": "https://www.nba.com/warriors/news/warriors-to-celebrate-50th-anniversary-of-1975-nba-championship-team-20251119",
+            "slug": "warriors-to-celebrate-50th-anniversary-of-1975-nba-championship-team-20251119",
+            "category": "news",
+            "modified": "2025-11-19T21:29:12Z",
+            "date": "2025-11-19T20:00:00Z",
+            "timestamp": 1763582400000,
+            "featuredImage": {
+                "type": "image",
+                "html": null,
+                "text": null,
+                "attributes": {
+                    "id": "1129800",
+                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/feat-image-1975-20251119.png",
+                    "alt": "",
+                    "caption": "",
+                    "caption_alignment": "",
+                    "caption_color": "",
+                    "copyright": "",
+                    "credit": "Photo by Thearon W. Henderson/Getty Images",
+                    "link": "",
+                    "align": "",
+                    "size": {
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "anchor": "",
+                    "focal_point": [],
+                    "direction": "ltr",
+                    "animation": {
+                        "name": "none"
+                    }
+                },
+                "id": "1129800",
+                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/feat-image-1975-20251119.png",
+                "alt": "",
+                "caption": "",
+                "caption_alignment": "",
+                "caption_color": "",
+                "copyright": "",
+                "credit": "Photo by Thearon W. Henderson/Getty Images",
+                "link": "",
+                "align": "",
+                "size": {
+                    "width": 1280,
+                    "height": 720
+                },
+                "anchor": "",
+                "focal_point": [],
+                "direction": "ltr",
+                "animation": {
+                    "name": "none"
+                }
+            },
+            "title": "Warriors To Celebrate 50th Anniversary of 1975 NBA Championship Team",
+            "taxonomy": {
+                "tags": null,
+                "categories": {
+                    "news": "news"
+                },
+                "teams": {
+                    "1610612744": "Golden State Warriors"
+                }
+            },
+            "status": "publish",
+            "name": "warriors-to-celebrate-50th-anniversary-of-1975-nba-championship-team-20251119",
+            "type": "article",
+            "id": 1129798,
+            "language": "en",
+            "attributes": {
+                "comments": {
+                    "enabled": false
+                },
+                "hideAuthor": true,
+                "hideTimestamp": false,
+                "relatedContent": {
+                    "source": "manual",
+                    "sourceId": null,
+                    "content": []
+                },
+                "subhead": "",
+                "featuredMediaContentGrid": null,
+                "hideContent": false,
+                "nbaId": {
+                    "restricted": false
+                }
+            },
+            "categoryPrimary": {
+                "name": "",
+                "slug": ""
+            },
+            "flexModules": [],
+            "authors": [
+                {
+                    "id": 1230,
+                    "slug": "kalyb-champion",
+                    "name": "Kalyb Champion",
+                    "firstName": "Kalyb",
+                    "lastName": "Champion",
+                    "organization": "",
+                    "isNBAStaff": false,
+                    "authorPhoto": "",
+                    "socialHandle": "",
+                    "socialLink": "",
+                    "wpseoTitle": "",
+                    "wpseoMetadesc": "",
+                    "description": "",
+                    "userUrl": "",
+                    "featuredAuthor": false
+                }
+            ]
+        },
+        {
+            "author": {
+                "id": 961,
+                "slug": "golden-state-warriors",
+                "name": "Golden State Warriors",
+                "firstName": "Tyler",
+                "lastName": "Savitsky",
+                "organization": "",
+                "isNBAStaff": false,
+                "authorPhoto": "",
+                "socialHandle": "",
+                "socialLink": "",
+                "wpseoTitle": "",
+                "wpseoMetadesc": "",
+                "description": "Established 1946 | 7-time NBA Champions",
+                "userUrl": "https://www.nba.com/warriors",
+                "featuredAuthor": false
+            },
+            "contentExpanded": [
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>The Golden State Warriors have announced a partnership with Sephora U.S., the world’s leading global prestige beauty retail brand, becoming the first Valkyries partner to join the Warriors portfolio. Sephora will become the official fragrance partner of the Warriors and Chase Center–spotlighting the growing men’s fragrance category–as well as the first-ever presenting beauty partner of the Warriors Dance Team.</p>",
+                    "text": "The Golden State Warriors have announced a partnership with Sephora U.S., the world’s leading global prestige beauty retail brand, becoming the first Valkyries partner to join the Warriors portfolio. Sephora will become the official fragrance partner of the Warriors and Chase Center–spotlighting the growing men’s fragrance category–as well as the first-ever presenting beauty partner of the Warriors Dance Team."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>Through the partnership, Sephora and the Warriors will create exclusive digital content, including a dedicated season-long social content series that will spotlight players and Warriors Dance Team members on game days. Sephora will receive prominent placement at Chase Center, visible on broadcast and in-arena, and introduce new in-arena game features. Fans will also have access to a Sephora kiosk during all Warriors home games and Chase Center events featuring a curated selection of beauty product offerings available for purchase. In addition, Warriors Dance Team members will receive Sephora gifting throughout the season.</p>",
+                    "text": "Through the partnership, Sephora and the Warriors will create exclusive digital content, including a dedicated season-long social content series that will spotlight players and Warriors Dance Team members on game days. Sephora will receive prominent placement at Chase Center, visible on broadcast and in-arena, and introduce new in-arena game features. Fans will also have access to a Sephora kiosk during all Warriors home games and Chase Center events featuring a curated selection of beauty product offerings available for purchase. In addition, Warriors Dance Team members will receive Sephora gifting throughout the season."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>“This partnership marks a significant milestone for the broader Golden State organization,” said Mike Kitts, Golden State Chief Commercial Officer. “Sephora becoming the first Valkyries partner to expand and align with the Warriors not only reflects the strength and growth of the Valkyries brand, but also the shared values across all of our teams. We look forward to this partnership enhancing the experience for our fans and partners across all of our properties.”</p>",
+                    "text": "“This partnership marks a significant milestone for the broader Golden State organization,” said Mike Kitts, Golden State Chief Commercial Officer. “Sephora becoming the first Valkyries partner to expand and align with the Warriors not only reflects the strength and growth of the Valkyries brand, but also the shared values across all of our teams. We look forward to this partnership enhancing the experience for our fans and partners across all of our properties.”"
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>“We’re thrilled to partner with the Golden State Warriors as their first official fragrance partner, which underscores the expanding opportunity within men’s fragrance, and highlights Sephora’s commitment to bringing best-in-class, inclusive beauty offerings to new audiences,” said Sephora U.S. Chief Marketing Officer Zena Arnold. “This collaboration reflects our commitment to redefining what beauty means, and gives us an incredible opportunity to engage with new audiences, including male fans who are increasingly embracing self-expression and categories like prestige fragrance. Alongside our successful partnership with the Valkyries, this partnership with the Warriors allows us to continue championing confidence, creativity, and community both on and off the court, in our shared Bay Area home.”</p>",
+                    "text": "“We’re thrilled to partner with the Golden State Warriors as their first official fragrance partner, which underscores the expanding opportunity within men’s fragrance, and highlights Sephora’s commitment to bringing best-in-class, inclusive beauty offerings to new audiences,” said Sephora U.S. Chief Marketing Officer Zena Arnold. “This collaboration reflects our commitment to redefining what beauty means, and gives us an incredible opportunity to engage with new audiences, including male fans who are increasingly embracing self-expression and categories like prestige fragrance. Alongside our successful partnership with the Valkyries, this partnership with the Warriors allows us to continue championing confidence, creativity, and community both on and off the court, in our shared Bay Area home.”"
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p>As part of their founding partnership with the Valkyries, Sephora is the naming rights partner for the team’s 31,800 square-foot, state-of-the-art Oakland-based performance center, the “Sephora Performance Center.”</p>",
+                    "text": "As part of their founding partnership with the Valkyries, Sephora is the naming rights partner for the team’s 31,800 square-foot, state-of-the-art Oakland-based performance center, the “Sephora Performance Center.”"
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p><strong>About Sephora</strong><br>Sephora is the world’s leading global prestige beauty retail brand. With 50 000 passionate employees operating in 35 markets, Sephora connects customers and beauty brands within the world’s most trusted and dynamic beauty community. We serve a highly engaged community of hundreds of millions of beauty followers across our global omnichannel network of more than 3 200 stores and iconic flagships, and our e-commerce and digital platforms, offering personalized and immersive seamless experiences across every touchpoint. With our curation of close to 300 brands and our own label, Sephora Collection, we offer the most unique and diverse range of prestige beauty products, tailored to our customers’ needs from fragrance to make-up, haircare, skincare and beyond, as we constantly reimagine the world of prestige beauty. Since our inception in 1969 in Limoges, France, and as part of the LVMH Group since 1997, we have been disrupting the prestige beauty retail industry. Today, we continue to break with convention to drive our mission to expand the way the world sees beauty and empower the extraordinary in each of us.</p>",
+                    "text": "About SephoraSephora is the world’s leading global prestige beauty retail brand. With 50 000 passionate employees operating in 35 markets, Sephora connects customers and beauty brands within the world’s most trusted and dynamic beauty community. We serve a highly engaged community of hundreds of millions of beauty followers across our global omnichannel network of more than 3 200 stores and iconic flagships, and our e-commerce and digital platforms, offering personalized and immersive seamless experiences across every touchpoint. With our curation of close to 300 brands and our own label, Sephora Collection, we offer the most unique and diverse range of prestige beauty products, tailored to our customers’ needs from fragrance to make-up, haircare, skincare and beyond, as we constantly reimagine the world of prestige beauty. Since our inception in 1969 in Limoges, France, and as part of the LVMH Group since 1997, we have been disrupting the prestige beauty retail industry. Today, we continue to break with convention to drive our mission to expand the way the world sees beauty and empower the extraordinary in each of us."
+                }
+            ],
+            "contentStructured": [
+                {
+                    "type": "paragraph",
+                    "html": "<p>The Golden State Warriors have announced a partnership with Sephora U.S., the world’s leading global prestige beauty retail brand, becoming the first Valkyries partner to join the Warriors portfolio. Sephora will become the official fragrance partner of the Warriors and Chase Center–spotlighting the growing men’s fragrance category–as well as the first-ever presenting beauty partner of the Warriors Dance Team.</p>",
+                    "text": "The Golden State Warriors have announced a partnership with Sephora U.S., the world’s leading global prestige beauty retail brand, becoming the first Valkyries partner to join the Warriors portfolio. Sephora will become the official fragrance partner of the Warriors and Chase Center–spotlighting the growing men’s fragrance category–as well as the first-ever presenting beauty partner of the Warriors Dance Team.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>Through the partnership, Sephora and the Warriors will create exclusive digital content, including a dedicated season-long social content series that will spotlight players and Warriors Dance Team members on game days. Sephora will receive prominent placement at Chase Center, visible on broadcast and in-arena, and introduce new in-arena game features. Fans will also have access to a Sephora kiosk during all Warriors home games and Chase Center events featuring a curated selection of beauty product offerings available for purchase. In addition, Warriors Dance Team members will receive Sephora gifting throughout the season.</p>",
+                    "text": "Through the partnership, Sephora and the Warriors will create exclusive digital content, including a dedicated season-long social content series that will spotlight players and Warriors Dance Team members on game days. Sephora will receive prominent placement at Chase Center, visible on broadcast and in-arena, and introduce new in-arena game features. Fans will also have access to a Sephora kiosk during all Warriors home games and Chase Center events featuring a curated selection of beauty product offerings available for purchase. In addition, Warriors Dance Team members will receive Sephora gifting throughout the season.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>“This partnership marks a significant milestone for the broader Golden State organization,” said Mike Kitts, Golden State Chief Commercial Officer. “Sephora becoming the first Valkyries partner to expand and align with the Warriors not only reflects the strength and growth of the Valkyries brand, but also the shared values across all of our teams. We look forward to this partnership enhancing the experience for our fans and partners across all of our properties.”</p>",
+                    "text": "“This partnership marks a significant milestone for the broader Golden State organization,” said Mike Kitts, Golden State Chief Commercial Officer. “Sephora becoming the first Valkyries partner to expand and align with the Warriors not only reflects the strength and growth of the Valkyries brand, but also the shared values across all of our teams. We look forward to this partnership enhancing the experience for our fans and partners across all of our properties.”",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>“We’re thrilled to partner with the Golden State Warriors as their first official fragrance partner, which underscores the expanding opportunity within men’s fragrance, and highlights Sephora’s commitment to bringing best-in-class, inclusive beauty offerings to new audiences,” said Sephora U.S. Chief Marketing Officer Zena Arnold. “This collaboration reflects our commitment to redefining what beauty means, and gives us an incredible opportunity to engage with new audiences, including male fans who are increasingly embracing self-expression and categories like prestige fragrance. Alongside our successful partnership with the Valkyries, this partnership with the Warriors allows us to continue championing confidence, creativity, and community both on and off the court, in our shared Bay Area home.”</p>",
+                    "text": "“We’re thrilled to partner with the Golden State Warriors as their first official fragrance partner, which underscores the expanding opportunity within men’s fragrance, and highlights Sephora’s commitment to bringing best-in-class, inclusive beauty offerings to new audiences,” said Sephora U.S. Chief Marketing Officer Zena Arnold. “This collaboration reflects our commitment to redefining what beauty means, and gives us an incredible opportunity to engage with new audiences, including male fans who are increasingly embracing self-expression and categories like prestige fragrance. Alongside our successful partnership with the Valkyries, this partnership with the Warriors allows us to continue championing confidence, creativity, and community both on and off the court, in our shared Bay Area home.”",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p>As part of their founding partnership with the Valkyries, Sephora is the naming rights partner for the team’s 31,800 square-foot, state-of-the-art Oakland-based performance center, the “Sephora Performance Center.”</p>",
+                    "text": "As part of their founding partnership with the Valkyries, Sephora is the naming rights partner for the team’s 31,800 square-foot, state-of-the-art Oakland-based performance center, the “Sephora Performance Center.”",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p><strong>About Sephora</strong><br>Sephora is the world’s leading global prestige beauty retail brand. With 50 000 passionate employees operating in 35 markets, Sephora connects customers and beauty brands within the world’s most trusted and dynamic beauty community. We serve a highly engaged community of hundreds of millions of beauty followers across our global omnichannel network of more than 3 200 stores and iconic flagships, and our e-commerce and digital platforms, offering personalized and immersive seamless experiences across every touchpoint. With our curation of close to 300 brands and our own label, Sephora Collection, we offer the most unique and diverse range of prestige beauty products, tailored to our customers’ needs from fragrance to make-up, haircare, skincare and beyond, as we constantly reimagine the world of prestige beauty. Since our inception in 1969 in Limoges, France, and as part of the LVMH Group since 1997, we have been disrupting the prestige beauty retail industry. Today, we continue to break with convention to drive our mission to expand the way the world sees beauty and empower the extraordinary in each of us.</p>",
+                    "text": "About SephoraSephora is the world’s leading global prestige beauty retail brand. With 50 000 passionate employees operating in 35 markets, Sephora connects customers and beauty brands within the world’s most trusted and dynamic beauty community. We serve a highly engaged community of hundreds of millions of beauty followers across our global omnichannel network of more than 3 200 stores and iconic flagships, and our e-commerce and digital platforms, offering personalized and immersive seamless experiences across every touchpoint. With our curation of close to 300 brands and our own label, Sephora Collection, we offer the most unique and diverse range of prestige beauty products, tailored to our customers’ needs from fragrance to make-up, haircare, skincare and beyond, as we constantly reimagine the world of prestige beauty. Since our inception in 1969 in Limoges, France, and as part of the LVMH Group since 1997, we have been disrupting the prestige beauty retail industry. Today, we continue to break with convention to drive our mission to expand the way the world sees beauty and empower the extraordinary in each of us.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                }
+            ],
+            "seo": {
+                "focusKeyword": "",
+                "canonicalUrl": "https://warriors.com/news/warriors-announce-partnership-with-sephora-us-20251118",
+                "estimatedReadingTimeMinutes": "",
+                "keywords": null,
+                "general": {
+                    "title": null,
+                    "description": null
+                },
+                "opengraph": {
+                    "image": {
+                        "altText": ""
+                    }
+                },
+                "twitter": {
+                    "image": {
+                        "altText": ""
+                    },
+                    "title": null,
+                    "description": null
+                },
+                "schema": {
+                    "articleType": "",
+                    "pageType": ""
+                },
+                "facebook": {
+                    "title": null,
+                    "description": null,
+                    "image": null
+                },
+                "noindex": false
+            },
+            "excerpt": "The Golden State Warriors have announced a partnership with Sephora U.S., the world’s leading global prestige beauty retail brand, becoming the first Valkyries partner to join the Warriors portfolio. Sephora will become the official fragrance partner of the Warriors and Chase Center–spotlighting the growing men’s fragrance category–as well as the first-ever presenting beauty partner of the Warriors Dance Team.",
+            "permalink": "https://www.nba.com/warriors/news/warriors-announce-partnership-with-sephora-us-20251118",
+            "slug": "warriors-announce-partnership-with-sephora-us-20251118",
+            "category": "news",
+            "modified": "2025-11-18T22:27:55Z",
+            "date": "2025-11-18T22:00:00Z",
+            "timestamp": 1763503200000,
+            "featuredImage": {
+                "type": "image",
+                "html": null,
+                "text": null,
+                "attributes": {
+                    "id": "1129751",
+                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/Warriors-Dance-Team-Sephora.jpg",
+                    "alt": "",
+                    "caption": "",
+                    "caption_alignment": "",
+                    "caption_color": "",
+                    "copyright": "",
+                    "credit": "",
+                    "link": "",
+                    "align": "",
+                    "size": {
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "anchor": "",
+                    "focal_point": [],
+                    "direction": "ltr",
+                    "animation": {
+                        "name": "none"
+                    }
+                },
+                "id": "1129751",
+                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/Warriors-Dance-Team-Sephora.jpg",
+                "alt": "",
+                "caption": "",
+                "caption_alignment": "",
+                "caption_color": "",
+                "copyright": "",
+                "credit": "",
+                "link": "",
+                "align": "",
+                "size": {
+                    "width": 1280,
+                    "height": 720
+                },
+                "anchor": "",
+                "focal_point": [],
+                "direction": "ltr",
+                "animation": {
+                    "name": "none"
+                }
+            },
+            "title": "Warriors Announce Partnership With Sephora U.S.",
+            "taxonomy": {
+                "tags": null,
+                "categories": {
+                    "news": "news"
+                },
+                "teams": {
+                    "1610612744": "Golden State Warriors"
+                }
+            },
+            "status": "publish",
+            "name": "warriors-announce-partnership-with-sephora-us-20251118",
+            "type": "article",
+            "id": 1129737,
+            "language": "en",
+            "attributes": {
+                "comments": {
+                    "enabled": false
+                },
+                "hideAuthor": true,
+                "hideTimestamp": false,
+                "relatedContent": {
+                    "source": "manual",
+                    "sourceId": null,
+                    "content": []
+                },
+                "subhead": "Sephora Becomes First Valkyries Partner To Join The Warriors Portfolio",
+                "featuredMediaContentGrid": null,
+                "hideContent": false,
+                "nbaId": {
+                    "restricted": false
+                }
+            },
+            "categoryPrimary": {
+                "name": "",
+                "slug": ""
+            },
+            "flexModules": [],
+            "authors": [
+                {
+                    "id": 961,
+                    "slug": "golden-state-warriors",
+                    "name": "Golden State Warriors",
+                    "firstName": "Tyler",
+                    "lastName": "Savitsky",
+                    "organization": "",
+                    "isNBAStaff": false,
+                    "authorPhoto": "",
+                    "socialHandle": "",
+                    "socialLink": "",
+                    "wpseoTitle": "",
+                    "wpseoMetadesc": "",
+                    "description": "Established 1946 | 7-time NBA Champions",
+                    "userUrl": "https://www.nba.com/warriors",
+                    "featuredAuthor": false
+                }
+            ]
+        },
+        {
+            "author": {
                 "id": 961,
                 "slug": "golden-state-warriors",
                 "name": "Golden State Warriors",
@@ -5093,1602 +5846,10 @@
                     "featuredAuthor": false
                 }
             ]
-        },
-        {
-            "author": {
-                "id": 961,
-                "slug": "golden-state-warriors",
-                "name": "Golden State Warriors",
-                "firstName": "Tyler",
-                "lastName": "Savitsky",
-                "organization": "",
-                "isNBAStaff": false,
-                "authorPhoto": "",
-                "socialHandle": "",
-                "socialLink": "",
-                "wpseoTitle": "",
-                "wpseoMetadesc": "",
-                "description": "Established 1946 | 7-time NBA Champions",
-                "userUrl": "https://www.nba.com/warriors",
-                "featuredAuthor": false
-            },
-            "contentExpanded": [
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>The Golden State Warriors fell 139-119 against the Portland Trail Blazers at Moda Center on Friday night in the second night of a back-to-back.</p>",
-                    "text": "The Golden State Warriors fell 139-119 against the Portland Trail Blazers at Moda Center on Friday night in the second night of a back-to-back."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Stephen Curry scored a team-high 35 points, while Jonathan Kuminga added 16 points and eight rebounds. Eight Blazers scored in double figures in the content, led by Deni Avdija's 26-point performance. The Blazers led by as many as 25 points in the game and snapped a 10-game losing streak against the Warriors.</p>",
-                    "text": "Stephen Curry scored a team-high 35 points, while Jonathan Kuminga added 16 points and eight rebounds. Eight Blazers scored in double figures in the content, led by Deni Avdija's 26-point performance. The Blazers led by as many as 25 points in the game and snapped a 10-game losing streak against the Warriors."
-                },
-                {
-                    "attributes": {
-                        "id": "1128844",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    },
-                    "type": "nba/video",
-                    "video": {
-                        "id": 1128844,
-                        "name": "golden-state-warriors-highlights-vs-portland-trail-blazers-20251024",
-                        "title": "Highlights: Golden State Warriors vs. Portland Trail Blazers - 10/24/25",
-                        "excerpt": "Golden State Warriors Highlights vs. Portland Trail Blazers, 10/24/2025",
-                        "timestamp": 1761368584000,
-                        "slug": "golden-state-warriors-highlights-vs-portland-trail-blazers-20251024",
-                        "permalink": "https://www.nba.com/warriors/videos/golden-state-warriors-highlights-vs-portland-trail-blazers-20251024",
-                        "assets": {
-                            "320": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/45EFFB53B879751C15208CE8D835B5BC176B300F_320x180.mp4",
-                                "width": 320,
-                                "height": 180,
-                                "duration": 119266,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/2de971d79a24fa103209ff91d3320b3231c6e7052ba81a01c7bf052cb7b96115.jpg"
-                            },
-                            "960": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/45EFFB53B879751C15208CE8D835B5BC176B300F_960x540.mp4",
-                                "width": 960,
-                                "height": 540,
-                                "duration": 119266,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/2de971d79a24fa103209ff91d3320b3231c6e7052ba81a01c7bf052cb7b96115.jpg"
-                            },
-                            "1280": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/45EFFB53B879751C15208CE8D835B5BC176B300F_1280x720.mp4",
-                                "width": 1280,
-                                "height": 720,
-                                "duration": 119266,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/2de971d79a24fa103209ff91d3320b3231c6e7052ba81a01c7bf052cb7b96115.jpg"
-                            },
-                            "cc": {
-                                "srt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/45EFFB53B879751C15208CE8D835B5BC176B300F_eng.srt",
-                                "vtt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/45EFFB53B879751C15208CE8D835B5BC176B300F_eng.vtt"
-                            },
-                            "duration": 119266
-                        },
-                        "videoDuration": "00:01:59",
-                        "videoDurationSeconds": 119,
-                        "videoCreationSource": "wsc-feed",
-                        "videoIviCaid": "",
-                        "author": {
-                            "id": 455,
-                            "name": "nbaplatformservices"
-                        },
-                        "taxonomy": {
-                            "videoFranchisesName": {},
-                            "videoNumPlays": 0
-                        }
-                    }
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p><strong>CURRY'S ENCORE</strong><br>Less than 24 hours removed from a 42-point effort, Stephen Curry once again continued with the hot hand. Curry scored 16 points in the opening frame, hitting four early 3-pointers.</p>",
-                    "text": "CURRY'S ENCORELess than 24 hours removed from a 42-point effort, Stephen Curry once again continued with the hot hand. Curry scored 16 points in the opening frame, hitting four early 3-pointers."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Curry finished the game with 35 points on 12-for-22 shooting, including 7-for-14 from 3-point range.</p>",
-                    "text": "Curry finished the game with 35 points on 12-for-22 shooting, including 7-for-14 from 3-point range."
-                },
-                {
-                    "attributes": {
-                        "id": "1128850",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    },
-                    "type": "nba/video",
-                    "video": {
-                        "id": 1128850,
-                        "name": "stephen-curry-highlights-trail-blazers-20251024",
-                        "title": "Highlights: Stephen Curry Records 35 Points in Portland – 10/24/25",
-                        "excerpt": "",
-                        "timestamp": 1761372912000,
-                        "slug": "stephen-curry-highlights-trail-blazers-20251024",
-                        "permalink": "https://www.nba.com/warriors/videos/stephen-curry-highlights-trail-blazers-20251024",
-                        "assets": {
-                            "320": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/134453DA9084BDFAEF7D4223BFAFAFCE3575594E_320x180.mp4",
-                                "width": 320,
-                                "height": 180,
-                                "duration": 93850,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/20251024-Highlights-Curry.png"
-                            },
-                            "960": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/134453DA9084BDFAEF7D4223BFAFAFCE3575594E_960x540.mp4",
-                                "width": 960,
-                                "height": 540,
-                                "duration": 93850,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/20251024-Highlights-Curry.png"
-                            },
-                            "1280": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/134453DA9084BDFAEF7D4223BFAFAFCE3575594E_1280x720.mp4",
-                                "width": 1280,
-                                "height": 720,
-                                "duration": 93850,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/20251024-Highlights-Curry.png"
-                            },
-                            "cc": {
-                                "srt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/134453DA9084BDFAEF7D4223BFAFAFCE3575594E_eng.srt",
-                                "vtt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/134453DA9084BDFAEF7D4223BFAFAFCE3575594E_eng.vtt"
-                            },
-                            "duration": 93850
-                        },
-                        "videoDuration": "00:01:33",
-                        "videoDurationSeconds": 93,
-                        "videoCreationSource": "wsc-feed",
-                        "videoIviCaid": "",
-                        "author": {
-                            "id": 455,
-                            "name": "nbaplatformservices"
-                        },
-                        "taxonomy": {
-                            "categories": {
-                                "migrated-collection-team-highlights": "Team Highlights",
-                                "migrated-collection-team-originals": "Team Originals"
-                            },
-                            "games": {
-                                "0022500097": "10/24/2025 GSW@POR 0022500097"
-                            },
-                            "teams": {
-                                "1610612744": "Golden State Warriors",
-                                "1610612757": "Portland Trail Blazers"
-                            },
-                            "players": {
-                                "201939": "Stephen Curry"
-                            },
-                            "videoFranchisesName": {},
-                            "videoNumPlays": 0
-                        }
-                    }
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p><strong>DRAYMOND'S QUICK START</strong><br>Draymond Green scored or assisted on the first four buckets of the game for Golden State. He opened the game with a corner three, before finding Stephen Curry for two buckets and finally finding a racing Jimmy Butler III in transition who was able to finish at the rim.</p>",
-                    "text": "DRAYMOND'S QUICK STARTDraymond Green scored or assisted on the first four buckets of the game for Golden State. He opened the game with a corner three, before finding Stephen Curry for two buckets and finally finding a racing Jimmy Butler III in transition who was able to finish at the rim."
-                },
-                {
-                    "attributes": {
-                        "id": "1128821",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    },
-                    "type": "nba/video",
-                    "video": {
-                        "id": 1128821,
-                        "name": "stephen-curry-sinks-it-from-downtown-89",
-                        "title": "Stephen Curry sinks it from downtown",
-                        "excerpt": "Stephen Curry sinks it from downtown, 10/24/2025",
-                        "timestamp": 1761359132000,
-                        "slug": "stephen-curry-sinks-it-from-downtown-89",
-                        "permalink": "https://www.nba.com/warriors/videos/stephen-curry-sinks-it-from-downtown-89",
-                        "assets": {
-                            "320": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/9AEAADC4FF270D12ED63AB9B5A2A01F9BBB27712_320x180.mp4",
-                                "width": 320,
-                                "height": 180,
-                                "duration": 9300,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/c73d122b4294c1ae9e641d7b5a8d46bcf7eed4bcd9356d1fd38898cc7f837b81.jpg"
-                            },
-                            "960": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/9AEAADC4FF270D12ED63AB9B5A2A01F9BBB27712_960x540.mp4",
-                                "width": 960,
-                                "height": 540,
-                                "duration": 9300,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/c73d122b4294c1ae9e641d7b5a8d46bcf7eed4bcd9356d1fd38898cc7f837b81.jpg"
-                            },
-                            "1280": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/9AEAADC4FF270D12ED63AB9B5A2A01F9BBB27712_1280x720.mp4",
-                                "width": 1280,
-                                "height": 720,
-                                "duration": 9300,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/c73d122b4294c1ae9e641d7b5a8d46bcf7eed4bcd9356d1fd38898cc7f837b81.jpg"
-                            },
-                            "cc": {
-                                "srt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/9AEAADC4FF270D12ED63AB9B5A2A01F9BBB27712_eng.srt",
-                                "vtt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/9AEAADC4FF270D12ED63AB9B5A2A01F9BBB27712_eng.vtt"
-                            },
-                            "duration": 9300
-                        },
-                        "videoDuration": "00:00:09",
-                        "videoDurationSeconds": 9,
-                        "videoCreationSource": "wsc-feed",
-                        "videoIviCaid": "",
-                        "author": {
-                            "id": 455,
-                            "name": "nbaplatformservices"
-                        },
-                        "taxonomy": {
-                            "videoFranchisesName": {},
-                            "videoNumPlays": 0
-                        }
-                    }
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p><strong>KUMINGA'S IMPACT</strong><br>Jonathan Kuminga recorded 16 points on just seven field goal attempts, highlighted by his two highlight-reel slams in the first half. First, Kuminga took a pass from rookie Will Richard as he was cutting to the hoop and threw down a dunk over Kris Murray. Just a few minutes later, Kuminga came off a Quinten Post screen and took center Donovan Clingan off the dribble and finished an And-1 slam.</p>",
-                    "text": "KUMINGA'S IMPACTJonathan Kuminga recorded 16 points on just seven field goal attempts, highlighted by his two highlight-reel slams in the first half. First, Kuminga took a pass from rookie Will Richard as he was cutting to the hoop and threw down a dunk over Kris Murray. Just a few minutes later, Kuminga came off a Quinten Post screen and took center Donovan Clingan off the dribble and finished an And-1 slam."
-                },
-                {
-                    "attributes": {
-                        "id": "1128831",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    },
-                    "type": "nba/video",
-                    "video": {
-                        "id": 1128831,
-                        "name": "what-a-dunk-by-jonathan-kuminga-11",
-                        "title": "What a dunk by Jonathan Kuminga!",
-                        "excerpt": "What a dunk by Jonathan Kuminga!, 10/24/2025",
-                        "timestamp": 1761361639000,
-                        "slug": "what-a-dunk-by-jonathan-kuminga-11",
-                        "permalink": "https://www.nba.com/warriors/videos/what-a-dunk-by-jonathan-kuminga-11",
-                        "assets": {
-                            "320": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/1B9A1DCF90EB0C7127517317D9AE7B4A8413BFB6_320x180.mp4",
-                                "width": 320,
-                                "height": 180,
-                                "duration": 8900,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/b0a9c9b1f1d4116fbb1d84099011bee6ad471a697544b8c0572c295c46fcc73f.jpg"
-                            },
-                            "960": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/1B9A1DCF90EB0C7127517317D9AE7B4A8413BFB6_960x540.mp4",
-                                "width": 960,
-                                "height": 540,
-                                "duration": 8900,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/b0a9c9b1f1d4116fbb1d84099011bee6ad471a697544b8c0572c295c46fcc73f.jpg"
-                            },
-                            "1280": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/1B9A1DCF90EB0C7127517317D9AE7B4A8413BFB6_1280x720.mp4",
-                                "width": 1280,
-                                "height": 720,
-                                "duration": 8900,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/b0a9c9b1f1d4116fbb1d84099011bee6ad471a697544b8c0572c295c46fcc73f.jpg"
-                            },
-                            "cc": {
-                                "srt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/1B9A1DCF90EB0C7127517317D9AE7B4A8413BFB6_eng.srt",
-                                "vtt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/24/no-game/1B9A1DCF90EB0C7127517317D9AE7B4A8413BFB6_eng.vtt"
-                            },
-                            "duration": 8900
-                        },
-                        "videoDuration": "00:00:08",
-                        "videoDurationSeconds": 8,
-                        "videoCreationSource": "wsc-feed",
-                        "videoIviCaid": "",
-                        "author": {
-                            "id": 455,
-                            "name": "nbaplatformservices"
-                        },
-                        "taxonomy": {
-                            "videoFranchisesName": {},
-                            "videoNumPlays": 0
-                        }
-                    }
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p><strong>POST ENTERS THE STARTING LINEUP</strong><br>Quinten Post made the start at center for the Dubs with Al Horford out of the lineup.</p>",
-                    "text": "POST ENTERS THE STARTING LINEUPQuinten Post made the start at center for the Dubs with Al Horford out of the lineup."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Post played 16 minutes, finishing the night with five points on 2-for-4 shooting, while adding four rebounds and an assist.</p>",
-                    "text": "Post played 16 minutes, finishing the night with five points on 2-for-4 shooting, while adding four rebounds and an assist."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p><strong>MOODY'S SEASON DEBUT</strong><br>After missing the first two games due to a calf injury, Moses Moody made his season debut on Friday night.</p>",
-                    "text": "MOODY'S SEASON DEBUTAfter missing the first two games due to a calf injury, Moses Moody made his season debut on Friday night."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Moody scored seven points in 21 minutes of action, getting to the free throw line six times.</p>",
-                    "text": "Moody scored seven points in 21 minutes of action, getting to the free throw line six times."
-                },
-                {
-                    "attributes": {
-                        "id": "1128833",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    },
-                    "type": "nba/video",
-                    "video": {
-                        "id": 1128833,
-                        "name": "moses-moody-sinks-it-from-downtown-11",
-                        "title": "Moses Moody sinks it from downtown",
-                        "excerpt": "Moses Moody sinks it from downtown, 10/24/2025",
-                        "timestamp": 1761364926000,
-                        "slug": "moses-moody-sinks-it-from-downtown-11",
-                        "permalink": "https://www.nba.com/warriors/videos/moses-moody-sinks-it-from-downtown-11",
-                        "assets": {
-                            "320": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/75F7A3135F5355417EAF06DC289E825452B95346_320x180.mp4",
-                                "width": 320,
-                                "height": 180,
-                                "duration": 8100,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/0b4c5354377dab859cf7ef84cf09a8003ff171ac5c566396392f41cee63cb860.jpg"
-                            },
-                            "960": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/75F7A3135F5355417EAF06DC289E825452B95346_960x540.mp4",
-                                "width": 960,
-                                "height": 540,
-                                "duration": 8100,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/0b4c5354377dab859cf7ef84cf09a8003ff171ac5c566396392f41cee63cb860.jpg"
-                            },
-                            "1280": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/75F7A3135F5355417EAF06DC289E825452B95346_1280x720.mp4",
-                                "width": 1280,
-                                "height": 720,
-                                "duration": 8100,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/0b4c5354377dab859cf7ef84cf09a8003ff171ac5c566396392f41cee63cb860.jpg"
-                            },
-                            "cc": {
-                                "srt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/75F7A3135F5355417EAF06DC289E825452B95346_eng.srt",
-                                "vtt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/75F7A3135F5355417EAF06DC289E825452B95346_eng.vtt"
-                            },
-                            "duration": 8100
-                        },
-                        "videoDuration": "00:00:08",
-                        "videoDurationSeconds": 8,
-                        "videoCreationSource": "wsc-feed",
-                        "videoIviCaid": "",
-                        "author": {
-                            "id": 455,
-                            "name": "nbaplatformservices"
-                        },
-                        "taxonomy": {
-                            "videoFranchisesName": {},
-                            "videoNumPlays": 0
-                        }
-                    }
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p><strong>UP NEXT</strong> <br>The Warriors return to Chase Center for a back-to-back set, first <a href=\"https://www.ticketmaster.com/event/1C00630BB07865EA?brand=warriors&artistid=805946&wt.mc_id=NBA_TEAM_GSW_WEB_GM2&utm_source=NBA.com&utm_medium=client&utm_campaign=NBA_TEAM_GSW&utm_content=WEB_GM2\">hosting the Memphis Grizzlies on Monday night</a> (7 p.m.; NBCSBA) then the <a href=\"https://www.ticketmaster.com/event/1C00630BB07A65EC?brand=warriors&artistid=805946&wt.mc_id=NBA_TEAM_GSW_WEB_GM3&utm_source=NBA.com&utm_medium=client&utm_campaign=NBA_TEAM_GSW&utm_content=WEB_GM3\">Los Angeles Clippers on Tuesday night</a> (8 p.m.; NBCSBA, NBC, Peacock).</p>",
-                    "text": "UP NEXT The Warriors return to Chase Center for a back-to-back set, first hosting the Memphis Grizzlies on Monday night (7 p.m.; NBCSBA) then the Los Angeles Clippers on Tuesday night (8 p.m.; NBCSBA, NBC, Peacock)."
-                },
-                {
-                    "attributes": {
-                        "id": "1128846",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    },
-                    "type": "nba/video",
-                    "video": {
-                        "id": 1128846,
-                        "name": "postgame-warriors-talk-steve-kerr-10-24-2025",
-                        "title": "Postgame Warriors Talk: Steve Kerr - 10/24/2025",
-                        "excerpt": "Postgame Warriors Talk: Steve Kerr - 10/24/2025",
-                        "timestamp": 1761368714000,
-                        "slug": "postgame-warriors-talk-steve-kerr-10-24-2025",
-                        "permalink": "https://www.nba.com/warriors/videos/postgame-warriors-talk-steve-kerr-10-24-2025",
-                        "assets": {
-                            "320": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/4B4E61102E098F37B551FA177136DA46DAEDFC41_320x180.mp4",
-                                "width": 320,
-                                "height": 180,
-                                "duration": 378066,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/4fac2a0af8a8d9b56527dc61fc442dfaf2571e4146efaedbbc54ff55e7d4c8d9.jpg"
-                            },
-                            "960": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/4B4E61102E098F37B551FA177136DA46DAEDFC41_960x540.mp4",
-                                "width": 960,
-                                "height": 540,
-                                "duration": 378066,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/4fac2a0af8a8d9b56527dc61fc442dfaf2571e4146efaedbbc54ff55e7d4c8d9.jpg"
-                            },
-                            "1280": {
-                                "video": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/4B4E61102E098F37B551FA177136DA46DAEDFC41_1280x720.mp4",
-                                "width": 1280,
-                                "height": 720,
-                                "duration": 378066,
-                                "thumbnail": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/4fac2a0af8a8d9b56527dc61fc442dfaf2571e4146efaedbbc54ff55e7d4c8d9.jpg"
-                            },
-                            "cc": {
-                                "srt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/4B4E61102E098F37B551FA177136DA46DAEDFC41_eng.srt",
-                                "vtt": "https://cdn.nba.com/videos/teams/wsc-feed/media/team/warriors/2025/10/25/no-game/4B4E61102E098F37B551FA177136DA46DAEDFC41_eng.vtt"
-                            },
-                            "duration": 378066
-                        },
-                        "videoDuration": "00:06:18",
-                        "videoDurationSeconds": 378,
-                        "videoCreationSource": "wsc-feed",
-                        "videoIviCaid": "",
-                        "author": {
-                            "id": 455,
-                            "name": "nbaplatformservices"
-                        },
-                        "taxonomy": {
-                            "categories": {
-                                "migrated-collection-team-originals": "Team Originals",
-                                "migrated-collection-warriors-studio": "Warriors Studio"
-                            },
-                            "tags": {
-                                "warriors-talk": "Warriors Talk"
-                            },
-                            "games": {
-                                "0022500097": "10/24/2025 GSW@POR 0022500097"
-                            },
-                            "teams": {
-                                "1610612744": "Golden State Warriors",
-                                "1610612757": "Portland Trail Blazers"
-                            },
-                            "videoFranchisesName": {},
-                            "videoNumPlays": 0
-                        }
-                    }
-                }
-            ],
-            "contentStructured": [
-                {
-                    "type": "paragraph",
-                    "html": "<p>The Golden State Warriors fell 139-119 against the Portland Trail Blazers at Moda Center on Friday night in the second night of a back-to-back.</p>",
-                    "text": "The Golden State Warriors fell 139-119 against the Portland Trail Blazers at Moda Center on Friday night in the second night of a back-to-back.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Stephen Curry scored a team-high 35 points, while Jonathan Kuminga added 16 points and eight rebounds. Eight Blazers scored in double figures in the content, led by Deni Avdija's 26-point performance. The Blazers led by as many as 25 points in the game and snapped a 10-game losing streak against the Warriors.</p>",
-                    "text": "Stephen Curry scored a team-high 35 points, while Jonathan Kuminga added 16 points and eight rebounds. Eight Blazers scored in double figures in the content, led by Deni Avdija's 26-point performance. The Blazers led by as many as 25 points in the game and snapped a 10-game losing streak against the Warriors.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "nba/video",
-                    "html": null,
-                    "text": null,
-                    "attributes": {
-                        "id": "1128844",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p><strong>CURRY'S ENCORE</strong><br>Less than 24 hours removed from a 42-point effort, Stephen Curry once again continued with the hot hand. Curry scored 16 points in the opening frame, hitting four early 3-pointers.</p>",
-                    "text": "CURRY'S ENCORELess than 24 hours removed from a 42-point effort, Stephen Curry once again continued with the hot hand. Curry scored 16 points in the opening frame, hitting four early 3-pointers.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Curry finished the game with 35 points on 12-for-22 shooting, including 7-for-14 from 3-point range.</p>",
-                    "text": "Curry finished the game with 35 points on 12-for-22 shooting, including 7-for-14 from 3-point range.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "nba/video",
-                    "html": null,
-                    "text": null,
-                    "attributes": {
-                        "id": "1128850",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p><strong>DRAYMOND'S QUICK START</strong><br>Draymond Green scored or assisted on the first four buckets of the game for Golden State. He opened the game with a corner three, before finding Stephen Curry for two buckets and finally finding a racing Jimmy Butler III in transition who was able to finish at the rim.</p>",
-                    "text": "DRAYMOND'S QUICK STARTDraymond Green scored or assisted on the first four buckets of the game for Golden State. He opened the game with a corner three, before finding Stephen Curry for two buckets and finally finding a racing Jimmy Butler III in transition who was able to finish at the rim.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "nba/video",
-                    "html": null,
-                    "text": null,
-                    "attributes": {
-                        "id": "1128821",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p><strong>KUMINGA'S IMPACT</strong><br>Jonathan Kuminga recorded 16 points on just seven field goal attempts, highlighted by his two highlight-reel slams in the first half. First, Kuminga took a pass from rookie Will Richard as he was cutting to the hoop and threw down a dunk over Kris Murray. Just a few minutes later, Kuminga came off a Quinten Post screen and took center Donovan Clingan off the dribble and finished an And-1 slam.</p>",
-                    "text": "KUMINGA'S IMPACTJonathan Kuminga recorded 16 points on just seven field goal attempts, highlighted by his two highlight-reel slams in the first half. First, Kuminga took a pass from rookie Will Richard as he was cutting to the hoop and threw down a dunk over Kris Murray. Just a few minutes later, Kuminga came off a Quinten Post screen and took center Donovan Clingan off the dribble and finished an And-1 slam.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "nba/video",
-                    "html": null,
-                    "text": null,
-                    "attributes": {
-                        "id": "1128831",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p><strong>POST ENTERS THE STARTING LINEUP</strong><br>Quinten Post made the start at center for the Dubs with Al Horford out of the lineup.</p>",
-                    "text": "POST ENTERS THE STARTING LINEUPQuinten Post made the start at center for the Dubs with Al Horford out of the lineup.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Post played 16 minutes, finishing the night with five points on 2-for-4 shooting, while adding four rebounds and an assist.</p>",
-                    "text": "Post played 16 minutes, finishing the night with five points on 2-for-4 shooting, while adding four rebounds and an assist.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p><strong>MOODY'S SEASON DEBUT</strong><br>After missing the first two games due to a calf injury, Moses Moody made his season debut on Friday night.</p>",
-                    "text": "MOODY'S SEASON DEBUTAfter missing the first two games due to a calf injury, Moses Moody made his season debut on Friday night.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Moody scored seven points in 21 minutes of action, getting to the free throw line six times.</p>",
-                    "text": "Moody scored seven points in 21 minutes of action, getting to the free throw line six times.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "nba/video",
-                    "html": null,
-                    "text": null,
-                    "attributes": {
-                        "id": "1128833",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p><strong>UP NEXT</strong> <br>The Warriors return to Chase Center for a back-to-back set, first <a href=\"https://www.ticketmaster.com/event/1C00630BB07865EA?brand=warriors&artistid=805946&wt.mc_id=NBA_TEAM_GSW_WEB_GM2&utm_source=NBA.com&utm_medium=client&utm_campaign=NBA_TEAM_GSW&utm_content=WEB_GM2\">hosting the Memphis Grizzlies on Monday night</a> (7 p.m.; NBCSBA) then the <a href=\"https://www.ticketmaster.com/event/1C00630BB07A65EC?brand=warriors&artistid=805946&wt.mc_id=NBA_TEAM_GSW_WEB_GM3&utm_source=NBA.com&utm_medium=client&utm_campaign=NBA_TEAM_GSW&utm_content=WEB_GM3\">Los Angeles Clippers on Tuesday night</a> (8 p.m.; NBCSBA, NBC, Peacock).</p>",
-                    "text": "UP NEXT The Warriors return to Chase Center for a back-to-back set, first hosting the Memphis Grizzlies on Monday night (7 p.m.; NBCSBA) then the Los Angeles Clippers on Tuesday night (8 p.m.; NBCSBA, NBC, Peacock).",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "nba/video",
-                    "html": null,
-                    "text": null,
-                    "attributes": {
-                        "id": "1128846",
-                        "caption": "",
-                        "anchor": "",
-                        "animation": {
-                            "name": "none"
-                        }
-                    }
-                }
-            ],
-            "seo": {
-                "focusKeyword": "",
-                "canonicalUrl": "https://warriors.com/news/gameday-recap-20251024",
-                "estimatedReadingTimeMinutes": "",
-                "keywords": null,
-                "general": {
-                    "title": null,
-                    "description": null
-                },
-                "opengraph": {
-                    "image": {
-                        "altText": ""
-                    }
-                },
-                "twitter": {
-                    "image": {
-                        "altText": ""
-                    },
-                    "title": null,
-                    "description": null
-                },
-                "schema": {
-                    "articleType": "",
-                    "pageType": ""
-                },
-                "facebook": {
-                    "title": null,
-                    "description": null,
-                    "image": null
-                },
-                "noindex": false
-            },
-            "excerpt": "The Golden State Warriors fell 139-119 against the Portland Trail Blazers at Moda Center on Friday night in the second night of a back-to-back.",
-            "permalink": "https://www.nba.com/warriors/news/gameday-recap-20251024",
-            "slug": "gameday-recap-20251024",
-            "category": "gameday,news",
-            "modified": "2025-10-25T06:26:01Z",
-            "date": "2025-10-25T04:35:00Z",
-            "timestamp": 1761366900000,
-            "featuredImage": {
-                "type": "image",
-                "html": null,
-                "text": null,
-                "attributes": {
-                    "id": "1128839",
-                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/20251024-Jonathan-Kuminga-1280.png",
-                    "alt": "",
-                    "caption": "",
-                    "caption_alignment": "",
-                    "caption_color": "",
-                    "copyright": "",
-                    "credit": "Photo by Soobum Im/NBAE via Getty Images",
-                    "link": "",
-                    "align": "",
-                    "size": {
-                        "width": 1280,
-                        "height": 720
-                    },
-                    "anchor": "",
-                    "focal_point": [],
-                    "direction": "ltr",
-                    "animation": {
-                        "name": "none"
-                    }
-                },
-                "id": "1128839",
-                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/20251024-Jonathan-Kuminga-1280.png",
-                "alt": "",
-                "caption": "",
-                "caption_alignment": "",
-                "caption_color": "",
-                "copyright": "",
-                "credit": "Photo by Soobum Im/NBAE via Getty Images",
-                "link": "",
-                "align": "",
-                "size": {
-                    "width": 1280,
-                    "height": 720
-                },
-                "anchor": "",
-                "focal_point": [],
-                "direction": "ltr",
-                "animation": {
-                    "name": "none"
-                }
-            },
-            "title": "Warriors Suffer First Defeat of Season in Portland",
-            "taxonomy": {
-                "tags": null,
-                "categories": {
-                    "gameday": "gameday",
-                    "news": "news"
-                },
-                "games": {
-                    "0022500097": "10/24/2025 GSW@POR 0022500097"
-                },
-                "teams": {
-                    "1610612744": "Golden State Warriors",
-                    "1610612757": "Portland Trail Blazers"
-                }
-            },
-            "status": "publish",
-            "name": "gameday-recap-20251024",
-            "type": "article",
-            "id": 1128819,
-            "language": "en",
-            "attributes": {
-                "comments": {
-                    "enabled": false
-                },
-                "hideAuthor": true,
-                "hideTimestamp": false,
-                "relatedContent": {
-                    "source": "manual",
-                    "sourceId": null,
-                    "content": []
-                },
-                "subhead": "",
-                "featuredMediaContentGrid": null,
-                "hideContent": false
-            },
-            "categoryPrimary": {
-                "name": "",
-                "slug": ""
-            },
-            "authors": [
-                {
-                    "id": 961,
-                    "slug": "golden-state-warriors",
-                    "name": "Golden State Warriors",
-                    "firstName": "Tyler",
-                    "lastName": "Savitsky",
-                    "organization": "",
-                    "isNBAStaff": false,
-                    "authorPhoto": "",
-                    "socialHandle": "",
-                    "socialLink": "",
-                    "wpseoTitle": "",
-                    "wpseoMetadesc": "",
-                    "description": "Established 1946 | 7-time NBA Champions",
-                    "userUrl": "https://www.nba.com/warriors",
-                    "featuredAuthor": false
-                }
-            ],
-            "flexModules": [
-                {
-                    "attributes": {
-                        "id": "0022500097"
-                    },
-                    "type": "nba/game-card",
-                    "html": null,
-                    "text": null,
-                    "data": {
-                        "type": "game",
-                        "gid": "0022500097",
-                        "seasonYear": "2025-26",
-                        "gameStatusText": "Final",
-                        "gameSubtype": "",
-                        "ifNecessary": "false",
-                        "seriesGameNumber": "",
-                        "gameLabel": "",
-                        "gameSubLabel": "",
-                        "seriesText": "",
-                        "easternTime": "2025-10-24T22:00:00Z",
-                        "visitorTime": "2025-10-24T19:00:00Z",
-                        "homeTime": "2025-10-24T19:00:00Z",
-                        "utcDateOnly": "2025-10-24T04:00:00Z",
-                        "utcTimeOnly": "1900-01-01T02:00:00Z",
-                        "utcTime": "2025-10-25T02:00:00Z",
-                        "arenaName": "Moda Center",
-                        "arenaState": "OR",
-                        "arenaCity": "Portland",
-                        "providers": [
-                            {
-                                "broadcasterMedia": "tv",
-                                "broadcasterDisplay": "KUNP",
-                                "broadcasterAbbreviation": "KUNP",
-                                "broadcasterId": 1001196,
-                                "broadcasterTeamId": 1610612757,
-                                "broadcasterRanking": null,
-                                "broadcasterDescription": "",
-                                "broadcasterScope": "home",
-                                "broadcasterVideoLink": "",
-                                "localizationRegion": "",
-                                "tapeDelayComments": ""
-                            },
-                            {
-                                "broadcasterMedia": "radio",
-                                "broadcasterDisplay": "Rip City Radio 620",
-                                "broadcasterAbbreviation": "KPOJ",
-                                "broadcasterId": 1472,
-                                "broadcasterTeamId": 1610612757,
-                                "broadcasterRanking": null,
-                                "broadcasterDescription": "",
-                                "broadcasterScope": "home",
-                                "broadcasterVideoLink": "",
-                                "localizationRegion": "",
-                                "tapeDelayComments": ""
-                            },
-                            {
-                                "broadcasterMedia": "ott",
-                                "broadcasterDisplay": "BlazerVision",
-                                "broadcasterAbbreviation": "DTC-POR",
-                                "broadcasterId": 1001128,
-                                "broadcasterTeamId": 1610612757,
-                                "broadcasterRanking": null,
-                                "broadcasterDescription": "",
-                                "broadcasterScope": "home",
-                                "broadcasterVideoLink": "",
-                                "localizationRegion": "",
-                                "tapeDelayComments": ""
-                            },
-                            {
-                                "broadcasterMedia": "tv",
-                                "broadcasterDisplay": "NBCSBA",
-                                "broadcasterAbbreviation": "NBCSBA",
-                                "broadcasterId": 1097,
-                                "broadcasterTeamId": 1610612744,
-                                "broadcasterRanking": null,
-                                "broadcasterDescription": "",
-                                "broadcasterScope": "away",
-                                "broadcasterVideoLink": "https://pck.tv/48wYrUb",
-                                "localizationRegion": "",
-                                "tapeDelayComments": ""
-                            },
-                            {
-                                "broadcasterMedia": "radio",
-                                "broadcasterDisplay": "95.7 The Game",
-                                "broadcasterAbbreviation": "KGMZ-FM",
-                                "broadcasterId": 1597,
-                                "broadcasterTeamId": 1610612744,
-                                "broadcasterRanking": null,
-                                "broadcasterDescription": "",
-                                "broadcasterScope": "away",
-                                "broadcasterVideoLink": "",
-                                "localizationRegion": "",
-                                "tapeDelayComments": ""
-                            }
-                        ],
-                        "state": 3,
-                        "visitor": {
-                            "tid": 1610612744,
-                            "ta": "GSW",
-                            "tn": "Warriors",
-                            "tc": "Golden State",
-                            "ts": "warriors",
-                            "wins": 2,
-                            "losses": 1,
-                            "score": 119,
-                            "uniform": {
-                                "name": "Icon Edition",
-                                "backgroundColor": "#1a428a",
-                                "textColor": "#ffffff",
-                                "lockervisionUrl": "https://lockervision.nba.com/game-outfit/golden-state-warriors?gameid=0022500097",
-                                "editionImgUrl": "https://appimages.nba.com/p/tr:n-nf/2025/uniform/Golden State Warriors/GSW_IE_2D.png",
-                                "courtType": null,
-                                "courtImageUrl": null,
-                                "editionImgUrl3D": "https://appimages.nba.com/p/tr:n-slnfre/2025/uniform/Golden State Warriors/GSW_IE.jpg"
-                            },
-                            "leaders": {
-                                "points": {
-                                    "playerId": 201939,
-                                    "firstName": "Stephen",
-                                    "lastName": "Curry",
-                                    "nameI": "S. Curry",
-                                    "stat": 35
-                                },
-                                "rebounds": {
-                                    "playerId": 1630228,
-                                    "firstName": "Jonathan",
-                                    "lastName": "Kuminga",
-                                    "nameI": "J. Kuminga",
-                                    "stat": 8
-                                },
-                                "assists": {
-                                    "playerId": 203110,
-                                    "firstName": "Draymond",
-                                    "lastName": "Green",
-                                    "nameI": "D. Green",
-                                    "stat": 5
-                                }
-                            }
-                        },
-                        "home": {
-                            "tid": 1610612757,
-                            "ta": "POR",
-                            "tn": "Trail Blazers",
-                            "tc": "Portland",
-                            "ts": "blazers",
-                            "wins": 1,
-                            "losses": 1,
-                            "score": 139,
-                            "uniform": {
-                                "name": "Association Edition",
-                                "backgroundColor": "#ffffff",
-                                "textColor": "#000000",
-                                "lockervisionUrl": "https://lockervision.nba.com/game-outfit/portland-trail-blazers?gameid=0022500097",
-                                "editionImgUrl": "https://appimages.nba.com/p/tr:n-nf/2025/uniform/Portland Trail Blazers/POR_AE_2D.png",
-                                "courtType": "Core",
-                                "courtImageUrl": "https://appimages.nba.com/p/tr:n-slnf/2025/Courts/Portland Trail Blazers/POR_CT_1.jpg",
-                                "editionImgUrl3D": "https://appimages.nba.com/p/tr:n-slnfre/2025/uniform/Portland Trail Blazers/POR_AE.jpg"
-                            },
-                            "leaders": {
-                                "points": {
-                                    "playerId": 1630166,
-                                    "firstName": "Deni",
-                                    "lastName": "Avdija",
-                                    "nameI": "D. Avdija",
-                                    "stat": 26
-                                },
-                                "rebounds": {
-                                    "playerId": 1642270,
-                                    "firstName": "Donovan",
-                                    "lastName": "Clingan",
-                                    "nameI": "D. Clingan",
-                                    "stat": 8
-                                },
-                                "assists": {
-                                    "playerId": 201950,
-                                    "firstName": "Jrue",
-                                    "lastName": "Holiday",
-                                    "nameI": "J. Holiday",
-                                    "stat": 11
-                                }
-                            }
-                        },
-                        "title": "Golden State Warriors at Portland Trail Blazers",
-                        "catchUpPlaylistUrl": "https://videos.nba.com/nba/game/media/2025/0022500097/playlist-catchup-plays.json",
-                        "promotion": {
-                            "media": null
-                        },
-                        "ctas": [],
-                        "tickets": {
-                            "schedule": "",
-                            "singleTickets": "",
-                            "singleTicketsSecondary": "",
-                            "gameBlock": "",
-                            "courtsideBox": "",
-                            "calendarUrl": ""
-                        },
-                        "courtsideBox": {
-                            "preGameSettings": {
-                                "expandedByDefault": "no"
-                            },
-                            "liveGameSettings": {
-                                "expandedByDefault": "no"
-                            },
-                            "postGameSettings": {
-                                "expandedByDefault": "no",
-                                "backgroundImage": {
-                                    "type": "image",
-                                    "html": null,
-                                    "text": null,
-                                    "attributes": {
-                                        "id": "1128841",
-                                        "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/20251024-Jonathan-Kuminga-1520.png",
-                                        "alt": "",
-                                        "caption": "",
-                                        "caption_alignment": "",
-                                        "caption_color": "",
-                                        "copyright": "",
-                                        "credit": "",
-                                        "link": "",
-                                        "align": "",
-                                        "size": {
-                                            "width": 1520,
-                                            "height": 557
-                                        },
-                                        "anchor": "",
-                                        "focal_point": [],
-                                        "direction": "ltr",
-                                        "animation": {
-                                            "name": "none"
-                                        }
-                                    }
-                                },
-                                "article": "1128819"
-                            },
-                            "courtsideSponsors": []
-                        },
-                        "gameTickets": "",
-                        "contentCarousel": [],
-                        "contentCarouselOrder": [],
-                        "attributes": {
-                            "watchUrls": null
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "author": {
-                "id": 961,
-                "slug": "golden-state-warriors",
-                "name": "Golden State Warriors",
-                "firstName": "Tyler",
-                "lastName": "Savitsky",
-                "organization": "",
-                "isNBAStaff": false,
-                "authorPhoto": "",
-                "socialHandle": "",
-                "socialLink": "",
-                "wpseoTitle": "",
-                "wpseoMetadesc": "",
-                "description": "Established 1946 | 7-time NBA Champions",
-                "userUrl": "https://www.nba.com/warriors",
-                "featuredAuthor": false
-            },
-            "contentExpanded": [
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station. The partnership began prior to the 2016-17 season and has included four NBA Finals appearances and three NBA titles. The 2025-26 campaign marks Golden State’s 10th season on 95.7 The Game.</p>",
-                    "text": "The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station. The partnership began prior to the 2016-17 season and has included four NBA Finals appearances and three NBA titles. The 2025-26 campaign marks Golden State’s 10th season on 95.7 The Game."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Tim Roye, who is in his 31st season as the radio voice of the Warriors, once again handles play-by-play duties, with Tom Tolbert serving as analyst for home games. Programming on 95.7 The Game will include 30-minute pregame and postgame shows, as well as expanded daily Warriors coverage featuring both Warriors and NBA-themed shows throughout the season.</p>",
-                    "text": "Tim Roye, who is in his 31st season as the radio voice of the Warriors, once again handles play-by-play duties, with Tom Tolbert serving as analyst for home games. Programming on 95.7 The Game will include 30-minute pregame and postgame shows, as well as expanded daily Warriors coverage featuring both Warriors and NBA-themed shows throughout the season."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p><em>Warriors Roundtable</em>&nbsp;will air weekly on 95.7 The Game at 6 p.m., hosted by Santa Cruz Warriors and Golden State Valkyries play-by-play announcer Kevin Danna and former Warriors Head Coach and General Manager Garry St. Jean. Additionally, Head Coach Steve Kerr will make weekly appearances on The Game.</p>",
-                    "text": "Warriors Roundtable&nbsp;will air weekly on 95.7 The Game at 6 p.m., hosted by Santa Cruz Warriors and Golden State Valkyries play-by-play announcer Kevin Danna and former Warriors Head Coach and General Manager Garry St. Jean. Additionally, Head Coach Steve Kerr will make weekly appearances on The Game."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Listeners can tune in to 95.7 The Game (KGMZ-FM) on-air and nationwide on the&nbsp;<a target=\"_blank\" href=\"https://www.audacy.com/about?_branch_match_id=728006126753568822&utm_source=central&utm_campaign=brand-awareness&utm_medium=web#app\">Audacy app</a>&nbsp;and&nbsp;<a target=\"_blank\" href=\"https://www.audacy.com/stations/957thegame\">website</a>. Fans can also connect with the station on social media via&nbsp;<a target=\"_blank\" href=\"https://x.com/957thegame\">X</a>,&nbsp;<a target=\"_blank\" href=\"https://www.facebook.com/957thegame\">Facebook</a>, and&nbsp;<a target=\"_blank\" href=\"https://www.instagram.com/957thegame\">Instagram</a>.</p>",
-                    "text": "Listeners can tune in to 95.7 The Game (KGMZ-FM) on-air and nationwide on the&nbsp;Audacy app&nbsp;and&nbsp;website. Fans can also connect with the station on social media via&nbsp;X,&nbsp;Facebook, and&nbsp;Instagram."
-                }
-            ],
-            "contentStructured": [
-                {
-                    "type": "paragraph",
-                    "html": "<p>The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station. The partnership began prior to the 2016-17 season and has included four NBA Finals appearances and three NBA titles. The 2025-26 campaign marks Golden State’s 10th season on 95.7 The Game.</p>",
-                    "text": "The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station. The partnership began prior to the 2016-17 season and has included four NBA Finals appearances and three NBA titles. The 2025-26 campaign marks Golden State’s 10th season on 95.7 The Game.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Tim Roye, who is in his 31st season as the radio voice of the Warriors, once again handles play-by-play duties, with Tom Tolbert serving as analyst for home games. Programming on 95.7 The Game will include 30-minute pregame and postgame shows, as well as expanded daily Warriors coverage featuring both Warriors and NBA-themed shows throughout the season.</p>",
-                    "text": "Tim Roye, who is in his 31st season as the radio voice of the Warriors, once again handles play-by-play duties, with Tom Tolbert serving as analyst for home games. Programming on 95.7 The Game will include 30-minute pregame and postgame shows, as well as expanded daily Warriors coverage featuring both Warriors and NBA-themed shows throughout the season.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p><em>Warriors Roundtable</em>&nbsp;will air weekly on 95.7 The Game at 6 p.m., hosted by Santa Cruz Warriors and Golden State Valkyries play-by-play announcer Kevin Danna and former Warriors Head Coach and General Manager Garry St. Jean. Additionally, Head Coach Steve Kerr will make weekly appearances on The Game.</p>",
-                    "text": "Warriors Roundtable&nbsp;will air weekly on 95.7 The Game at 6 p.m., hosted by Santa Cruz Warriors and Golden State Valkyries play-by-play announcer Kevin Danna and former Warriors Head Coach and General Manager Garry St. Jean. Additionally, Head Coach Steve Kerr will make weekly appearances on The Game.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Listeners can tune in to 95.7 The Game (KGMZ-FM) on-air and nationwide on the&nbsp;<a target=\"_blank\" href=\"https://www.audacy.com/about?_branch_match_id=728006126753568822&utm_source=central&utm_campaign=brand-awareness&utm_medium=web#app\">Audacy app</a>&nbsp;and&nbsp;<a target=\"_blank\" href=\"https://www.audacy.com/stations/957thegame\">website</a>. Fans can also connect with the station on social media via&nbsp;<a target=\"_blank\" href=\"https://x.com/957thegame\">X</a>,&nbsp;<a target=\"_blank\" href=\"https://www.facebook.com/957thegame\">Facebook</a>, and&nbsp;<a target=\"_blank\" href=\"https://www.instagram.com/957thegame\">Instagram</a>.</p>",
-                    "text": "Listeners can tune in to 95.7 The Game (KGMZ-FM) on-air and nationwide on the&nbsp;Audacy app&nbsp;and&nbsp;website. Fans can also connect with the station on social media via&nbsp;X,&nbsp;Facebook, and&nbsp;Instagram.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                }
-            ],
-            "seo": {
-                "focusKeyword": "",
-                "canonicalUrl": "https://warriors.com/news/warriors-audacys-95-7-the-game-announce-multi-year-contract-extension-20251023",
-                "estimatedReadingTimeMinutes": "",
-                "keywords": null,
-                "general": {
-                    "title": "Warriors & Audacy’s 95.7 The Game Announce Multi-Year Contract Extension",
-                    "description": "The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station."
-                },
-                "opengraph": {
-                    "image": {
-                        "altText": ""
-                    }
-                },
-                "twitter": {
-                    "image": {
-                        "altText": ""
-                    },
-                    "title": "Warriors & Audacy’s 95.7 The Game Announce Multi-Year Contract Extension",
-                    "description": "The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station."
-                },
-                "schema": {
-                    "articleType": "",
-                    "pageType": ""
-                },
-                "facebook": {
-                    "title": "Warriors & Audacy’s 95.7 The Game Announce Multi-Year Contract Extension",
-                    "description": "The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station.",
-                    "image": null
-                },
-                "noindex": false
-            },
-            "excerpt": "The Golden State Warriors have signed a multi-year contract extension with their flagship radio station, 95.7 The Game (KGMZ-FM), an Audacy station.",
-            "permalink": "https://www.nba.com/warriors/news/warriors-audacys-95-7-the-game-announce-multi-year-contract-extension-20251023",
-            "slug": "warriors-audacys-95-7-the-game-announce-multi-year-contract-extension-20251023",
-            "category": "news",
-            "modified": "2025-10-23T23:01:20Z",
-            "date": "2025-10-23T23:00:00Z",
-            "timestamp": 1761260400000,
-            "featuredImage": {
-                "type": "image",
-                "html": null,
-                "text": null,
-                "attributes": {
-                    "id": "1128756",
-                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/Basketball-1280x720-1.png",
-                    "alt": "",
-                    "caption": "",
-                    "caption_alignment": "",
-                    "caption_color": "",
-                    "copyright": "",
-                    "credit": "Photo by Nic Antaya/Getty Images",
-                    "link": "",
-                    "align": "",
-                    "size": {
-                        "width": 1280,
-                        "height": 720
-                    },
-                    "anchor": "",
-                    "focal_point": [],
-                    "direction": "ltr",
-                    "animation": {
-                        "name": "none"
-                    }
-                },
-                "id": "1128756",
-                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/Basketball-1280x720-1.png",
-                "alt": "",
-                "caption": "",
-                "caption_alignment": "",
-                "caption_color": "",
-                "copyright": "",
-                "credit": "Photo by Nic Antaya/Getty Images",
-                "link": "",
-                "align": "",
-                "size": {
-                    "width": 1280,
-                    "height": 720
-                },
-                "anchor": "",
-                "focal_point": [],
-                "direction": "ltr",
-                "animation": {
-                    "name": "none"
-                }
-            },
-            "title": "Warriors & Audacy’s 95.7 The Game Announce Multi-Year Contract Extension",
-            "taxonomy": {
-                "tags": null,
-                "categories": {
-                    "news": "news"
-                },
-                "teams": {
-                    "1610612744": "Golden State Warriors"
-                }
-            },
-            "status": "publish",
-            "name": "warriors-audacys-95-7-the-game-announce-multi-year-contract-extension-20251023",
-            "type": "article",
-            "id": 1128755,
-            "language": "en",
-            "attributes": {
-                "comments": {
-                    "enabled": false
-                },
-                "hideAuthor": true,
-                "hideTimestamp": false,
-                "relatedContent": {
-                    "source": "manual",
-                    "sourceId": null,
-                    "content": []
-                },
-                "subhead": "",
-                "featuredMediaContentGrid": null,
-                "hideContent": false
-            },
-            "categoryPrimary": {
-                "name": "",
-                "slug": ""
-            },
-            "flexModules": [],
-            "authors": [
-                {
-                    "id": 961,
-                    "slug": "golden-state-warriors",
-                    "name": "Golden State Warriors",
-                    "firstName": "Tyler",
-                    "lastName": "Savitsky",
-                    "organization": "",
-                    "isNBAStaff": false,
-                    "authorPhoto": "",
-                    "socialHandle": "",
-                    "socialLink": "",
-                    "wpseoTitle": "",
-                    "wpseoMetadesc": "",
-                    "description": "Established 1946 | 7-time NBA Champions",
-                    "userUrl": "https://www.nba.com/warriors",
-                    "featuredAuthor": false
-                }
-            ]
-        },
-        {
-            "author": {
-                "id": 1230,
-                "slug": "kalyb-champion",
-                "name": "Kalyb Champion",
-                "firstName": "Kalyb",
-                "lastName": "Champion",
-                "organization": "",
-                "isNBAStaff": false,
-                "authorPhoto": "",
-                "socialHandle": "",
-                "socialLink": "",
-                "wpseoTitle": "",
-                "wpseoMetadesc": "",
-                "description": "",
-                "userUrl": "",
-                "featuredAuthor": false
-            },
-            "contentExpanded": [
-                {
-                    "attributes": {
-                        "className": "caption-position-undefined",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p class=\"caption-position-undefined\">The Golden State Warriors have announced their 2025-26 Opening Night roster prior to Tuesday’s season opener at the Los Angeles Lakers.&nbsp;</p>",
-                    "text": "The Golden State Warriors have announced their 2025-26 Opening Night roster prior to Tuesday’s season opener at the Los Angeles Lakers.&nbsp;"
-                },
-                {
-                    "attributes": {
-                        "className": "caption-position-undefined",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p class=\"caption-position-undefined\">The Warriors currently have 17 players under contract, including three two-way players. Below is the Warriors Opening Night roster:</p>",
-                    "text": "The Warriors currently have 17 players under contract, including three two-way players. Below is the Warriors Opening Night roster:"
-                },
-                {
-                    "attributes": {
-                        "align": "center",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p class=\"has-text-align-center\"><strong>GOLDEN STATE WARRIORS 2025-26 OPENING NIGHT ROSTER</strong></p>",
-                    "text": "GOLDEN STATE WARRIORS 2025-26 OPENING NIGHT ROSTER"
-                },
-                {
-                    "attributes": {
-                        "anchor": ""
-                    },
-                    "type": "table",
-                    "html": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td class=\"has-text-align-left\"><strong>NO</strong><strong></strong></td><td><strong>PLAYER</strong><strong></strong></td><td><strong>POS</strong><strong></strong></td><td><strong>HT</strong><strong></strong></td><td><strong>WT</strong><strong></strong></td><td><strong>BORN</strong><strong></strong></td><td><strong>PRIOR TO NBA/FROM</strong><strong></strong></td><td><strong>YRS</strong><strong></strong></td></tr><tr><td class=\"has-text-align-left\">10</td><td>Jimmy Butler III</td><td>F</td><td>6-7</td><td>230</td><td>9/14/89</td><td>Marquette/USA</td><td>14</td></tr><tr><td class=\"has-text-align-left\">30</td><td>Stephen Curry</td><td>G</td><td>6-3</td><td>200</td><td>3/14/88</td><td>Davidson/USA</td><td>16</td></tr><tr><td class=\"has-text-align-left\">23</td><td>Draymond Green</td><td>F-C</td><td>6-6</td><td>235</td><td>3/4/90</td><td>Michigan State/USA</td><td>13</td></tr><tr><td class=\"has-text-align-left\">7</td><td>Buddy Hield</td><td>G</td><td>6-4</td><td>215</td><td>12/17/92</td><td>Oklahoma/Bahamas</td><td>9</td></tr><tr><td class=\"has-text-align-left\">20</td><td>Al Horford</td><td>C</td><td>6-9</td><td>258</td><td>6/3/86</td><td>Florida/Dominican Republic</td><td>18</td></tr><tr><td class=\"has-text-align-left\">32</td><td>Trayce Jackson-Davis</td><td>C-F</td><td>6-9</td><td>248</td><td>2/22/00</td><td>Indiana/USA</td><td>2</td></tr><tr><td class=\"has-text-align-left\">1</td><td>Jonathan Kuminga</td><td>F</td><td>6-7</td><td>225</td><td>10/6/02</td><td>G League Ignite/Dem. Rep. of Congo</td><td>4</td></tr><tr><td class=\"has-text-align-left\">8</td><td>De’Anthony Melton</td><td>G</td><td>6-2</td><td>201</td><td>5/28/98</td><td>USC/USA</td><td>7</td></tr><tr><td class=\"has-text-align-left\">4</td><td>Moses Moody</td><td>G</td><td>6-5</td><td>215</td><td>5/31/02</td><td>Arkansas/USA</td><td>4</td></tr><tr><td class=\"has-text-align-left\">0</td><td>Gary Payton II</td><td>G</td><td>6-2</td><td>195</td><td>12/1/92</td><td>Oregon State/USA</td><td>9</td></tr><tr><td class=\"has-text-align-left\">2</td><td>Brandin Podziemski</td><td>G</td><td>6-4</td><td>205</td><td>2/25/03</td><td>Santa Clara/USA</td><td>2</td></tr><tr><td class=\"has-text-align-left\">21</td><td>Quinten Post</td><td>C</td><td>7-0</td><td>250</td><td>3/21/00</td><td>Boston College/Netherlands</td><td>1</td></tr><tr><td class=\"has-text-align-left\">3</td><td>Will Richard</td><td>G</td><td>6-3</td><td>210</td><td>12/24/02</td><td>Florida/USA</td><td>R</td></tr><tr><td class=\"has-text-align-left\">44</td><td>Jackson Rowe (2W)</td><td>F</td><td>6-7</td><td>221</td><td>1/4/97</td><td>Cal State Fullerton/USA</td><td>1</td></tr><tr><td class=\"has-text-align-left\">15</td><td>Gui Santos</td><td>F</td><td>6-7</td><td>218</td><td>6/22/02</td><td>Minas (Brazil)/Brazil</td><td>2</td></tr><tr><td class=\"has-text-align-left\">61</td><td>Pat Spencer (2W)</td><td>G</td><td>6-2</td><td>202</td><td>7/4/96</td><td>Northwestern/USA</td><td>2</td></tr><tr><td class=\"has-text-align-left\">22</td><td>Alex Toohey (2W)</td><td>F</td><td>6-8</td><td>224</td><td>5/5/04</td><td>Sydney Kings (NBL)/Australia</td><td>R</td></tr></tbody></table></figure>",
-                    "text": null
-                },
-                {
-                    "attributes": {
-                        "align": "center",
-                        "className": "caption-position-undefined",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p class=\"has-text-align-center caption-position-undefined\"></p>",
-                    "text": ""
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>The Warriors will hold their Home Opener, presented by Chase Freedom, on <a href=\"https://www.ticketmaster.com/event/1C00630BB07365E2?brand=warriors&artistid=805946&wt.mc_id=NBA_TEAM_GSW_WEB_GM1&utm_source=NBA.com&utm_medium=client&utm_campaign=NBA_TEAM_GSW&utm_content=WEB_GM1\">Thursday, Oct. 23, against the Denver Nuggets </a>(7:00 p.m.). </p>",
-                    "text": "The Warriors will hold their Home Opener, presented by Chase Freedom, on Thursday, Oct. 23, against the Denver Nuggets (7:00 p.m.)."
-                }
-            ],
-            "contentStructured": [
-                {
-                    "type": "paragraph",
-                    "html": "<p class=\"caption-position-undefined\">The Golden State Warriors have announced their 2025-26 Opening Night roster prior to Tuesday’s season opener at the Los Angeles Lakers.&nbsp;</p>",
-                    "text": "The Golden State Warriors have announced their 2025-26 Opening Night roster prior to Tuesday’s season opener at the Los Angeles Lakers.&nbsp;",
-                    "attributes": {
-                        "className": "caption-position-undefined",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p class=\"caption-position-undefined\">The Warriors currently have 17 players under contract, including three two-way players. Below is the Warriors Opening Night roster:</p>",
-                    "text": "The Warriors currently have 17 players under contract, including three two-way players. Below is the Warriors Opening Night roster:",
-                    "attributes": {
-                        "className": "caption-position-undefined",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p class=\"has-text-align-center\"><strong>GOLDEN STATE WARRIORS 2025-26 OPENING NIGHT ROSTER</strong></p>",
-                    "text": "GOLDEN STATE WARRIORS 2025-26 OPENING NIGHT ROSTER",
-                    "attributes": {
-                        "align": "center",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "table",
-                    "html": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td class=\"has-text-align-left\"><strong>NO</strong><strong></strong></td><td><strong>PLAYER</strong><strong></strong></td><td><strong>POS</strong><strong></strong></td><td><strong>HT</strong><strong></strong></td><td><strong>WT</strong><strong></strong></td><td><strong>BORN</strong><strong></strong></td><td><strong>PRIOR TO NBA/FROM</strong><strong></strong></td><td><strong>YRS</strong><strong></strong></td></tr><tr><td class=\"has-text-align-left\">10</td><td>Jimmy Butler III</td><td>F</td><td>6-7</td><td>230</td><td>9/14/89</td><td>Marquette/USA</td><td>14</td></tr><tr><td class=\"has-text-align-left\">30</td><td>Stephen Curry</td><td>G</td><td>6-3</td><td>200</td><td>3/14/88</td><td>Davidson/USA</td><td>16</td></tr><tr><td class=\"has-text-align-left\">23</td><td>Draymond Green</td><td>F-C</td><td>6-6</td><td>235</td><td>3/4/90</td><td>Michigan State/USA</td><td>13</td></tr><tr><td class=\"has-text-align-left\">7</td><td>Buddy Hield</td><td>G</td><td>6-4</td><td>215</td><td>12/17/92</td><td>Oklahoma/Bahamas</td><td>9</td></tr><tr><td class=\"has-text-align-left\">20</td><td>Al Horford</td><td>C</td><td>6-9</td><td>258</td><td>6/3/86</td><td>Florida/Dominican Republic</td><td>18</td></tr><tr><td class=\"has-text-align-left\">32</td><td>Trayce Jackson-Davis</td><td>C-F</td><td>6-9</td><td>248</td><td>2/22/00</td><td>Indiana/USA</td><td>2</td></tr><tr><td class=\"has-text-align-left\">1</td><td>Jonathan Kuminga</td><td>F</td><td>6-7</td><td>225</td><td>10/6/02</td><td>G League Ignite/Dem. Rep. of Congo</td><td>4</td></tr><tr><td class=\"has-text-align-left\">8</td><td>De’Anthony Melton</td><td>G</td><td>6-2</td><td>201</td><td>5/28/98</td><td>USC/USA</td><td>7</td></tr><tr><td class=\"has-text-align-left\">4</td><td>Moses Moody</td><td>G</td><td>6-5</td><td>215</td><td>5/31/02</td><td>Arkansas/USA</td><td>4</td></tr><tr><td class=\"has-text-align-left\">0</td><td>Gary Payton II</td><td>G</td><td>6-2</td><td>195</td><td>12/1/92</td><td>Oregon State/USA</td><td>9</td></tr><tr><td class=\"has-text-align-left\">2</td><td>Brandin Podziemski</td><td>G</td><td>6-4</td><td>205</td><td>2/25/03</td><td>Santa Clara/USA</td><td>2</td></tr><tr><td class=\"has-text-align-left\">21</td><td>Quinten Post</td><td>C</td><td>7-0</td><td>250</td><td>3/21/00</td><td>Boston College/Netherlands</td><td>1</td></tr><tr><td class=\"has-text-align-left\">3</td><td>Will Richard</td><td>G</td><td>6-3</td><td>210</td><td>12/24/02</td><td>Florida/USA</td><td>R</td></tr><tr><td class=\"has-text-align-left\">44</td><td>Jackson Rowe (2W)</td><td>F</td><td>6-7</td><td>221</td><td>1/4/97</td><td>Cal State Fullerton/USA</td><td>1</td></tr><tr><td class=\"has-text-align-left\">15</td><td>Gui Santos</td><td>F</td><td>6-7</td><td>218</td><td>6/22/02</td><td>Minas (Brazil)/Brazil</td><td>2</td></tr><tr><td class=\"has-text-align-left\">61</td><td>Pat Spencer (2W)</td><td>G</td><td>6-2</td><td>202</td><td>7/4/96</td><td>Northwestern/USA</td><td>2</td></tr><tr><td class=\"has-text-align-left\">22</td><td>Alex Toohey (2W)</td><td>F</td><td>6-8</td><td>224</td><td>5/5/04</td><td>Sydney Kings (NBL)/Australia</td><td>R</td></tr></tbody></table></figure>",
-                    "text": null,
-                    "attributes": {
-                        "anchor": ""
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p class=\"has-text-align-center caption-position-undefined\"></p>",
-                    "text": "",
-                    "attributes": {
-                        "align": "center",
-                        "className": "caption-position-undefined",
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>The Warriors will hold their Home Opener, presented by Chase Freedom, on <a href=\"https://www.ticketmaster.com/event/1C00630BB07365E2?brand=warriors&artistid=805946&wt.mc_id=NBA_TEAM_GSW_WEB_GM1&utm_source=NBA.com&utm_medium=client&utm_campaign=NBA_TEAM_GSW&utm_content=WEB_GM1\">Thursday, Oct. 23, against the Denver Nuggets </a>(7:00 p.m.). </p>",
-                    "text": "The Warriors will hold their Home Opener, presented by Chase Freedom, on Thursday, Oct. 23, against the Denver Nuggets (7:00 p.m.).",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                }
-            ],
-            "seo": {
-                "focusKeyword": "",
-                "canonicalUrl": "https://warriors.com/news/warriors-announce-2025-26-opening-night-roster-20251020",
-                "estimatedReadingTimeMinutes": "",
-                "keywords": null,
-                "general": {
-                    "title": "Warriors Announce 2025-26 Opening Night Roster",
-                    "description": "The Golden State Warriors have announced their 2025-26 Opening Night roster prior to Tuesday’s season opener at the Los Angeles Lakers. "
-                },
-                "opengraph": {
-                    "image": {
-                        "altText": ""
-                    }
-                },
-                "twitter": {
-                    "image": {
-                        "altText": ""
-                    },
-                    "title": null,
-                    "description": null
-                },
-                "schema": {
-                    "articleType": "",
-                    "pageType": ""
-                },
-                "facebook": {
-                    "title": null,
-                    "description": null,
-                    "image": null
-                },
-                "noindex": false
-            },
-            "excerpt": "The Golden State Warriors have announced their 2025-26 Opening Night roster prior to Tuesday’s season opener at the Los Angeles Lakers. ",
-            "permalink": "https://www.nba.com/warriors/news/warriors-announce-2025-26-opening-night-roster-20251020",
-            "slug": "warriors-announce-2025-26-opening-night-roster-20251020",
-            "category": "news",
-            "modified": "2025-10-21T01:46:12Z",
-            "date": "2025-10-21T01:44:49Z",
-            "timestamp": 1761011089000,
-            "featuredImage": {
-                "type": "image",
-                "html": null,
-                "text": null,
-                "attributes": {
-                    "id": "1128536",
-                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/feat-image-roster-20251020.png",
-                    "alt": "",
-                    "caption": "",
-                    "caption_alignment": "",
-                    "caption_color": "",
-                    "copyright": "",
-                    "credit": "Photo by Jim Poorten/NBAE via Getty Images",
-                    "link": "",
-                    "align": "",
-                    "size": {
-                        "width": 1280,
-                        "height": 720
-                    },
-                    "anchor": "",
-                    "focal_point": [],
-                    "direction": "ltr",
-                    "animation": {
-                        "name": "none"
-                    }
-                },
-                "id": "1128536",
-                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/10/feat-image-roster-20251020.png",
-                "alt": "",
-                "caption": "",
-                "caption_alignment": "",
-                "caption_color": "",
-                "copyright": "",
-                "credit": "Photo by Jim Poorten/NBAE via Getty Images",
-                "link": "",
-                "align": "",
-                "size": {
-                    "width": 1280,
-                    "height": 720
-                },
-                "anchor": "",
-                "focal_point": [],
-                "direction": "ltr",
-                "animation": {
-                    "name": "none"
-                }
-            },
-            "title": "Warriors Announce 2025-26 Opening Night Roster",
-            "taxonomy": {
-                "tags": null,
-                "categories": {
-                    "news": "news"
-                },
-                "teams": {
-                    "1610612744": "Golden State - Warriors"
-                }
-            },
-            "status": "publish",
-            "name": "warriors-announce-2025-26-opening-night-roster-20251020",
-            "type": "article",
-            "id": 1128535,
-            "language": "en",
-            "attributes": {
-                "comments": {
-                    "enabled": false
-                },
-                "hideAuthor": true,
-                "hideTimestamp": false,
-                "relatedContent": {
-                    "source": "manual",
-                    "sourceId": null,
-                    "content": [
-                        1128146
-                    ]
-                },
-                "subhead": "",
-                "featuredMediaContentGrid": null,
-                "hideContent": false
-            },
-            "categoryPrimary": {
-                "name": "",
-                "slug": ""
-            },
-            "flexModules": [],
-            "authors": [
-                {
-                    "id": 1230,
-                    "slug": "kalyb-champion",
-                    "name": "Kalyb Champion",
-                    "firstName": "Kalyb",
-                    "lastName": "Champion",
-                    "organization": "",
-                    "isNBAStaff": false,
-                    "authorPhoto": "",
-                    "socialHandle": "",
-                    "socialLink": "",
-                    "wpseoTitle": "",
-                    "wpseoMetadesc": "",
-                    "description": "",
-                    "userUrl": "",
-                    "featuredAuthor": false
-                }
-            ]
         }
     ],
     "pageNext": 2,
-    "pages": 284,
-    "total": 2270,
+    "pages": 285,
+    "total": 2273,
     "count": 8
 }

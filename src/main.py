@@ -1,5 +1,5 @@
 import os
-from config import DATA_DIR, RESULTS_DIR, ARTICLES_URL, STATS_URL
+from config import DATA_DIR, RESULTS_DIR, ARTICLES_URL, STATS_URL, KEYWORDS
 from load_datasets import get_gsw_sponsor_trends
 from process_data import process_game_data, process_article_data, process_trends_data
 # from analyze_data import plot_statistics
@@ -24,9 +24,8 @@ if __name__ == "__main__":
     # print("\n" + "=" * 50 + "\n")
 
     # # --- GSW Sponsor Trends Data ---
-    # keyword = 'United Airlines'
-    # trends_df = get_gsw_sponsor_trends(keyword)
-    # trends_df = process_trends_data('Rakuten')
-    # if trends_df is not None:
-    #     print(f"\nGolden State Warriors Sponsor Trends Data Head:\n{trends_df.head()}")
-    #     # plot_statistics(trends_df,f'{keyword} Trends',result_dir = RESULTS_DIR)
+    # for keyword in KEYWORDS:
+    #     trends_df = process_trends_data(keyword)
+    #     if trends_df is not None:
+    #         print(f"\n {keyword} Trends Data Head:\n{trends_df.head()}")
+    #     #     # plot_statistics(trends_df,f'{keyword} Trends',result_dir = RESULTS_DIR)

@@ -31,7 +31,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
 
     # create while loop to continue retrieving articles until reaching 1000 total articles
     print("loading data from GSW News website")
-    while len(articles) < 1000:
+    while len(articles) < 900:
         try:
             # format url with page number starting at 1 and create API request
             article_url_with_page = api_url.format(page_number)
@@ -93,7 +93,7 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
     Scrapes statistics table from ESPN's GSW season schedule, saves raw data to HTML file
     and CSV, and loads the data to a pandas DataFrame. 
 
-    :param webscrape_url: base webscrape URL to request data from ESPN webiste
+    :param webscrape_url: base webscrape URL to request data from ESPN website
     :param html_file: HTML file to extract data and examine format
     :param dataset_file: CSV file to place raw data from pandas DataFrame
     :param start_year: first year to begin pulling season data
@@ -118,7 +118,7 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
                     "AppleWebKit/537.36 (KHTML, like Gecko) "
     }
     # create for loop to retrieve game stats for multiple seasons
-    for year in range(2021, 2027):  # 2021–2026 inclusive
+    for year in range(2021, 2026):  # 2021–2026 inclusive
         try:
             # format url with year starting at start year, create webscrape request and parse with beautifulsoup
             url = webscrape_url.format(year)
@@ -202,8 +202,8 @@ def get_gsw_sponsor_trends(keyword,**kwargs):
     saves extracted dataframe to CSV, and returns the data to a pandas DataFrame or None
     if exception occurs. 
 
-    :param keyword: keyword to request daily data from ESPN webiste
-    :param to be added extract_dir: data directory to place extracted data into
+    :param keyword: keyword to request daily data from Google Trends website
+    :param extract_dir: data directory to place extracted data into
     :return: Pandas DataFrame or None
     """
     # extract data directory
@@ -216,9 +216,9 @@ def get_gsw_sponsor_trends(keyword,**kwargs):
         trends_df = dailydata.get_daily_data(
         word=keyword,
         start_year=2020,
-        start_mon=10,
+        start_mon=12,
         stop_year=2025,
-        stop_mon=10,
+        stop_mon=4,
         geo='US',
         wait_time=5
         )
