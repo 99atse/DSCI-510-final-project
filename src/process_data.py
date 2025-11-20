@@ -36,8 +36,11 @@ def process_game_data(url: str) -> pd.DataFrame:
     stats_df['Win'] = np.where(stats_df['Result'].str.startswith('W'), 1, 0)
     stats_df['Overtime'] = np.where(stats_df['Result'].str.endswith('OT'), 1, 0)
     stats_df['Result'] = stats_df['Result'].str.replace(r'\s\d*OT$', '', regex=True)
-    stats_df[['wins', 'losses']] = stats_df['Record'].str.split('-', expand=True).astype(int)
-    stats_df[['Team_Score', 'Opp_Score']] = stats_df['Result'].str[2:].str.split('-', expand=True).astype(int)
+    stats_df[['Wins', 'Losses']] = stats_df['Record'].str.split('-', expand=True).astype(int)
+    stats_df[['Winner_Score', 'Loser_Score']] = stats_df['Result'].str[2:].str.split('-', expand=True).astype(int)
+    stats_df['Team_Score'] = np.where(stats_df['Win'] == 1, stats_df['Winner_Score'], stats_df['Loser_Score'])
+    stats_df['Opp_Score'] = np.where(stats_df['Win'] == 1, stats_df['Loser_Score'], stats_df['Winner_Score'])
+    stats_df['Abs_Point_Difference'] = stats_df['Winner_Score'] - stats_df['Loser_Score']
 
     stats_df[['Hi_Points_Player', 'Hi_Points_Value']] = stats_df['Hi Points'].str.rsplit(' ', n=1, expand=True)
     stats_df[['Hi_Rebounds_Player', 'Hi_Rebounds_Value']] = stats_df['Hi Rebounds'].str.rsplit(' ', n=1, expand=True)
@@ -46,7 +49,7 @@ def process_game_data(url: str) -> pd.DataFrame:
     stats_df['Hi_Rebounds_Value'] = stats_df['Hi_Rebounds_Value'].astype(int)
     stats_df['Hi_Assists_Value'] = stats_df['Hi_Assists_Value'].astype(int)
 
-    stats_df = stats_df.drop(columns=['Hi Points', 'Hi Rebounds', 'Hi Assists', 'Result', 'Record','Year'])
+    stats_df = stats_df.drop(columns=['Hi Points', 'Hi Rebounds', 'Hi Assists', 'Result', 'Record','Year','Winner_Score', 'Loser_Score'])
 
     try:  
         # save cleaned data to csv
@@ -153,12 +156,12 @@ def process_trends_data(sponsor,all_sponsors=False) -> pd.DataFrame:
     :return: Pandas DataFrame or None
     """
 
-    trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
-
+    # trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
+    trend_df = pd.read_csv(f'data/raw/{sponsor}_Trends.csv')
     cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{sponsor.replace(' ','')}_Trends_Cleaned.csv')
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
-    trend_df['Date'] = pd.date_range(start='2020-11-01',end='2025-4-30',freq='D')
+    trend_df['Date'] = pd.date_range(start='2020-12-01',end='2025-4-30',freq='D')
     start_date = '2020-12-22'
     end_date = '2025-04-13'
     trend_df = trend_df[(trend_df['Date'] >= start_date) & (trend_df['Date'] <= end_date)]
