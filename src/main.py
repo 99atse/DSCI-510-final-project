@@ -2,7 +2,7 @@ import os
 from config import DATA_DIR, RESULTS_DIR, ARTICLES_URL, STATS_URL, KEYWORDS, ALL_TRENDS_CSV
 from load_datasets import get_gsw_sponsor_trends
 from process_data import process_game_data, process_article_data, process_trends_data
-from analyze_data import plot_all_trends, plot_gsw_stats
+from analyze_data import plot_all_trends, plot_gsw_stats, plot_articles
 # from process_data import process_wiki_data
 
 if __name__ == "__main__":
@@ -10,17 +10,17 @@ if __name__ == "__main__":
     os.makedirs(DATA_DIR, exist_ok=True)
 
     # --- GSW Articles Data ---
-    # articles_df = process_article_data(ARTICLES_URL)
-    # if articles_df is not None:
-    #     print(f"\nGolden State Warriors News Articles Cleaned Data Head:\n{articles_df.head()}")
-    #     plot_statistics(articles_df,'Articles',result_dir = RESULTS_DIR)
+    articles_df = process_article_data(ARTICLES_URL)
+    if articles_df is not None:
+        print(f"\nGolden State Warriors News Articles Cleaned Data Head:\n{articles_df.head()}")
+        plot_articles(articles_df,result_dir = f'{RESULTS_DIR}/articles')
     # print("\n" + "=" * 50 + "\n")
 
     # --- GSW Game Stats Data ---
-    stats_df = process_game_data(STATS_URL)
-    if stats_df is not None:
-        print(f"\nGolden State Warriors Game Stats Cleaned Data Head:\n{stats_df.head()}")
-        plot_gsw_stats(stats_df,result_dir = f'{RESULTS_DIR}/stats')
+    # stats_df = process_game_data(STATS_URL)
+    # if stats_df is not None:
+    #     print(f"\nGolden State Warriors Game Stats Cleaned Data Head:\n{stats_df.head()}")
+    #     plot_gsw_stats(stats_df,result_dir = f'{RESULTS_DIR}/stats')
     # print("\n" + "=" * 50 + "\n")
 
     # --- GSW Sponsor Trends Data ---

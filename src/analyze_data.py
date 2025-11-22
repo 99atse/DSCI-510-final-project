@@ -37,7 +37,7 @@ def plot_gsw_stats(stats_df, result_dir="plots", notebook_plot=False):
 
     if not notebook_plot:
         plt.savefig(f'{result_dir}/2021-2025_GSW_Stats_Plot.png')
-        print(f"Saved stats plot for {year} season.")
+        print(f"Saved stats plot for entire dataframe.")
         plt.close()
     else:
         plt.plot()
@@ -78,7 +78,7 @@ def plot_gsw_stats(stats_df, result_dir="plots", notebook_plot=False):
 # --- PLOT GSW ARTICLE STATISTICS ---
 def plot_articles(articles_df, result_dir="plots", notebook_plot=False):
     """
-    Generates and saves basic plots for GSW stats.
+    Generates and saves basic plots for GSW article.
 
     :param articles_df: The GSW articles pandas DataFrame
     :param result_dir: where to place plots
@@ -87,6 +87,66 @@ def plot_articles(articles_df, result_dir="plots", notebook_plot=False):
 
     # Ensure a directory for plots exists
     os.makedirs(result_dir, exist_ok=True)
+
+    # create a histogram of sponsor count across article
+    major_sponsor = articles_df[articles_df['Major_Sponsor'].apply(lambda x: len(x) > 0)]
+    other_sponsor = articles_df[articles_df['Major_Sponsor'].apply(lambda x: len(x) == 0)]
+
+    plt.figure(figsize=(36,8))
+    plt.scatter(major_sponsor["Date"], major_sponsor["Total_Sponsor_Count"], color="green", label="Major Sponsor")
+    plt.scatter(other_sponsor["Date"], other_sponsor["Total_Sponsor_Count"], color="blue", label="Other Sponsor")
+
+    plt.title(f'GSW 2021-2025 Article Sponsor Historgram')
+    plt.legend()
+    plt.xlabel('Article Date')
+    plt.ylabel('Sponsor Count')
+    plt.tight_layout()
+
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(mdates.DayLocator(interval=30))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m-%d"))
+    plt.xticks(rotation=45)
+    plt.subplots_adjust(bottom=0.1)
+
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/2021-2025_GSW_Article_Plot.png')
+        print(f"Saved stats plot for entire dataframe.")
+        plt.close()
+    else:
+        plt.plot()
+
+        # plot point difference and W/L each season
+    season_dates = [(2021,'2020-12-22','2021-05-16'),(2022,'2021-10-19','2022-04-10'),(2023,'2022-10-18','2023-04-09'),(2024,'2023-10-24','2024-04-14'),(2025,'2024-10-23','2025-04-13')]
+
+    for year,start_date,end_date in season_dates:
+        season_range = (articles_df['Date'] >= pd.to_datetime(start_date)) & (articles_df['Date'] <= pd.to_datetime(end_date))
+        season_articles = articles_df[season_range]
+        
+        major_sponsor = season_articles[season_articles["Major_Sponsor"].apply(lambda x: len(x) > 0)]
+        other_sponsor = season_articles[season_articles["Major_Sponsor"].apply(lambda x: len(x) == 0)]
+
+        plt.figure(figsize=(20,12))
+        plt.scatter(major_sponsor["Date"], major_sponsor["Total_Sponsor_Count"], color="green", label="Major Sponsor")
+        plt.scatter(other_sponsor["Date"], other_sponsor["Total_Sponsor_Count"], color="blue", label="Other Sponsor")
+
+        plt.title(f'GSW {year} Article Sponsor Historgram')
+        plt.legend()
+        plt.xlabel('Article Date')
+        plt.ylabel('Sponsor Count')
+        plt.tight_layout()
+
+        ax = plt.gca()
+        ax.xaxis.set_major_locator(mdates.DayLocator(interval=30))
+        ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m-%d"))
+        plt.xticks(rotation=45)
+        plt.subplots_adjust(bottom=0.1)
+
+        if not notebook_plot:
+            plt.savefig(f'{result_dir}/{year}_GSW_Article_Plot.png')
+            print(f"Saved stats plot for {year} season.")
+            plt.close()
+        else:
+            plt.plot()
 
 
 # --- PLOT TREND STATISTICS ---

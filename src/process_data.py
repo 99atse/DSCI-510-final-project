@@ -67,7 +67,8 @@ def extract_sponsors(text):
     :param text: text from cell value to extract sponsors
     :return: list of sponsors or empty list
     """
-    sponsors = re.findall(r'presented by ([^.,;]+)', text, flags=re.IGNORECASE)
+    # filter sponsors and stop after reaching punctuation, end of sentence, or preposition
+    sponsors = re.findall(r'(?:presented by|powered by|(?:in )?partnership with)\s+(.*?)(?: for | in | at | on |,|\.|;|$)', text, flags=re.IGNORECASE)
 
     return [sponsor.strip() for sponsor in sponsors]
   
@@ -91,7 +92,7 @@ def process_article_data(url: str) -> pd.DataFrame:
 
     articles_df = articles_df[(articles_df['Date'] >= start_date) & (articles_df['Date'] <= end_date)]
 
-    major_sponsors = ['Rakuten','United Airlines','Chase','Kaiser Permanente','Adobe']
+    major_sponsors = ['Rakuten','United Airlines','Chase']
     for sponsor in major_sponsors:
         sponsor_no_spaces = sponsor.replace(" ","")
         articles_df[f'{sponsor_no_spaces}_Title'] = articles_df['Title'].str.contains(sponsor, case=False, na=False)
@@ -100,10 +101,12 @@ def process_article_data(url: str) -> pd.DataFrame:
 
     articles_df['Powered_By'] = (articles_df['Excerpt'].str.contains('powered by', case=False, na=False) | articles_df['Title'].str.contains('powered by', case=False, na=False))
     articles_df['Presented_By'] = (articles_df['Excerpt'].str.contains('presented by', case=False, na=False) | articles_df['Title'].str.contains('presented by', case=False, na=False))
-
-    articles_df['Sponsors_List'] = articles_df.apply(lambda row: extract_sponsors(row['Title']) + extract_sponsors(row['Excerpt']),axis=1)
+    articles_df['Partnership_With'] = (articles_df['Excerpt'].str.contains('partnership with', case=False, na=False) | articles_df['Title'].str.contains('partnership with', case=False, na=False))
+    
+    articles_df['Sponsors_List'] = articles_df.apply(lambda row: list(dict.fromkeys(extract_sponsors(row['Title']) + extract_sponsors(row['Excerpt']))),axis=1)
     articles_df['Major_Sponsor'] = articles_df['Sponsors_List'].apply(lambda sponsor_list: [s for s in sponsor_list if s in major_sponsors])
     articles_df['Other_Sponsor'] = articles_df['Sponsors_List'].apply(lambda sponsor_list: [s for s in sponsor_list if s not in major_sponsors])
+    articles_df['Total_Sponsor_Count'] = articles_df.apply(lambda row:len(extract_sponsors(row['Title']) + extract_sponsors(row['Excerpt'])),axis=1)
 
     articles_df = articles_df.drop(columns=['Url','Author'])
 
@@ -156,8 +159,8 @@ def process_trends_data(sponsor,all_sponsors=False) -> pd.DataFrame:
     :return: Pandas DataFrame or None
     """
 
-    # trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
-    trend_df = pd.read_csv(f'data/raw/{sponsor}_Trends.csv')
+    trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
+
     cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{sponsor.replace(' ','')}_Trends_Cleaned.csv')
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 

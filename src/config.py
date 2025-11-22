@@ -17,6 +17,5 @@ STATS_CSV = "GoldenStateWarriors_Stats.csv"
 CLEANED_STATS_CSV = "GoldenStateWarriors_Stats_Cleaned.csv"
 
 # --- GSW Sponsor Trends Data ---
-# KEYWORDS = ['Golden State Warriors','Rakuten','United Airlines','Kaiser Permanente','Adobe','JPMorgan Chase',]
-KEYWORDS = ['Adobe']
+KEYWORDS = ['Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']
 ALL_TRENDS_CSV = 'data/cleaned/All_Trends_Cleaned.csv'
