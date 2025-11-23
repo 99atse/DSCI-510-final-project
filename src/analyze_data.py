@@ -1,8 +1,9 @@
 import os
+import ast
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-import seaborn as sns
 import pandas as pd
+import statsmodels.formula.api as smf
 
 # --- PLOT GSW STATISTICS ---
 def plot_gsw_stats(stats_df, result_dir="plots", notebook_plot=False):
@@ -88,10 +89,12 @@ def plot_articles(articles_df, result_dir="plots", notebook_plot=False):
     # Ensure a directory for plots exists
     os.makedirs(result_dir, exist_ok=True)
 
-    # create a histogram of sponsor count across article
+    articles_df['Major_Sponsor'] = articles_df['Major_Sponsor'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+
     major_sponsor = articles_df[articles_df['Major_Sponsor'].apply(lambda x: isinstance(x, list) and len(x) > 0)]
     other_sponsor = articles_df[articles_df['Major_Sponsor'].apply(lambda x: isinstance(x, list) and len(x) == 0)]
 
+    # create a histogram of sponsor count across article
     plt.figure(figsize=(36,10))
     plt.scatter(major_sponsor["Date"], major_sponsor["Total_Sponsor_Count"], color="green", label="Major Sponsor")
     plt.scatter(other_sponsor["Date"], other_sponsor["Total_Sponsor_Count"], color="gray", label="Other Sponsor")
@@ -299,3 +302,11 @@ def plot_all_data(all_df, result_dir="plots", notebook_plot=False):
                 plt.close()
             else:
                 plt.plot()
+
+def run_regression(all_df, reg_formula):
+
+    model = smf.ols(formula=reg_formula, data = all_df)
+    results = model.fit()
+
+    # return results
+    return results.summary()
