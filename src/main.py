@@ -1,8 +1,8 @@
 import os
 from config import DATA_DIR, RESULTS_DIR, ARTICLES_URL, STATS_URL, KEYWORDS, ALL_TRENDS_CSV
 from load_datasets import get_gsw_sponsor_trends
-from process_data import process_game_data, process_article_data, process_trends_data
-from analyze_data import plot_all_trends, plot_gsw_stats, plot_articles
+from process_data import process_game_data, process_article_data, process_trends_data, combine_all_data
+from analyze_data import plot_all_trends, plot_gsw_stats, plot_articles, plot_all_data
 # from process_data import process_wiki_data
 
 if __name__ == "__main__":
@@ -17,10 +17,10 @@ if __name__ == "__main__":
     # print("\n" + "=" * 50 + "\n")
 
     # --- GSW Game Stats Data ---
-    # stats_df = process_game_data(STATS_URL)
-    # if stats_df is not None:
-    #     print(f"\nGolden State Warriors Game Stats Cleaned Data Head:\n{stats_df.head()}")
-    #     plot_gsw_stats(stats_df,result_dir = f'{RESULTS_DIR}/stats')
+    stats_df = process_game_data(STATS_URL)
+    if stats_df is not None:
+        print(f"\nGolden State Warriors Game Stats Cleaned Data Head:\n{stats_df.head()}")
+        plot_gsw_stats(stats_df,result_dir = f'{RESULTS_DIR}/stats')
     # print("\n" + "=" * 50 + "\n")
 
     # --- GSW Sponsor Trends Data ---
@@ -28,4 +28,12 @@ if __name__ == "__main__":
     #     trends_df = process_trends_data(keyword,all_sponsors=True)
     #     if trends_df is not None:
     #         print(f"\n {keyword} Trends Data Head:\n{trends_df.head()}")
-    # plot_all_trends(ALL_TRENDS_CSV,result_dir = f'{RESULTS_DIR}/trends')
+    plot_all_trends(ALL_TRENDS_CSV,result_dir = f'{RESULTS_DIR}/trends')
+
+    # --- All GSW Data ---
+    all_df = combine_all_data(stats_df,articles_df,ALL_TRENDS_CSV)
+    if all_df is not None:
+        print(f"\nGolden State Warriors Combined and Cleaned Data Head:\n{all_df.head()}")
+    plot_all_data(all_df,result_dir=f'{RESULTS_DIR}/all')
+
+

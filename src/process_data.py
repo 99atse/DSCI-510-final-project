@@ -86,7 +86,7 @@ def process_article_data(url: str) -> pd.DataFrame:
     cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', CLEANED_ARTICLE_CSV)
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
-    articles_df['Date'] = pd.to_datetime(articles_df['Date']).dt.tz_convert(None)
+    articles_df['Date'] = pd.to_datetime(articles_df['Date']).dt.tz_convert(None).dt.normalize()
     start_date = pd.to_datetime("2020-12-22")
     end_date   = pd.to_datetime("2025-04-13")
 
@@ -99,9 +99,7 @@ def process_article_data(url: str) -> pd.DataFrame:
         articles_df[f'{sponsor_no_spaces}_Description'] = articles_df['Excerpt'].str.contains(sponsor, case=False, na=False)
         articles_df[f'{sponsor_no_spaces}_Count'] = articles_df['Title'].str.count(sponsor, flags=re.IGNORECASE) + articles_df['Excerpt'].str.count(sponsor, flags=re.IGNORECASE)
 
-    articles_df['Powered_By'] = (articles_df['Excerpt'].str.contains('powered by', case=False, na=False) | articles_df['Title'].str.contains('powered by', case=False, na=False))
-    articles_df['Presented_By'] = (articles_df['Excerpt'].str.contains('presented by', case=False, na=False) | articles_df['Title'].str.contains('presented by', case=False, na=False))
-    articles_df['Partnership_With'] = (articles_df['Excerpt'].str.contains('partnership with', case=False, na=False) | articles_df['Title'].str.contains('partnership with', case=False, na=False))
+        articles_df = articles_df.drop(columns=[f'{sponsor_no_spaces}_Description',f'{sponsor_no_spaces}_Title'])
     
     articles_df['Sponsors_List'] = articles_df.apply(lambda row: list(dict.fromkeys(extract_sponsors(row['Title']) + extract_sponsors(row['Excerpt']))),axis=1)
     articles_df['Major_Sponsor'] = articles_df['Sponsors_List'].apply(lambda sponsor_list: [s for s in sponsor_list if s in major_sponsors])
@@ -110,11 +108,36 @@ def process_article_data(url: str) -> pd.DataFrame:
 
     articles_df = articles_df.drop(columns=['Url','Author'])
 
+    daily_article_df = (articles_df.groupby('Date').agg({
+        'Title': 'count',
+        'Sponsors_List':'sum',
+        'Total_Sponsor_Count': 'sum',
+        'Major_Sponsor': 'sum',
+        'Other_Sponsor': 'sum',
+        'Rakuten_Count': 'sum',
+        'UnitedAirlines_Count': 'sum',
+        'Chase_Count':'sum'}
+    ).rename(columns={'Title': 'Article_Count'})
+    .reset_index())
+
+    full_date_range = pd.DataFrame({"Date": pd.date_range(start="2020-12-22", end="2025-04-13")})
+    daily_article_df = full_date_range.merge(daily_article_df, on="Date", how="left")
+    
+    daily_article_df = daily_article_df.fillna({
+        'Article_Count': 0,
+        'Sponsors_List':0,
+        'Total_Sponsor_Count': 0,
+        'Major_Sponsor': 0,
+        'Other_Sponsor': 0,
+        'Rakuten_Count': 0,
+        'UnitedAirlines_Count': 0,
+        'Chase_Count':0})
+
     try:  
         # save cleaned data to csv
-        articles_df.to_csv(cleaned_csv_path, index=False)
+        daily_article_df.to_csv(cleaned_csv_path, index=False)
 
-        return articles_df
+        return daily_article_df
     except Exception as e:
         print(f"Error saving GSW stats data to CSV file: {e}")
         return None
@@ -180,4 +203,39 @@ def process_trends_data(sponsor,all_sponsors=False) -> pd.DataFrame:
         return trend_df
     except Exception as e:
         print(f"Error saving {sponsor} trend data to CSV file: {e}")
+        return None
+    
+def combine_all_data(stats_df,articles_df,all_trends_csv) -> pd.DataFrame:
+    """
+    Combines data from stats_df, articles_df, and trend_df into one dataframe 
+    for easier plotting and analysis.
+
+    :param stats_df: GSW stats dataframe
+    :param articles_df: GSW news articles dataframe
+    :param trend_df: Google Trends dataframe
+    :param all_sponsors: add trend data to all_sponsor_trends CSV
+    :return: Pandas DataFrame or None
+    """
+
+    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'All_GSW_Data.csv')
+    os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
+
+    trends_df = pd.read_csv(all_trends_csv,parse_dates=["Date"])
+
+    stats_keep = stats_df[['Date','Win','Abs_Point_Difference']]
+    articles_keep = articles_df[['Date','Article_Count','Rakuten_Count','UnitedAirlines_Count','Chase_Count']]
+    
+    full_date_range = pd.DataFrame({"Date": pd.date_range(start="2020-12-22", end="2025-04-13")})
+    
+    combined_df = full_date_range.merge(trends_df, on='Date',how='outer')
+    combined_df = combined_df.merge(articles_keep, on='Date',how='left')
+    combined_df = combined_df.merge(stats_keep, on='Date',how='left')
+
+    try:  
+        # save cleaned data to csv
+        combined_df.to_csv(cleaned_csv_path, index=False)
+
+        return combined_df
+    except Exception as e:
+        print(f"Error saving GSW stats data to CSV file: {e}")
         return None
