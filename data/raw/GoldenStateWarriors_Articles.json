@@ -4028,25 +4028,6 @@
                 "name": "",
                 "slug": ""
             },
-            "authors": [
-                {
-                    "id": 961,
-                    "slug": "golden-state-warriors",
-                    "name": "Golden State Warriors",
-                    "firstName": "Tyler",
-                    "lastName": "Savitsky",
-                    "organization": "",
-                    "isNBAStaff": false,
-                    "authorPhoto": "",
-                    "socialHandle": "",
-                    "socialLink": "",
-                    "wpseoTitle": "",
-                    "wpseoMetadesc": "",
-                    "description": "Established 1946 | 7-time NBA Champions",
-                    "userUrl": "https://www.nba.com/warriors",
-                    "featuredAuthor": false
-                }
-            ],
             "flexModules": [
                 {
                     "attributes": {
@@ -4277,6 +4258,25 @@
                             "watchUrls": null
                         }
                     }
+                }
+            ],
+            "authors": [
+                {
+                    "id": 961,
+                    "slug": "golden-state-warriors",
+                    "name": "Golden State Warriors",
+                    "firstName": "Tyler",
+                    "lastName": "Savitsky",
+                    "organization": "",
+                    "isNBAStaff": false,
+                    "authorPhoto": "",
+                    "socialHandle": "",
+                    "socialLink": "",
+                    "wpseoTitle": "",
+                    "wpseoMetadesc": "",
+                    "description": "Established 1946 | 7-time NBA Champions",
+                    "userUrl": "https://www.nba.com/warriors",
+                    "featuredAuthor": false
                 }
             ]
         },
@@ -5574,25 +5574,6 @@
                 "name": "",
                 "slug": ""
             },
-            "authors": [
-                {
-                    "id": 961,
-                    "slug": "golden-state-warriors",
-                    "name": "Golden State Warriors",
-                    "firstName": "Tyler",
-                    "lastName": "Savitsky",
-                    "organization": "",
-                    "isNBAStaff": false,
-                    "authorPhoto": "",
-                    "socialHandle": "",
-                    "socialLink": "",
-                    "wpseoTitle": "",
-                    "wpseoMetadesc": "",
-                    "description": "Established 1946 | 7-time NBA Champions",
-                    "userUrl": "https://www.nba.com/warriors",
-                    "featuredAuthor": false
-                }
-            ],
             "flexModules": [
                 {
                     "attributes": {
@@ -5823,6 +5804,25 @@
                             "watchUrls": null
                         }
                     }
+                }
+            ],
+            "authors": [
+                {
+                    "id": 961,
+                    "slug": "golden-state-warriors",
+                    "name": "Golden State Warriors",
+                    "firstName": "Tyler",
+                    "lastName": "Savitsky",
+                    "organization": "",
+                    "isNBAStaff": false,
+                    "authorPhoto": "",
+                    "socialHandle": "",
+                    "socialLink": "",
+                    "wpseoTitle": "",
+                    "wpseoMetadesc": "",
+                    "description": "Established 1946 | 7-time NBA Champions",
+                    "userUrl": "https://www.nba.com/warriors",
+                    "featuredAuthor": false
                 }
             ]
         }

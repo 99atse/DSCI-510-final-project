@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.dates as mdates
 import pandas as pd
+import numpy as np
 import statsmodels.formula.api as smf
 
 # --- PLOT GSW STATISTICS ---
@@ -319,7 +320,7 @@ def plot_all_data(all_df, result_dir="plots", notebook_plot=False):
         plt.plot()
 
     # plot correlation matrix
-    curry_matrix = all_df.loc[:,['Curry_Hi_Points','Curry_Hi_Points_Value','Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']]
+    curry_matrix = all_df.loc[:,['Curry_Hi_Points_Value','Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']]
 
     plt.figure(figsize=(10,8))
     sns.heatmap(curry_matrix.corr(),annot=True,fmt=".2f",cmap='mako_r')
@@ -333,10 +334,27 @@ def plot_all_data(all_df, result_dir="plots", notebook_plot=False):
     else:
         plt.plot()
 
-def run_regression(all_df, reg_formula):
+    count_matrix = all_df.loc[:,['Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase','Rakuten_Count','UnitedAirlines_Count','Chase_Count']]
 
-    model = smf.ols(formula=reg_formula, data = all_df)
-    results = model.fit()
+    plt.figure(figsize=(10,8))
+    sns.heatmap(count_matrix.corr(),annot=True,fmt=".2f",cmap='mako_r')
+    plt.title('Correlation Matrix of Sponsor Count and GSW Sponsor Trends')
+    plt.tight_layout()
 
-    # return results
-    return results.summary()
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/GSW_Sponsor_Count_Correlation Matrix_Plot.png')
+        print(f"Saved Sponsor Count correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
+
+def run_regression(datasets:dict, reg_formula):
+    for data_range, dataset in datasets.items():
+        model = smf.ols(formula=reg_formula, data = dataset)
+        results = model.fit()
+
+        r_squared = round(float(results.rsquared),3)
+        t_test = results.t_test(np.eye(len(results.params)))
+
+        # return results
+        print(f"{data_range} R Squared: {r_squared}\n{t_test}")

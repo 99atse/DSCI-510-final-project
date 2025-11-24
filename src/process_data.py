@@ -219,7 +219,7 @@ def combine_all_data(stats_df,articles_df,all_trends_csv) -> pd.DataFrame:
     :return: Pandas DataFrame or None
     """
 
-    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'All_GSW_Data.csv')
+    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', '2021-2025_GSW_Data.csv')
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     trends_df = pd.read_csv(all_trends_csv,parse_dates=["Date"])
@@ -235,6 +235,21 @@ def combine_all_data(stats_df,articles_df,all_trends_csv) -> pd.DataFrame:
     combined_df = full_date_range.merge(trends_df, on='Date',how='outer')
     combined_df = combined_df.merge(articles_keep, on='Date',how='left')
     combined_df = combined_df.merge(stats_keep, on='Date',how='left')
+
+    season_dates = [(2021,'2020-12-22','2021-05-16'),(2022,'2021-10-19','2022-04-10'),(2023,'2022-10-18','2023-04-09'),(2024,'2023-10-24','2024-04-14'),(2025,'2024-10-23','2025-04-13')]
+
+    for year,start_date,end_date in season_dates:
+        cleaned_season_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{year}_GSW_Data.csv')
+        os.makedirs(os.path.dirname(cleaned_season_csv_path), exist_ok=True)
+
+        season_range = (combined_df['Date'] >= pd.to_datetime(start_date)) & (combined_df['Date'] <= pd.to_datetime(end_date))
+
+        season_df = combined_df.loc[season_range]
+        try:  
+            # save cleaned data to csv
+            season_df.to_csv(cleaned_season_csv_path, index=False)
+        except Exception as e:
+            print(f"Error saving GSW stats data to CSV file: {e}")
 
     try:  
         # save cleaned data to csv
