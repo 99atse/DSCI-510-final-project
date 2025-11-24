@@ -163,7 +163,7 @@ def add_to_all_trends(sponsor,trend_df):
 
     # Join scaled sponsor data based on Date
     all_trends_df = all_trends_df.merge(
-        trend_df[["Date", f"{sponsor}"]], 
+        trend_df[["Date", f"{sponsor}", f'{sponsor.replace(' ','')}_adjusted']], 
         on="Date", 
         how="outer"
     )
@@ -182,17 +182,19 @@ def process_trends_data(sponsor,all_sponsors=False) -> pd.DataFrame:
     :return: Pandas DataFrame or None
     """
 
-    trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
+    # trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
+    trend_df = pd.read_csv(f'data/raw/{sponsor.replace(' ','')}_Trends.csv')
 
     cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{sponsor.replace(' ','')}_Trends_Cleaned.csv')
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     trend_df['Date'] = pd.date_range(start='2020-12-01',end='2025-4-30',freq='D')
+    trend_df[f'{sponsor.replace(' ','')}_adjusted'] = trend_df[f'{sponsor}'].shift(-1)
     start_date = '2020-12-22'
     end_date = '2025-04-13'
     trend_df = trend_df[(trend_df['Date'] >= start_date) & (trend_df['Date'] <= end_date)]
 
-    trend_df = trend_df.reindex(columns=['Date',f'{sponsor}_unscaled',f'{sponsor}_monthly','isPartial','scale',f'{sponsor}'])
+    trend_df = trend_df.reindex(columns=['Date',f'{sponsor}_unscaled',f'{sponsor}_monthly','isPartial','scale',f'{sponsor}',f'{sponsor.replace(' ','')}_adjusted'])
 
     if all_sponsors == True:
         add_to_all_trends(sponsor, trend_df)
@@ -222,7 +224,10 @@ def combine_all_data(stats_df,articles_df,all_trends_csv) -> pd.DataFrame:
 
     trends_df = pd.read_csv(all_trends_csv,parse_dates=["Date"])
 
-    stats_keep = stats_df[['Date','Win','Abs_Point_Difference']]
+    stats_keep = stats_df[['Date','Win','Abs_Point_Difference','Hi_Points_Player', 'Hi_Points_Value','Hi_Rebounds_Player', 'Hi_Rebounds_Value','Hi_Assists_Player', 'Hi_Assists_Value']]
+    stats_keep['Curry_Hi_Points'] = (stats_keep['Hi_Points_Player'] == 'Curry').astype(int)
+    stats_keep['Curry_Hi_Points_Value'] = np.where(stats_keep['Curry_Hi_Points'] == 1,stats_keep['Hi_Points_Value'],np.nan)
+
     articles_keep = articles_df[['Date','Article_Count','Rakuten_Count','UnitedAirlines_Count','Chase_Count']]
     
     full_date_range = pd.DataFrame({"Date": pd.date_range(start="2020-12-22", end="2025-04-13")})

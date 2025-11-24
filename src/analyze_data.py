@@ -1,6 +1,7 @@
 import os
 import ast
 import matplotlib.pyplot as plt
+import seaborn as sns
 import matplotlib.dates as mdates
 import pandas as pd
 import statsmodels.formula.api as smf
@@ -302,6 +303,35 @@ def plot_all_data(all_df, result_dir="plots", notebook_plot=False):
                 plt.close()
             else:
                 plt.plot()
+
+    # plot correlation matrix
+    matrix = all_df.loc[:,['Abs_Point_Difference','Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']]
+
+    plt.figure(figsize=(10,8))
+    sns.heatmap(matrix.corr(),annot=True,fmt=".2f",cmap='mako_r')
+    plt.title('Correlation Matrix of Game Performance and GSW Sponsor Trends')
+    plt.tight_layout()
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/GSW_All_Data_Correlation Matrix_Plot.png')
+        print(f"Saved all data correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
+
+    # plot correlation matrix
+    curry_matrix = all_df.loc[:,['Curry_Hi_Points','Curry_Hi_Points_Value','Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']]
+
+    plt.figure(figsize=(10,8))
+    sns.heatmap(curry_matrix.corr(),annot=True,fmt=".2f",cmap='mako_r')
+    plt.title('Correlation Matrix of Curry Performance and GSW Sponsor Trends')
+    plt.tight_layout()
+    
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/GSW_Curry_Correlation Matrix_Plot.png')
+        print(f"Saved Curry correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
 
 def run_regression(all_df, reg_formula):
 
