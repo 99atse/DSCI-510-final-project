@@ -11,16 +11,16 @@ if __name__ == "__main__":
 
     # --- GSW Articles Data ---
     articles_df = process_article_data(ARTICLES_URL)
-    if articles_df is not None:
-        print(f"\nGolden State Warriors News Articles Cleaned Data Head:\n{articles_df.head()}")
-        plot_articles(articles_df,result_dir = f'{RESULTS_DIR}/articles')
+    # if articles_df is not None:
+    #     print(f"\nGolden State Warriors News Articles Cleaned Data Head:\n{articles_df.head()}")
+    #     plot_articles(articles_df,result_dir = f'{RESULTS_DIR}/articles')
     # print("\n" + "=" * 50 + "\n")
 
     # --- GSW Game Stats Data ---
     stats_df = process_game_data(STATS_URL)
-    if stats_df is not None:
-        print(f"\nGolden State Warriors Game Stats Cleaned Data Head:\n{stats_df.head()}")
-        plot_gsw_stats(stats_df,result_dir = f'{RESULTS_DIR}/stats')
+    # if stats_df is not None:
+    #     print(f"\nGolden State Warriors Game Stats Cleaned Data Head:\n{stats_df.head()}")
+    #     plot_gsw_stats(stats_df,result_dir = f'{RESULTS_DIR}/stats')
     # print("\n" + "=" * 50 + "\n")
 
     # --- GSW Sponsor Trends Data ---

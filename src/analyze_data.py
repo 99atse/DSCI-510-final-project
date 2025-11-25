@@ -309,12 +309,28 @@ def plot_all_data(all_df, result_dir="plots", notebook_plot=False):
     matrix = all_df.loc[:,['Abs_Point_Difference','Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']]
 
     plt.figure(figsize=(10,8))
-    sns.heatmap(matrix.corr(),annot=True,fmt=".2f",cmap='mako_r')
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
     plt.title('Correlation Matrix of Game Performance and GSW Sponsor Trends')
     plt.tight_layout()
     if not notebook_plot:
-        plt.savefig(f'{result_dir}/GSW_All_Data_Correlation Matrix_Plot.png')
+        plt.savefig(f'{result_dir}/GSW_All_Data_Correlation_Matrix_Plot.png')
         print(f"Saved all data correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
+
+    # plot correlation matrix
+    adjusted_matrix = all_df.loc[:,['Abs_Point_Difference','GoldenStateWarriors_adjusted','Rakuten_adjusted','UnitedAirlines_adjusted','JPMorganChase_adjusted']]
+
+    plt.figure(figsize=(10,8))
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(adjusted_matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
+    plt.title('Correlation Matrix of Game Performance and GSW Sponsor Trends')
+    plt.tight_layout()
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/Adjusted_GSW_All_Data_Correlation_Matrix_Plot.png')
+        print(f"Saved adjusted trend data correlation matrix.")
         plt.close()
     else:
         plt.plot()
@@ -323,13 +339,61 @@ def plot_all_data(all_df, result_dir="plots", notebook_plot=False):
     curry_matrix = all_df.loc[:,['Curry_Hi_Points_Value','Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']]
 
     plt.figure(figsize=(10,8))
-    sns.heatmap(curry_matrix.corr(),annot=True,fmt=".2f",cmap='mako_r')
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(curry_matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
     plt.title('Correlation Matrix of Curry Performance and GSW Sponsor Trends')
     plt.tight_layout()
     
     if not notebook_plot:
-        plt.savefig(f'{result_dir}/GSW_Curry_Correlation Matrix_Plot.png')
+        plt.savefig(f'{result_dir}/GSW_Curry_Correlation_Matrix_Plot.png')
         print(f"Saved Curry correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
+
+     # plot adjusted correlation matrix
+    curry_adjusted_matrix = all_df.loc[:,['Curry_Hi_Points_Value','GoldenStateWarriors_adjusted','Rakuten_adjusted','UnitedAirlines_adjusted','JPMorganChase_adjusted']]
+
+    plt.figure(figsize=(10,8))
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(curry_adjusted_matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
+    plt.title('Correlation Matrix of Curry Performance and GSW Sponsor Trends')
+    plt.tight_layout()
+    
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/Adjusted_GSW_Curry_Correlation_Matrix_Plot.png')
+        print(f"Saved adjusted Curry correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
+
+    curry_win_matrix = all_df.loc[:,['Curry_Hi_Points_Value','Win','Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase']]
+
+    plt.figure(figsize=(10,8))
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(curry_win_matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
+    plt.title('Correlation Matrix of Steph Curry Performance, Game Win, and GSW Sponsor Trends')
+    plt.tight_layout()
+    
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/GSW_Curry_Win_Correlation_Matrix_Plot.png')
+        print(f"Saved Curry Win correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
+
+     # plot adjusted correlation matrix
+    curry_win_adjusted_matrix = all_df.loc[:,['Curry_Hi_Points_Value','Win','GoldenStateWarriors_adjusted','Rakuten_adjusted','UnitedAirlines_adjusted','JPMorganChase_adjusted']]
+
+    plt.figure(figsize=(10,8))
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(curry_win_adjusted_matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
+    plt.title('Correlation Matrix of Steph Curry Performance,Game Win, and GSW Sponsor Trends')
+    plt.tight_layout()
+    
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/Adjusted_GSW_Curry_Win_Correlation_Matrix_Plot.png')
+        print(f"Saved adjusted Curry correlation matrix.")
         plt.close()
     else:
         plt.plot()
@@ -337,13 +401,29 @@ def plot_all_data(all_df, result_dir="plots", notebook_plot=False):
     count_matrix = all_df.loc[:,['Golden State Warriors','Rakuten','United Airlines','JPMorgan Chase','Rakuten_Count','UnitedAirlines_Count','Chase_Count']]
 
     plt.figure(figsize=(10,8))
-    sns.heatmap(count_matrix.corr(),annot=True,fmt=".2f",cmap='mako_r')
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(count_matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
     plt.title('Correlation Matrix of Sponsor Count and GSW Sponsor Trends')
     plt.tight_layout()
 
     if not notebook_plot:
-        plt.savefig(f'{result_dir}/GSW_Sponsor_Count_Correlation Matrix_Plot.png')
+        plt.savefig(f'{result_dir}/GSW_Sponsor_Count_Correlation_Matrix_Plot.png')
         print(f"Saved Sponsor Count correlation matrix.")
+        plt.close()
+    else:
+        plt.plot()
+
+    count_adjusted_matrix = all_df.loc[:,['GoldenStateWarriors_adjusted','Rakuten_adjusted','UnitedAirlines_adjusted','JPMorganChase_adjusted','Rakuten_Count','UnitedAirlines_Count','Chase_Count']]
+
+    plt.figure(figsize=(10,8))
+    sns.color_palette("coolwarm", as_cmap=True)
+    sns.heatmap(count_adjusted_matrix.corr(),annot=True,fmt=".2f",cmap="coolwarm_r",vmin=-1, vmax=1)
+    plt.title('Correlation Matrix of Sponsor Count and GSW Sponsor Trends')
+    plt.tight_layout()
+
+    if not notebook_plot:
+        plt.savefig(f'{result_dir}/Adjusted_GSW_Sponsor_Count_Correlation_Matrix_Plot.png')
+        print(f"Saved adjusted Sponsor Count correlation matrix.")
         plt.close()
     else:
         plt.plot()
