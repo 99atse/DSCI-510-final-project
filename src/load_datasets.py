@@ -29,7 +29,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
     json_path = os.path.join(extract_dir, json_file)
     csv_path = os.path.join(extract_dir, dataset_file)
 
-    # create while loop to continue retrieving articles until reaching 1000 total articles
+    # create while loop to continue retrieving articles until reaching 900 total articles
     print("loading data from GSW News website")
     while len(articles) < 900:
         try:
@@ -42,12 +42,13 @@ def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
         except Exception as e:
             print(f"Error loading GSW news data from page {page_number}: {e}")
             continue
-        # write page 1 request to json file to examine data
+        # write page 1 request to json file to examine data for processing
         if page_number == 1:
             try:
                 with open(json_path,'w',encoding='utf-8') as file:
                     json.dump(data,file,indent=4,ensure_ascii=False)
                     print("articles json file has been created")
+            # return exception if error occurs
             except Exception as e:
                 print(f"Error saving GSW news data to JSON file: {e}")
                 continue
@@ -70,6 +71,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
                             else None
                         )
                     })
+            # return exception if error occurs
             except Exception as e:
                 print(f"Error appending GSW news article to articles DataFrame: {e}")
                 continue
@@ -83,6 +85,7 @@ def get_gsw_articles_api(api_url, json_file, dataset_file, **kwargs):
 
         # return article dataframe
         return article_df
+    # return exception if error occurs
     except Exception as e:
         print(f"Error saving GSW news data to CSV file: {e}")
         return None
@@ -126,15 +129,17 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, "html.parser")
+        # return exception if error occurs
         except Exception as e:
             print(f"Error loading GSW stats data from year {year}: {e}")
             continue
         
         try:
-            # write start year request to html file to examine data
+            # write first year request to html file to examine data
             if year == 2021:
                 with open(html_path, "w", encoding="utf-8") as file:
                     file.write(str(soup.prettify()))
+        # return exception if error occurs
         except Exception as e:
             print(f"Error loading GSW stats data to HTML file: {e}")
             continue
@@ -157,7 +162,7 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
                 # find row data
                 columns = row.find_all("td", class_="Table__TD")
 
-                # if number of columns match header but is not a header, then retrive cell information and append to all_games list
+                # if number of columns match header but is not a header, then retrieve cell information and append to all_games list
                 if len(columns) == 7:
                     # skip row if header
                     if columns[0].get_text(" ", strip=True) == "DATE":
@@ -181,6 +186,7 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
                             "Hi Rebounds": hi_rebounds,
                             "Hi Assists": hi_assists
                         })
+            # return exception if error occurs
             except Exception as e:
                 print(f"Error loading row stats data to stats list: {e}")
                 continue
@@ -190,10 +196,10 @@ def get_gsw_game_stats_webscrape(webscrape_url,html_file, dataset_file,**kwargs)
         stats_df.to_csv(csv_path, index=False)
 
         return stats_df
+    # return exception if error occurs
     except Exception as e:
         print(f"Error saving GSW stats data to CSV file: {e}")
         return None
-
 
 # --- Load Daily Trend Data from Google Trends (pytrends) ---
 def get_gsw_sponsor_trends(keyword,**kwargs):
@@ -210,7 +216,9 @@ def get_gsw_sponsor_trends(keyword,**kwargs):
     extract_dir = kwargs.get("extract_dir", ".")
     os.makedirs(extract_dir, exist_ok=True)
 
-    csv_path = os.path.join(extract_dir, f"{keyword.replace(" ","")}_Trends.csv")
+    # path to place files into data folder
+    csv_path = os.path.join(extract_dir, f"{keyword.replace(' ','')}_Trends.csv")
+    
     try:
         # retrieve the daily trend data for sponsor/gsw and add to csv using pytrends
         trends_df = dailydata.get_daily_data(
@@ -222,7 +230,7 @@ def get_gsw_sponsor_trends(keyword,**kwargs):
         geo='US',
         wait_time=5
         )
-
+    # return exception if error occurs
     except Exception as e:
         print(f"Error retrieving {keyword} trends data from pytrends: {e}")
         return None
@@ -232,6 +240,49 @@ def get_gsw_sponsor_trends(keyword,**kwargs):
         trends_df.to_csv(csv_path,index=False)
 
         return trends_df
+    # return exception if error occurs
     except Exception as e:
         print(f"Error saving {keyword} trends data to CSV file: {e}")
+        return None
+
+def download_gdrive_file(drive_url, dataset_file, **kwargs):
+    """
+    Retrieves google drive CSV files of daily trend (interest over time) data originally from Google Trends API pytrends.
+    Aaves extracted dataframe to CSV in data folder, and returns the data to a pandas DataFrame or None
+    if exception occurs. 
+
+    :param drive_url: Google Drive url for trend data
+    :param dataset_file: local csv file name
+    :param extract_dir: data directory to place extracted data into
+    :return: Pandas DataFrame or None
+    """
+
+    # extract data directory
+    extract_dir = kwargs.get("extract_dir", ".")
+    os.makedirs(extract_dir, exist_ok=True)
+
+    # transform gdrive url for file readability
+    file_id = drive_url.split("/")[-2]
+    url = f"https://drive.google.com/uc?export=download&id={file_id}"
+
+    # path to place files into data folder
+    csv_path = os.path.join(extract_dir, dataset_file)
+
+    try:
+        # read csv file from gdrive
+        trends_df = pd.read_csv(url)
+    # return exception if error occurs
+    except Exception as e:
+        print(f"Error reading sponsor trend data: {e}")
+        return None
+
+    try:
+        # save csv to raw data folder
+        trends_df.to_csv(csv_path, index=False)
+
+        # return article dataframe
+        return trends_df
+    # return exception if error occurs
+    except Exception as e:
+        print(f"Error saving sponsor trend data: {e}")
         return None
