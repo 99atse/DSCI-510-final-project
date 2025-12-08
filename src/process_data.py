@@ -266,7 +266,7 @@ def combine_all_data(stats_df,articles_df,all_trends_csv) -> pd.DataFrame:
     trends_df = pd.read_csv(all_trends_csv,parse_dates=["Date"])
 
     # keep relevant columns from cleaned stats csv
-    stats_keep = stats_df[['Date','Win','Abs_Point_Difference','Hi_Points_Player', 'Hi_Points_Value','Hi_Rebounds_Player', 'Hi_Rebounds_Value','Hi_Assists_Player', 'Hi_Assists_Value']]
+    stats_keep = stats_df[['Date','Win','Abs_Point_Difference','Hi_Points_Player', 'Hi_Points_Value','Hi_Rebounds_Player', 'Hi_Rebounds_Value','Hi_Assists_Player', 'Hi_Assists_Value']].copy()
     stats_keep['Curry_Hi_Points'] = (stats_keep['Hi_Points_Player'] == 'Curry').astype(int)
     stats_keep['Curry_Hi_Points_Value'] = np.where(stats_keep['Curry_Hi_Points'] == 1,stats_keep['Hi_Points_Value'],np.nan)
 

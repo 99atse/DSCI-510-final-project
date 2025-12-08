@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     # --- GSW Sponsor Trends Data ---
     for keyword in TEAM_AND_SPONSORS:
-        trends_df = process_trends_data(keyword,retrieve_api=False,all_sponsors=False)
+        trends_df = process_trends_data(keyword,retrieve_api=False,all_sponsors=True)
         if trends_df is not None:
             print(f"\n {keyword} Trends Data Head:\n{trends_df.head()}")
     plot_all_trends(f'{CLEANED_DATA_DIR}/{ALL_TRENDS_CSV}',result_dir = TRENDS_RESULTS_DIR)

@@ -88,6 +88,8 @@ Note: In `process_trends_data()`, parameters _retrieve_api_ and _all_sponsors_ a
 
 In the initial run, I recommend running `python src/tests.py` first to confirm if the data is loading correctly. If the test runs successfully, switch retrieve_api to _False_ and keep _all_sponsors_ as _True_, then run `python src/main.py`. If pytrends returns an error loading the data, keep _all_sponsors_ to _True_, set _retrieve_api_ to _False_, delete the `All_Trends_Cleaned.csv` file in the `data/cleaned/` directory, then re-run `python src/main.py`.
 
+Note: If `All_Trends_Cleaned.csv` does not include all sponsors, do not run `plot_all_trends()`. If an error occurs loading `All_Trends_Cleaned.csv`, delete the file (if created), set retrieve_api to _False_ and keep _all_sponsors_ as _True_ and re-run `python src/main.py`. After this method, `plot_all_trends()` should run successfully.
+
 All plots will appear in `results/` folder, separated by data source. To review the linear regression results, see `src/results.ipynb`. All obtained data will be stored in `data/`, separated into raw and cleaned data.
 
 ## __References:__
