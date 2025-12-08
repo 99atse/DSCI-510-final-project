@@ -3,7 +3,13 @@ import os
 import pandas as pd
 import numpy as np
 
-from config import DATA_DIR, STATS_HTML,STATS_CSV,CLEANED_STATS_CSV, ARTICLE_JSON, ARTICLE_CSV, CLEANED_ARTICLE_CSV, RAKUTEN_TREND_CSV, UNITED_TREND_CSV, CHASE_TREND_CSV,GSW_TREND_CSV
+from config import (CLEANED_DATA_DIR, RAW_DATA_DIR, SPONSORS, STATS_HTML, STATS_CSV, 
+                    CLEANED_STATS_CSV, ARTICLE_JSON, ARTICLE_CSV, CLEANED_ARTICLE_CSV, RAKUTEN_TREND_CSV, 
+                    UNITED_TREND_CSV, CHASE_TREND_CSV, GSW_TREND_CSV, START_DATE, END_DATE, 
+                    RAKUTEN_DRIVE_CSV,RAKUTEN_CLEANED_TREND_CSV,UNITED_CLEANED_TREND_CSV, UNITED_DRIVE_CSV,
+                    CHASE_CLEANED_TREND_CSV, CHASE_DRIVE_CSV, GSW_CLEANED_TREND_CSV, GSW_DRIVE_CSV,
+                    TREND_START_DATE, TREND_END_DATE, SEASON_TIME_RANGES, SEASON_DATA_CSV,
+                    ALL_SEASONS_DATA_CSV, ALL_TRENDS_CSV)
 from load_datasets import get_gsw_game_stats_webscrape, get_gsw_articles_api, get_gsw_sponsor_trends,download_gdrive_file
 
 def process_game_data(url: str) -> pd.DataFrame:
@@ -15,10 +21,10 @@ def process_game_data(url: str) -> pd.DataFrame:
     :return: Pandas DataFrame or None
     """
     # retrieve data from webscrape
-    stats_df = get_gsw_game_stats_webscrape(url,STATS_HTML,STATS_CSV,extract_dir = f'{DATA_DIR}/raw')
+    stats_df = get_gsw_game_stats_webscrape(url,STATS_HTML,STATS_CSV,extract_dir = RAW_DATA_DIR)
 
     # path to place files into data folder
-    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', CLEANED_STATS_CSV)
+    cleaned_csv_path = os.path.join(CLEANED_DATA_DIR, CLEANED_STATS_CSV)
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     # transform date column to fit datetime format
@@ -85,29 +91,28 @@ def process_article_data(url: str) -> pd.DataFrame:
     :return: Pandas DataFrame or None
     """
     # retrieve data from API
-    articles_df = get_gsw_articles_api(url,ARTICLE_JSON,ARTICLE_CSV,extract_dir = f'{DATA_DIR}/raw')
+    articles_df = get_gsw_articles_api(url,ARTICLE_JSON,ARTICLE_CSV,extract_dir = RAW_DATA_DIR)
 
     # path to place files into data folder
-    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', CLEANED_ARTICLE_CSV)
+    cleaned_csv_path = os.path.join(CLEANED_DATA_DIR, CLEANED_ARTICLE_CSV)
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     # convert date column to datetime then update time range to beginning of 2021 season to end of 2025 season
     articles_df['Date'] = pd.to_datetime(articles_df['Date']).dt.tz_convert(None).dt.normalize()
-    start_date = pd.to_datetime("2020-12-22")
-    end_date   = pd.to_datetime("2025-04-13")
+    start_date = pd.to_datetime(START_DATE)
+    end_date   = pd.to_datetime(END_DATE)
     articles_df = articles_df[(articles_df['Date'] >= start_date) & (articles_df['Date'] <= end_date)]
 
     # create for loop to transform sponsor data
-    major_sponsors = ['Rakuten','United Airlines','Chase']
-    for sponsor in major_sponsors:
+    for sponsor in SPONSORS:
         # create column for count if sponsor is mentioned in article
         sponsor_no_spaces = sponsor.replace(" ","")
         articles_df[f'{sponsor_no_spaces}_Count'] = articles_df['Title'].str.count(sponsor, flags=re.IGNORECASE) + articles_df['Excerpt'].str.count(sponsor, flags=re.IGNORECASE)
     
     # create columns for list of sponsors mentioned in article, if they are major or other sponsors, and total sponsor count
     articles_df['Sponsors_List'] = articles_df.apply(lambda row: list(dict.fromkeys(extract_sponsors(row['Title']) + extract_sponsors(row['Excerpt']))),axis=1)
-    articles_df['Major_Sponsor'] = articles_df['Sponsors_List'].apply(lambda sponsor_list: [s for s in sponsor_list if s in major_sponsors])
-    articles_df['Other_Sponsor'] = articles_df['Sponsors_List'].apply(lambda sponsor_list: [s for s in sponsor_list if s not in major_sponsors])
+    articles_df['Major_Sponsor'] = articles_df['Sponsors_List'].apply(lambda sponsor_list: [s for s in sponsor_list if s in SPONSORS])
+    articles_df['Other_Sponsor'] = articles_df['Sponsors_List'].apply(lambda sponsor_list: [s for s in sponsor_list if s not in SPONSORS])
     articles_df['Total_Sponsor_Count'] = articles_df.apply(lambda row:len(extract_sponsors(row['Title']) + extract_sponsors(row['Excerpt'])),axis=1)
 
     # remove url and author columns
@@ -127,7 +132,7 @@ def process_article_data(url: str) -> pd.DataFrame:
     .reset_index())
 
     # add date column to daily df
-    full_date_range = pd.DataFrame({"Date": pd.date_range(start="2020-12-22", end="2025-04-13")})
+    full_date_range = pd.DataFrame({"Date": pd.date_range(start=START_DATE, end=END_DATE)})
     daily_article_df = full_date_range.merge(daily_article_df, on="Date", how="left")
     
     # if cell value is empty, fill with 0
@@ -161,7 +166,7 @@ def add_to_all_trends(sponsor,trend_df):
     :return: None
     """
     # path to place files into data folder
-    all_trends_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'All_Trends_Cleaned.csv')
+    all_trends_csv_path = os.path.join(CLEANED_DATA_DIR, ALL_TRENDS_CSV)
     os.makedirs(os.path.dirname(all_trends_csv_path), exist_ok=True)   
 
     # If file already exists, load it
@@ -195,16 +200,20 @@ def process_trends_data(sponsor,retrieve_api=False, all_sponsors=False) -> pd.Da
     """
     # Retrieve data from sources for GSW and Major Sponsors
     if retrieve_api == True:
-        trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = f'{DATA_DIR}/raw')
+        trend_df = get_gsw_sponsor_trends(sponsor,extract_dir = RAW_DATA_DIR)
     else:
         if sponsor == 'Golden State Warriors':
-            trend_df = download_gdrive_file(GSW_TREND_CSV,f'{sponsor.replace(' ','')}_Trends.csv',extract_dir = f'{DATA_DIR}/raw')
+            trend_df = download_gdrive_file(GSW_DRIVE_CSV,GSW_TREND_CSV,extract_dir = RAW_DATA_DIR)
+            cleaned_file = GSW_CLEANED_TREND_CSV
         elif sponsor == 'Rakuten':
-            trend_df = download_gdrive_file(RAKUTEN_TREND_CSV,f'{sponsor.replace(' ','')}_Trends.csv',extract_dir = f'{DATA_DIR}/raw')
+            trend_df = download_gdrive_file(RAKUTEN_DRIVE_CSV,RAKUTEN_TREND_CSV,extract_dir = RAW_DATA_DIR)
+            cleaned_file = RAKUTEN_CLEANED_TREND_CSV
         elif sponsor == 'United Airlines':
-            trend_df = download_gdrive_file(UNITED_TREND_CSV,f'{sponsor.replace(' ','')}_Trends.csv',extract_dir = f'{DATA_DIR}/raw')
+            trend_df = download_gdrive_file(UNITED_DRIVE_CSV, UNITED_TREND_CSV,extract_dir = RAW_DATA_DIR)
+            cleaned_file = UNITED_CLEANED_TREND_CSV
         else:
-            trend_df = download_gdrive_file(CHASE_TREND_CSV,f'{sponsor.replace(' ','')}_Trends.csv',extract_dir = f'{DATA_DIR}/raw')
+            trend_df = download_gdrive_file(CHASE_DRIVE_CSV,CHASE_TREND_CSV,extract_dir = RAW_DATA_DIR)
+            cleaned_file = CHASE_CLEANED_TREND_CSV
 
     # if issue arises and trend df is empty, return none
     if trend_df is None:
@@ -212,14 +221,12 @@ def process_trends_data(sponsor,retrieve_api=False, all_sponsors=False) -> pd.Da
         return None
     
     # path to place files into data folder
-    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{sponsor.replace(' ','')}_Trends_Cleaned.csv')
+    cleaned_csv_path = os.path.join(CLEANED_DATA_DIR, cleaned_file)
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     # update data range to start from 2020-12-22 (start of 2021 season) to 2025-04-13 (end of 2025 season)
-    trend_df['Date'] = pd.date_range(start='2020-12-01',end='2025-4-30',freq='D')
-    start_date = '2020-12-22'
-    end_date = '2025-04-13'
-    trend_df = trend_df[(trend_df['Date'] >= start_date) & (trend_df['Date'] <= end_date)]
+    trend_df['Date'] = pd.date_range(start=TREND_START_DATE,end=TREND_END_DATE,freq='D')
+    trend_df = trend_df[(trend_df['Date'] >= START_DATE) & (trend_df['Date'] <= END_DATE)]
 
     # create new column for time delay adjustment, shifting all trend values forward by 1 day
     trend_df[f'{sponsor.replace(' ','')}_adjusted'] = trend_df[f'{sponsor}'].shift(-1)
@@ -252,7 +259,7 @@ def combine_all_data(stats_df,articles_df,all_trends_csv) -> pd.DataFrame:
     :return: Pandas DataFrame or None
     """
     # path to place files into data folder
-    cleaned_csv_path = os.path.join(f'{DATA_DIR}/cleaned', '2021-2025_GSW_Data.csv')
+    cleaned_csv_path = os.path.join(CLEANED_DATA_DIR, ALL_SEASONS_DATA_CSV)
     os.makedirs(os.path.dirname(cleaned_csv_path), exist_ok=True)
 
     # open all trends csv
@@ -267,19 +274,20 @@ def combine_all_data(stats_df,articles_df,all_trends_csv) -> pd.DataFrame:
     articles_keep = articles_df[['Date','Article_Count','Rakuten_Count','UnitedAirlines_Count','Chase_Count']]
     
     # initialize data frame for all data
-    full_date_range = pd.DataFrame({"Date": pd.date_range(start="2020-12-22", end="2025-04-13")})
+    full_date_range = pd.DataFrame({"Date": pd.date_range(start=START_DATE, end=END_DATE)})
     
     # merge data from stats/articles/trends into one
     combined_df = full_date_range.merge(trends_df, on='Date',how='outer')
     combined_df = combined_df.merge(articles_keep, on='Date',how='left')
     combined_df = combined_df.merge(stats_keep, on='Date',how='left')
 
-    season_dates = [(2021,'2020-12-22','2021-05-16'),(2022,'2021-10-19','2022-04-10'),(2023,'2022-10-18','2023-04-09'),(2024,'2023-10-24','2024-04-14'),(2025,'2024-10-23','2025-04-13')]
-
     # create for loop to have data separated for each individual season
-    for year,start_date,end_date in season_dates:
+    for index, (year,start_date,end_date) in enumerate(SEASON_TIME_RANGES):
+        # convert year from int to string
+        year = str(year)
+
         # path to place files into data folder
-        cleaned_season_csv_path = os.path.join(f'{DATA_DIR}/cleaned', f'{year}_GSW_Data.csv')
+        cleaned_season_csv_path = os.path.join(CLEANED_DATA_DIR, f'{SEASON_DATA_CSV[index]}')
         os.makedirs(os.path.dirname(cleaned_season_csv_path), exist_ok=True)
 
         season_range = (combined_df['Date'] >= pd.to_datetime(start_date)) & (combined_df['Date'] <= pd.to_datetime(end_date))
