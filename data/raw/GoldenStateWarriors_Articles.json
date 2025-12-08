@@ -33,6 +33,208 @@
                         "linkColor": "dark"
                     },
                     "type": "paragraph",
+                    "html": "<p>Warriors guard Stephen Curry, who suffered a left quadriceps contusion and muscle strain against the Houston Rockets on November 26 and has missed the last four games, was recently re-evaluated. The re-evaluation indicated that Curry is making good progress. He has started to do individual on-court workouts in the Bay Area and could participate in segments of the team’s first practice back home on Wednesday.</p>",
+                    "text": "Warriors guard Stephen Curry, who suffered a left quadriceps contusion and muscle strain against the Houston Rockets on November 26 and has missed the last four games, was recently re-evaluated. The re-evaluation indicated that Curry is making good progress. He has started to do individual on-court workouts in the Bay Area and could participate in segments of the team’s first practice back home on Wednesday."
+                },
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
+                    "html": "<p></p>",
+                    "text": ""
+                }
+            ],
+            "contentStructured": [
+                {
+                    "type": "paragraph",
+                    "html": "<p>Warriors guard Stephen Curry, who suffered a left quadriceps contusion and muscle strain against the Houston Rockets on November 26 and has missed the last four games, was recently re-evaluated. The re-evaluation indicated that Curry is making good progress. He has started to do individual on-court workouts in the Bay Area and could participate in segments of the team’s first practice back home on Wednesday.</p>",
+                    "text": "Warriors guard Stephen Curry, who suffered a left quadriceps contusion and muscle strain against the Houston Rockets on November 26 and has missed the last four games, was recently re-evaluated. The re-evaluation indicated that Curry is making good progress. He has started to do individual on-court workouts in the Bay Area and could participate in segments of the team’s first practice back home on Wednesday.",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "html": "<p></p>",
+                    "text": "",
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    }
+                }
+            ],
+            "seo": {
+                "focusKeyword": "",
+                "canonicalUrl": "https://warriors.com/news/stephen-curry-injury-update-20251207",
+                "estimatedReadingTimeMinutes": "",
+                "keywords": null,
+                "general": {
+                    "title": "Stephen Curry Injury Update – 12/7/25",
+                    "description": "Warriors guard Stephen Curry, who suffered a left quadriceps contusion and muscle strain against the Houston Rockets on November 26 and has missed the last four games, was recently re-evaluated."
+                },
+                "opengraph": {
+                    "image": {
+                        "altText": ""
+                    }
+                },
+                "twitter": {
+                    "image": {
+                        "altText": ""
+                    },
+                    "title": null,
+                    "description": null
+                },
+                "schema": {
+                    "articleType": "",
+                    "pageType": ""
+                },
+                "facebook": {
+                    "title": null,
+                    "description": null,
+                    "image": null
+                },
+                "noindex": false
+            },
+            "excerpt": "Warriors guard Stephen Curry, who suffered a left quadriceps contusion and muscle strain against the Houston Rockets on November 26 and has missed the last four games, was recently re-evaluated.",
+            "permalink": "https://www.nba.com/warriors/news/stephen-curry-injury-update-20251207",
+            "slug": "stephen-curry-injury-update-20251207",
+            "category": "news",
+            "modified": "2025-12-07T23:26:05Z",
+            "date": "2025-12-07T21:56:00Z",
+            "timestamp": 1765144560000,
+            "featuredImage": {
+                "type": "image",
+                "html": null,
+                "text": null,
+                "attributes": {
+                    "id": "1130413",
+                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/12/feat-image-curry-20251207.png",
+                    "alt": "",
+                    "caption": "",
+                    "caption_alignment": "",
+                    "caption_color": "",
+                    "copyright": "",
+                    "credit": "Photo by Thearon W. Henderson/Getty Images",
+                    "link": "",
+                    "align": "",
+                    "size": {
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "anchor": "",
+                    "focal_point": [],
+                    "direction": "ltr",
+                    "animation": {
+                        "name": "none"
+                    }
+                },
+                "id": "1130413",
+                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/12/feat-image-curry-20251207.png",
+                "alt": "",
+                "caption": "",
+                "caption_alignment": "",
+                "caption_color": "",
+                "copyright": "",
+                "credit": "Photo by Thearon W. Henderson/Getty Images",
+                "link": "",
+                "align": "",
+                "size": {
+                    "width": 1280,
+                    "height": 720
+                },
+                "anchor": "",
+                "focal_point": [],
+                "direction": "ltr",
+                "animation": {
+                    "name": "none"
+                }
+            },
+            "title": "Stephen Curry Injury Update – 12/7/25",
+            "taxonomy": {
+                "tags": null,
+                "categories": {
+                    "news": "news"
+                },
+                "teams": {
+                    "1610612744": "Golden State Warriors"
+                }
+            },
+            "status": "publish",
+            "name": "stephen-curry-injury-update-20251207",
+            "type": "article",
+            "id": 1130411,
+            "language": "en",
+            "attributes": {
+                "comments": {
+                    "enabled": false
+                },
+                "hideAuthor": true,
+                "hideTimestamp": false,
+                "relatedContent": {
+                    "source": "manual",
+                    "sourceId": null,
+                    "content": []
+                },
+                "subhead": "",
+                "featuredMediaContentGrid": null,
+                "hideContent": false,
+                "nbaId": {
+                    "restricted": false
+                }
+            },
+            "categoryPrimary": {
+                "name": "",
+                "slug": ""
+            },
+            "flexModules": [],
+            "authors": [
+                {
+                    "id": 1230,
+                    "slug": "kalyb-champion",
+                    "name": "Kalyb Champion",
+                    "firstName": "Kalyb",
+                    "lastName": "Champion",
+                    "organization": "",
+                    "isNBAStaff": false,
+                    "authorPhoto": "",
+                    "socialHandle": "",
+                    "socialLink": "",
+                    "wpseoTitle": "",
+                    "wpseoMetadesc": "",
+                    "description": "",
+                    "userUrl": "",
+                    "featuredAuthor": false
+                }
+            ]
+        },
+        {
+            "author": {
+                "id": 1230,
+                "slug": "kalyb-champion",
+                "name": "Kalyb Champion",
+                "firstName": "Kalyb",
+                "lastName": "Champion",
+                "organization": "",
+                "isNBAStaff": false,
+                "authorPhoto": "",
+                "socialHandle": "",
+                "socialLink": "",
+                "wpseoTitle": "",
+                "wpseoMetadesc": "",
+                "description": "",
+                "userUrl": "",
+                "featuredAuthor": false
+            },
+            "contentExpanded": [
+                {
+                    "attributes": {
+                        "anchor": "",
+                        "linkColor": "dark"
+                    },
+                    "type": "paragraph",
                     "html": "<p>The Warriors have signed guard LJ Cryer to a two-way contract, it was announced Tuesday.</p>",
                     "text": "The Warriors have signed guard LJ Cryer to a two-way contract, it was announced Tuesday."
                 },
@@ -1672,6 +1874,42 @@
                     }
                 }
             ],
+            "authors": [
+                {
+                    "id": 961,
+                    "slug": "golden-state-warriors",
+                    "name": "Golden State Warriors",
+                    "firstName": "Tyler",
+                    "lastName": "Savitsky",
+                    "organization": "",
+                    "isNBAStaff": false,
+                    "authorPhoto": "",
+                    "socialHandle": "",
+                    "socialLink": "",
+                    "wpseoTitle": "",
+                    "wpseoMetadesc": "",
+                    "description": "Established 1946 | 7-time NBA Champions",
+                    "userUrl": "https://www.nba.com/warriors",
+                    "featuredAuthor": false
+                }
+            ],
+            "author": {
+                "id": 961,
+                "slug": "golden-state-warriors",
+                "name": "Golden State Warriors",
+                "firstName": "Tyler",
+                "lastName": "Savitsky",
+                "organization": "",
+                "isNBAStaff": false,
+                "authorPhoto": "",
+                "socialHandle": "",
+                "socialLink": "",
+                "wpseoTitle": "",
+                "wpseoMetadesc": "",
+                "description": "Established 1946 | 7-time NBA Champions",
+                "userUrl": "https://www.nba.com/warriors",
+                "featuredAuthor": false
+            },
             "contentExpanded": [
                 {
                     "attributes": {
@@ -2338,42 +2576,6 @@
                     "type": "nba/latest-videos"
                 }
             ],
-            "authors": [
-                {
-                    "id": 961,
-                    "slug": "golden-state-warriors",
-                    "name": "Golden State Warriors",
-                    "firstName": "Tyler",
-                    "lastName": "Savitsky",
-                    "organization": "",
-                    "isNBAStaff": false,
-                    "authorPhoto": "",
-                    "socialHandle": "",
-                    "socialLink": "",
-                    "wpseoTitle": "",
-                    "wpseoMetadesc": "",
-                    "description": "Established 1946 | 7-time NBA Champions",
-                    "userUrl": "https://www.nba.com/warriors",
-                    "featuredAuthor": false
-                }
-            ],
-            "author": {
-                "id": 961,
-                "slug": "golden-state-warriors",
-                "name": "Golden State Warriors",
-                "firstName": "Tyler",
-                "lastName": "Savitsky",
-                "organization": "",
-                "isNBAStaff": false,
-                "authorPhoto": "",
-                "socialHandle": "",
-                "socialLink": "",
-                "wpseoTitle": "",
-                "wpseoMetadesc": "",
-                "description": "Established 1946 | 7-time NBA Champions",
-                "userUrl": "https://www.nba.com/warriors",
-                "featuredAuthor": false
-            },
             "flexModules": [
                 {
                     "attributes": {
@@ -2606,250 +2808,10 @@
                     }
                 }
             ]
-        },
-        {
-            "id": 1130048,
-            "type": "article",
-            "name": "kuminga-melton-santos-recalled-20251126",
-            "title": "Warriors Recall Jonathan Kuminga, De'Anthony Melton & Gui Santos From Santa Cruz",
-            "status": "publish",
-            "slug": "kuminga-melton-santos-recalled-20251126",
-            "permalink": "https://www.nba.com/warriors/news/kuminga-melton-santos-recalled-20251126",
-            "excerpt": "The Golden State Warriors have recalled forward Jonathan Kuminga, guard De’Anthony Melton and forward Gui Santos from the team’s G League affiliate, the Santa Cruz Warriors.",
-            "timestamp": 1764206940000,
-            "date": "2025-11-27T01:29:00Z",
-            "modified": "2025-11-27T02:05:25Z",
-            "featuredImage": {
-                "type": "image",
-                "html": null,
-                "text": null,
-                "attributes": {
-                    "id": "1130040",
-                    "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/feat-image-kuminga-20251126.png",
-                    "alt": "",
-                    "caption": "",
-                    "caption_alignment": "",
-                    "caption_color": "",
-                    "copyright": "",
-                    "credit": "Photo by Eakin Howard/Getty Images",
-                    "link": "",
-                    "align": "",
-                    "size": {
-                        "width": 1280,
-                        "height": 720
-                    },
-                    "anchor": "",
-                    "focal_point": [],
-                    "direction": "ltr",
-                    "animation": {
-                        "name": "none"
-                    }
-                },
-                "id": "1130040",
-                "src": "https://cdn.nba.com/teams/uploads/sites/1610612744/2025/11/feat-image-kuminga-20251126.png",
-                "alt": "",
-                "caption": "",
-                "caption_alignment": "",
-                "caption_color": "",
-                "copyright": "",
-                "credit": "Photo by Eakin Howard/Getty Images",
-                "link": "",
-                "align": "",
-                "size": {
-                    "width": 1280,
-                    "height": 720
-                },
-                "anchor": "",
-                "focal_point": [],
-                "direction": "ltr",
-                "animation": {
-                    "name": "none"
-                }
-            },
-            "category": "news",
-            "language": "en",
-            "taxonomy": {
-                "categories": {
-                    "news": "news"
-                },
-                "tags": {
-                    "santa-cruz-warriors": "Santa Cruz Warriors"
-                },
-                "teams": {
-                    "1610612744": "Golden State Warriors"
-                }
-            },
-            "seo": {
-                "focusKeyword": "",
-                "canonicalUrl": "https://warriors.com/news/kuminga-melton-santos-recalled-20251126",
-                "estimatedReadingTimeMinutes": "",
-                "keywords": null,
-                "general": {
-                    "title": null,
-                    "description": null
-                },
-                "opengraph": {
-                    "image": {
-                        "altText": ""
-                    }
-                },
-                "twitter": {
-                    "image": {
-                        "altText": ""
-                    },
-                    "title": null,
-                    "description": null
-                },
-                "schema": {
-                    "articleType": "",
-                    "pageType": ""
-                },
-                "facebook": {
-                    "title": null,
-                    "description": null,
-                    "image": null
-                },
-                "noindex": false
-            },
-            "attributes": {
-                "comments": {
-                    "enabled": false
-                },
-                "hideAuthor": true,
-                "hideTimestamp": false,
-                "relatedContent": {
-                    "source": "manual",
-                    "sourceId": null,
-                    "content": []
-                },
-                "subhead": "",
-                "featuredMediaContentGrid": null,
-                "hideContent": false,
-                "nbaId": {
-                    "restricted": false
-                }
-            },
-            "categoryPrimary": {
-                "name": "",
-                "slug": ""
-            },
-            "contentStructured": [
-                {
-                    "type": "paragraph",
-                    "html": "<p>The Golden State Warriors have recalled forward <a href=\"https://www.nba.com/player/1630228/jonathan-kuminga\">Jonathan Kuminga</a>, guard <a href=\"https://www.nba.com/player/1629001/deanthony-melton\">De’Anthony Melton</a> and forward <a href=\"https://www.nba.com/player/1630611/gui-santos\">Gui Santos</a> from the team’s G League affiliate, the Santa Cruz Warriors, it was announced today.</p>",
-                    "text": "The Golden State Warriors have recalled forward Jonathan Kuminga, guard De’Anthony Melton and forward Gui Santos from the team’s G League affiliate, the Santa Cruz Warriors, it was announced today.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Kuminga, who has missed the last six games due to bilateral knee patellar tendonitis, is averaging 13.8 points, 6.6 rebounds and 2.8 assists in 27.7 minutes over 13 games (12 starts) with Golden State this season.</p>",
-                    "text": "Kuminga, who has missed the last six games due to bilateral knee patellar tendonitis, is averaging 13.8 points, 6.6 rebounds and 2.8 assists in 27.7 minutes over 13 games (12 starts) with Golden State this season.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Melton, who has yet to appear in a game with Golden State this season due to left ACL surgery, averaged 10.3 points, 3.3 rebounds, 2.8 assists, 1.4 steals and 20.2 minutes in six games (two starts) with the Warriors last season.</p>",
-                    "text": "Melton, who has yet to appear in a game with Golden State this season due to left ACL surgery, averaged 10.3 points, 3.3 rebounds, 2.8 assists, 1.4 steals and 20.2 minutes in six games (two starts) with the Warriors last season.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                },
-                {
-                    "type": "paragraph",
-                    "html": "<p>Santos has appeared in 14 games (one start) with Golden State this season, averaging 2.6 points and 1.6 rebounds in 7.4 minutes per game.</p>",
-                    "text": "Santos has appeared in 14 games (one start) with Golden State this season, averaging 2.6 points and 1.6 rebounds in 7.4 minutes per game.",
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    }
-                }
-            ],
-            "flexModules": [],
-            "contentExpanded": [
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>The Golden State Warriors have recalled forward <a href=\"https://www.nba.com/player/1630228/jonathan-kuminga\">Jonathan Kuminga</a>, guard <a href=\"https://www.nba.com/player/1629001/deanthony-melton\">De’Anthony Melton</a> and forward <a href=\"https://www.nba.com/player/1630611/gui-santos\">Gui Santos</a> from the team’s G League affiliate, the Santa Cruz Warriors, it was announced today.</p>",
-                    "text": "The Golden State Warriors have recalled forward Jonathan Kuminga, guard De’Anthony Melton and forward Gui Santos from the team’s G League affiliate, the Santa Cruz Warriors, it was announced today."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Kuminga, who has missed the last six games due to bilateral knee patellar tendonitis, is averaging 13.8 points, 6.6 rebounds and 2.8 assists in 27.7 minutes over 13 games (12 starts) with Golden State this season.</p>",
-                    "text": "Kuminga, who has missed the last six games due to bilateral knee patellar tendonitis, is averaging 13.8 points, 6.6 rebounds and 2.8 assists in 27.7 minutes over 13 games (12 starts) with Golden State this season."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Melton, who has yet to appear in a game with Golden State this season due to left ACL surgery, averaged 10.3 points, 3.3 rebounds, 2.8 assists, 1.4 steals and 20.2 minutes in six games (two starts) with the Warriors last season.</p>",
-                    "text": "Melton, who has yet to appear in a game with Golden State this season due to left ACL surgery, averaged 10.3 points, 3.3 rebounds, 2.8 assists, 1.4 steals and 20.2 minutes in six games (two starts) with the Warriors last season."
-                },
-                {
-                    "attributes": {
-                        "anchor": "",
-                        "linkColor": "dark"
-                    },
-                    "type": "paragraph",
-                    "html": "<p>Santos has appeared in 14 games (one start) with Golden State this season, averaging 2.6 points and 1.6 rebounds in 7.4 minutes per game.</p>",
-                    "text": "Santos has appeared in 14 games (one start) with Golden State this season, averaging 2.6 points and 1.6 rebounds in 7.4 minutes per game."
-                }
-            ],
-            "authors": [
-                {
-                    "id": 961,
-                    "slug": "golden-state-warriors",
-                    "name": "Golden State Warriors",
-                    "firstName": "Tyler",
-                    "lastName": "Savitsky",
-                    "organization": "",
-                    "isNBAStaff": false,
-                    "authorPhoto": "",
-                    "socialHandle": "",
-                    "socialLink": "",
-                    "wpseoTitle": "",
-                    "wpseoMetadesc": "",
-                    "description": "Established 1946 | 7-time NBA Champions",
-                    "userUrl": "https://www.nba.com/warriors",
-                    "featuredAuthor": false
-                }
-            ],
-            "author": {
-                "id": 961,
-                "slug": "golden-state-warriors",
-                "name": "Golden State Warriors",
-                "firstName": "Tyler",
-                "lastName": "Savitsky",
-                "organization": "",
-                "isNBAStaff": false,
-                "authorPhoto": "",
-                "socialHandle": "",
-                "socialLink": "",
-                "wpseoTitle": "",
-                "wpseoMetadesc": "",
-                "description": "Established 1946 | 7-time NBA Champions",
-                "userUrl": "https://www.nba.com/warriors",
-                "featuredAuthor": false
-            }
         }
     ],
     "pageNext": 2,
     "pages": 286,
-    "total": 2287,
+    "total": 2288,
     "count": 8
 }
